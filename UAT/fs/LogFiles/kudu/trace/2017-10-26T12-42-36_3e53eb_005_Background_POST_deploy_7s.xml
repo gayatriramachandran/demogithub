@@ -1,0 +1,30 @@
+<step title="BackgroundTrace" date="2017-10-26T12:42:36.421" instance="3e53eb" url="/deploy" method="POST" >
+  <step title="Creating temporary deployment" date="2017-10-26T12:42:36.483" /><!-- duration: 109ms -->
+  <step title="Performing fetch based deployment" date="2017-10-26T12:42:36.624" >
+    <step title="Sync with Dropbox" date="2017-10-26T12:42:36.796" >
+      <step title="Updating deploy info" date="2017-10-26T12:42:36.811" >
+        <step title="Fetching delta for cursor &apos;AAGY3BUEQU99rpKYKTA2Eipkvf-e3IRbd1iZP00uKthrNFhyJ-K7HHs3mo635Knc0N5uOrMo-GHVtHMdq3DaAUox5gUR_ua3zoP47yaFIgX6XfnWNsZZAA_z_kkmP0Uuqr85SDlxs4bJEZM2_6KFWe-TmJSQPw-WIsloEBp-M9L0F2cYE1Ssof7uId8G8TDNvATv0IwRn020KEemVvtxmIxNpd5J7FThZdRbif9VOi8a3A&apos;." date="2017-10-26T12:42:36.827" /><!-- duration: 0ms -->
+        <step title="Delta response exhausted. New cursor at &apos;AAG0e_-ZwZ9IZPguc_wz-BA5UEBMHJFGSRA4iYTuq0-DFC0KDjfpKTkBFqsBIva0jqzIAxE6PYVkTjwJAKD97Iqw4DgkVenZfnB-tzUK_Ai_-hPxrTGOc2vJUu98vgVh1g6ORaK5fHhktZMpZ3RQwqPX8QxOjl8KXbSa1Y_n-VU6UVR4yktZ4INGdlNFZEz-fVfG2ibiFGI2UyTToAxtGhKuQRs0WyqLcSTz8xQypXilMA&apos;." date="2017-10-26T12:42:37.840" /><!-- duration: 14ms -->
+      </step><!-- duration: 1043ms -->
+      <step title="write  21478 bytes to /nsm-pet-bdportal-uat-wapp/index.html" date="2017-10-26T12:42:38.892" /><!-- duration: 0ms -->
+    </step><!-- duration: 2096ms -->
+    <step title="Update dropbox cursor" date="2017-10-26T12:42:39.601" /><!-- duration: 31ms -->
+    <step title="DeploymentManager.Deploy(id:b0ff9463e03e4d389beee24d4d082ca0)" date="2017-10-26T12:42:39.666" >
+      <step title="Collecting changeset information" date="2017-10-26T12:42:39.666" /><!-- duration: 45ms -->
+      <step title="Updating submodules" date="2017-10-26T12:42:39.726" /><!-- duration: 16ms -->
+      <step title="Determining deployment builder" date="2017-10-26T12:42:39.851" >
+        <step title="Builder is BasicBuilder" date="2017-10-26T12:42:41.049" /><!-- duration: 0ms -->
+      </step><!-- duration: 1198ms -->
+      <step title="Copying SSH keys" date="2017-10-26T12:42:41.077" /><!-- duration: 16ms -->
+      <step title="Building" date="2017-10-26T12:42:41.092" >
+        <step title="Generating deployment script" date="2017-10-26T12:42:41.217" >
+          <step title="Using cached version of the deployment script for command: -y --no-dot-deployment -r &quot;D:\home\site\wwwroot&quot; -o &quot;D:\home\site\deployments\tools&quot; --basic --sitePath &quot;D:\home\site\wwwroot&quot;" date="2017-10-26T12:42:41.265" /><!-- duration: 0ms -->
+        </step><!-- duration: 63ms -->
+        <step title="Executing external process" date="2017-10-26T12:42:42.127" type="process" path="starter.cmd" arguments="&quot;D:\home\site\deployments\tools\deploy.cmd&quot;" /><!-- duration: 490ms -->
+        <step title="Skip function trigger and logicapp sync because function is not enabled." date="2017-10-26T12:42:42.741" /><!-- duration: 0ms -->
+      </step><!-- duration: 1836ms -->
+    </step><!-- duration: 3294ms -->
+    <step title="Cleaning up temp files" date="2017-10-26T12:42:42.960" /><!-- duration: 16ms -->
+    <step title="WebHooksManager.PublishEventAsync: PostDeployment" date="2017-10-26T12:42:42.991" /><!-- duration: 94ms -->
+  </step><!-- duration: 6492ms -->
+</step><!-- duration: 6711ms -->

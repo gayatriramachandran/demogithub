@@ -1,0 +1,8 @@
+<configuration>
+   <system.webServer>
+      <httpRedirect enabled="true" exactDestination="true" httpResponseStatus="Found">
+         <add wildcard="*.html" destination="/App_Offline.htm" />
+         <add wildcard="*.txt" destination="/App_Offline.htm" />
+      </httpRedirect>
+   </system.webServer>
+</configuration> 

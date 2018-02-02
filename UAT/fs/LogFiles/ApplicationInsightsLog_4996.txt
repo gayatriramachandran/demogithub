@@ -1,0 +1,13 @@
+Microsoft.ApplicationInsights.Extensibility.AzureWebSites.TraceSource Error: 16 : Performance counter is not available in the web app supported list. Counter is \Memory\Available Bytes.
+    ProcessId=4996
+    DateTime=2017-06-30T16:34:30.4051456Z
+Microsoft.ApplicationInsights.Extensibility.AzureWebSites.TraceSource Error: 16 : Performance counter is not available in the web app supported list. Counter is \Processor(_Total)\% Processor Time.
+    ProcessId=4996
+    DateTime=2017-06-30T16:34:30.4520320Z
+Microsoft.ApplicationInsights.Extensibility.AzureWebSites.TraceSource Error: 13 : Unexpected error in QuickPulse infrastructure: System.InvalidOperationException: StartTimestamp must be less than EndTimestamp.
+   at Microsoft.ApplicationInsights.Extensibility.PerfCounterCollector.Implementation.QuickPulse.QuickPulseDataSample..ctor(QuickPulseDataAccumulator accumulator, IDictionary`2 perfData, IEnumerable`1 topCpuData, Boolean topCpuDataAccessDenied)
+   at Microsoft.ApplicationInsights.Extensibility.PerfCounterCollector.QuickPulse.QuickPulseTelemetryModule.CreateDataSample(QuickPulseDataAccumulator accumulator, IEnumerable`1 perfData, IEnumerable`1 topCpuData, Boolean topCpuDataAccessDenied)
+   at Microsoft.ApplicationInsights.Extensibility.PerfCounterCollector.QuickPulse.QuickPulseTelemetryModule.CollectSample()
+   at Microsoft.ApplicationInsights.Extensibility.PerfCounterCollector.QuickPulse.QuickPulseTelemetryModule.CollectionThreadWorker(Object state). QuickPulse data will not be available.
+    ProcessId=4996
+    DateTime=2017-06-30T17:42:16.3687593Z

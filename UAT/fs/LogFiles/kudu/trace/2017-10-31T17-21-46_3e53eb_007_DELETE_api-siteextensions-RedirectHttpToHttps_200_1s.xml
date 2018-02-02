@@ -1,0 +1,10 @@
+<step title="Incoming Request" date="2017-10-31T17:21:46.784" instance="3e53eb" url="/api/siteextensions/RedirectHttpToHttps" method="DELETE" type="request" pid="9468,2,34" Connection="Keep-Alive" Content-Length="0" Accept="application/json" Accept-Language="en.en-us" Authorization="Bas..." Host="nsm-pet-bdportal-uat-wapp.scm.azurewebsites.net" User-Agent="Portal-Exp/5.12.33.72 (Kudu) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML%2C like Gecko) Chrome/61.0.3163.100 Safari/537.36" x-ms-client-request-id="7fd8db3f-74c2-4508-8cda-e4965b3c6197" x-ms-client-session-id="6fb196d0858547ec8ccb4bcd550498cd" X-WAWS-Unencoded-URL="/api/siteextensions/RedirectHttpToHttps" X-ARR-LOG-ID="9731d7ff-5fb1-4502-9adc-dfe5a0bb8fcf" X-SITE-DEPLOYMENT-ID="nsm-pet-bdportal-uat-wapp" WAS-DEFAULT-HOSTNAME="nsm-pet-bdportal-uat-wapp.scm.azurewebsites.net" X-Forwarded-Proto="https" >
+  <step title="Cleanup Xml Logs" date="2017-10-31T17:21:46.784" /><!-- duration: 16ms -->
+  <step title="Now querying from local repo for package &apos;RedirectHttpToHttps&apos;." date="2017-10-31T17:21:47.081" /><!-- duration: 47ms -->
+  <step title="Converting NuGet object to SiteExtensionInfo" date="2017-10-31T17:21:47.128" /><!-- duration: 62ms -->
+  <step title="Remove site extension job" date="2017-10-31T17:21:47.255" /><!-- duration: 16ms -->
+  <step title="Delete site extension package, directory and arm settings" date="2017-10-31T17:21:47.270" /><!-- duration: 359ms -->
+  <step title="Now querying from local repo for package &apos;RedirectHttpToHttps&apos;." date="2017-10-31T17:21:47.629" /><!-- duration: 16ms -->
+  <step title="No package found from local repo with id: RedirectHttpToHttps." date="2017-10-31T17:21:47.645" /><!-- duration: 16ms -->
+  <step title="Outgoing response" date="2017-10-31T17:21:47.723" type="response" statusCode="200" statusText="OK" Server="Microsoft-IIS/8.0" x-ms-request-id="9731d7ff-5fb1-4502-9adc-dfe5a0bb8fcf" Cache-Control="private" X-AspNet-Version="4.0.30319" Content-Type="application/json; charset=utf-8" /><!-- duration: 0ms -->
+</step><!-- duration: 955ms -->

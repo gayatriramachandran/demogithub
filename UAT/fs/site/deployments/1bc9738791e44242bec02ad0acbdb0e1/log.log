@@ -1,0 +1,12 @@
+2017-12-07T15:48:20.9458853Z,Updating submodules.,8e24339d-ad54-4442-8309-5a64c1df1607,0
+2017-12-07T15:48:21.0263291Z,Preparing deployment for commit id '1bc9738791'.,e47eb1a4-3a24-41e9-b60e-c5e658f333c9,0
+2017-12-07T15:48:22.9093843Z,Generating deployment script.,9c2ccec6-b70a-4944-b44a-e5c5c446fcc1,0
+	2017-12-07T15:48:22.9573476Z,Using the following command to generate deployment script: 'azure site deploymentscript -y --no-dot-deployment -r "D:\home\site\wwwroot" -o "D:\home\site\deployments\tools" --basic --sitePath "D:\home\site\wwwroot"'.,,0
+	2017-12-07T15:48:25.0786181Z,Generating deployment script for Web Site,,0
+	2017-12-07T15:48:25.1098684Z,Generated deployment script files,,0
+2017-12-07T15:48:25.2192531Z,Running deployment command...,1ce61eb5-b1b5-4736-9815-d62ef0b51ffd,0
+	2017-12-07T15:48:25.2192531Z,Command: "D:\home\site\deployments\tools\deploy.cmd",,0
+	2017-12-07T15:48:25.8286468Z,Handling Basic Web Site deployment.,,0
+	2017-12-07T15:48:25.8598920Z,Finished successfully.,,0
+2017-12-07T15:48:25.9067935Z,Running post deployment command(s)...,bbdd2b15-401a-4e4d-a50a-17847fb332ff,0
+2017-12-07T15:48:26.2661549Z,Deployment successful.,5fa386ce-5e78-4722-be78-c6b0f0244b84,0

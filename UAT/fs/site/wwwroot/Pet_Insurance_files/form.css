@@ -1,0 +1,403 @@
+/* // Select box styling */
+.wrap-select label{
+	float:left;
+	font-weight:400;
+	font-size:16px;
+	line-height:40px;
+	min-width:130px;
+	
+}
+.wrap-select label.CH{
+	font-size:14px
+}
+
+.wrap-select span label{
+	line-height:40px 
+}
+.wrap-select .wrapper-dropdown-3{
+	float:left;
+	font-weight:400;
+	font-size:14px;	
+}
+.wrap-select input{
+	border-radius:2px;
+    outline: none;
+	padding: 9px;
+	max-width:80px
+}
+
+.wrap-select input[type="text"]{
+	
+	max-width:135px
+}
+.wrap-select input[type="email"]{
+	
+	max-width:200px
+}
+
+.vam-ddagent{width:166px !important; padding:5px 30px 8px 6px !important; box-shadow:none !important;}
+.wrapper-dropdown-3 {
+    /* Size and position */
+    position: relative;
+    width: auto;
+	float:left;
+	min-width:120px;
+    margin: 0 auto;
+    padding:9px 30px 9px 10px;
+	
+    /* Styles */
+   
+	border-radius:2px;
+    cursor: pointer;
+    outline: none;
+}
+
+.wrapper-dropdown-3:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    margin-top: -2px;
+    border-width: 5px 5px 0 5px;
+    border-style: solid;
+}
+.dropdown-width200{min-width:200px;}
+.wrapper-dropdown-3 .dropdown {
+  /* Size & position */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+	padding:0;
+	margin:0;
+    /* Styles */
+   font-weight: normal;
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    list-style: none;
+	z-index:9;
+    /* Hiding */
+    opacity: 0;
+    pointer-events: none;
+}
+
+.wrapper-dropdown-3 .dropdown li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.wrapper-dropdown-3 .dropdown li i {
+    float: right;
+    color: inherit;
+}
+
+.wrapper-dropdown-3 .dropdown li:first-of-type a {
+    border-radius: 7px 7px 0 0;
+}
+
+.wrapper-dropdown-3 .dropdown li:last-of-type a {
+    border: none;
+    border-radius: 0 0 7px 7px;
+}
+
+.wrapper-dropdown-plain{
+	background:none;
+	box-shadow:none;
+}
+
+
+
+/* Active state */
+
+.wrapper-dropdown-3.active .dropdown {
+    opacity: 1;
+    pointer-events: auto;
+}
+.vam-dd{ min-width:151px; box-shadow:none; }
+/* No CSS3 support */
+
+.no-opacity       .wrapper-dropdown-3 .dropdown,
+.no-pointerevents .wrapper-dropdown-3 .dropdown {
+    display: none;
+    opacity: 1; /* If opacity support but no pointer-events support */
+    pointer-events: auto; /* If pointer-events support but no pointer-events support */
+}
+
+.no-opacity       .wrapper-dropdown-3.active .dropdown,
+.no-pointerevents .wrapper-dropdown-3.active .dropdown {
+    display: block;
+}
+
+
+/* Select box styling // */
+
+.vam-LoginForm .input-group{
+	padding:5px 30px;
+}
+.vam-LoginForm .input-group .input-group-addon{
+	background:none;
+	border-radius:2px;
+
+}
+.vam-LoginForm .input-group input{
+    border-radius: 2px;
+    box-shadow: none;
+	margin-left:-2px;
+	height:40px;
+}
+
+.vam-LoginForm .input-group span:before{
+	font-size:16px
+}
+input[type=checkbox].css-checkbox {
+		position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;
+						}
+
+input[type=checkbox].css-checkbox + label.css-label {
+	padding-left:24px; /*overflow:hidden;*/
+	height:16px; 
+	display:inline-block;
+	line-height:16px;
+	background-repeat:no-repeat;
+	background-position: 0 -16px;
+	font-size:14px; 
+	font-weight:400;
+	cursor:pointer;
+}
+
+input[type=checkbox].css-checkbox:checked + label.css-label {
+	background-position: 0 0px;
+}
+label.css-label {
+background:url(../images/checkbox.png) no-repeat;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
+
+input[type=radio].css-radio {
+		position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;
+						}
+
+input[type=radio].css-radio + label.css-radiolabel {
+	padding-left:20px; 
+	overflow:hidden;
+	height:16px; 
+	display:inline-block;
+	line-height:16px;
+	background-repeat:no-repeat;
+	background-position: 0 -16px;
+	font-size:14px; 
+	font-weight:400;
+	cursor:pointer;
+}
+
+input[type=radio].css-radio:checked + label.css-radiolabel {
+	background-position: 0 0px;
+}
+label.css-radiolabel {
+background:url(../images/radio.png) no-repeat;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
+.icon-button {
+	border-radius: 3.6rem;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 2.0rem;
+	height: 3.6rem;
+	line-height: 3.6rem;
+	margin: 0 10px 0 0;
+	position: relative;
+	text-align: center;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+	width: 3.6rem;
+}
+
+/* Circle */
+.icon-button span {
+	border-radius: 0;
+	display: block;
+	height: 0;
+	left: 50%;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-webkit-transition: all 0.3s;
+	   -moz-transition: all 0.3s;
+	     -o-transition: all 0.3s;
+	        transition: all 0.3s;
+	width: 0;
+}
+.icon-button:hover span {
+	width: 3.6rem;
+	height: 3.6rem;
+	border-radius: 3.6rem;
+	margin: -1.8rem;
+}
+
+/* Icons */
+.icon-button i {
+	height: 3.6rem;
+	left: 0;
+	line-height: 3.6rem;
+	position: absolute;
+	top: 0;
+	-webkit-transition: all 0.3s;
+	   -moz-transition: all 0.3s;
+	     -o-transition: all 0.3s;
+	        transition: all 0.3s;
+	width: 3.6rem;
+	z-index: 10;
+}
+.icon-button .icon-facebook {
+	color: #3B5998;
+}
+.icon-button .icon-google-plus {
+	color: #db5a3c;
+}
+
+.icon-button:hover .icon-google-plus {
+	color: white;
+}
+.icon-button:hover .icon-facebook{background:url(../images/facebook-white.png) no-repeat center center;}
+
+form input{
+	max-width:200px;
+	border-radius:2px !important;
+	height:40px !important
+}
+
+/*------------------------------------------------*/
+/* Switch SECTION START*/
+/*------------------------------------------------*/
+.onoffswitch {
+    position: relative; width: 74px; height:32px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+	float:right;
+	top:7px;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label{
+    display: block !important; overflow: hidden ; cursor: pointer;
+	border-radius: 0px;
+	float: none !important; 
+    font-weight: 400; 
+    font-size: 14px; 
+    line-height: normal !important; 
+    min-width: 40px !important; 
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    font-size: 12px; color: white; font-family: Trebuchet, Arial, sans-serif; box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "ON";
+    padding-left: 10px;
+    font-size:12px
+}
+.onoffswitch-inner:after {
+    content: "OFF";
+    padding-right: 10px;
+    text-align: right;
+	font-size:12px
+}
+.onoffswitch-switch {
+    display: block; width: 30px; height:30px; margin: 0px;
+    position: absolute; top: 1px; bottom: 0;
+    right: 43px;
+    border: none; border-radius: 0px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 2px;
+}
+/*------------------------------------------------*/
+/* Switch SECTION ENDS*/
+/*------------------------------------------------*/
+
+/* Switch Own / rents Ends */
+.onoffswitchOWN {
+    position: relative; width: 74px; height:32px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+	float:right
+}
+.onoffswitchOWN-checkbox {
+    display: none;
+}
+.onoffswitchOWN-label{
+    display: block !important; overflow: hidden ; cursor: pointer;
+    border-radius: 0px;
+	float: none !important; 
+    font-weight: 400; 
+    font-size: 14px; 
+    line-height: normal !important; 
+    min-width: 40px !important; 
+}
+.onoffswitchOWN-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitchOWN-inner:before, .onoffswitchOWN-inner:after {
+    display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif;
+    box-sizing: border-box;
+}
+.onoffswitchOWN-inner:before {
+    content: "OWN";
+    padding-left: 6px;
+   	font-size:12px
+}
+.onoffswitchOWN-inner:after {
+    content: "RENT";
+    padding-right: 5px;
+    text-align: right;
+	font-size:12px
+}
+.onoffswitchOWN-switch {
+    display: block; width: 30px; height:30px; margin: 0px;
+    position: absolute; top: 1px; bottom: 0;
+    right: 43px;
+    border: none; border-radius: 0px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitchOWN-checkbox:checked + .onoffswitchOWN-label .onoffswitchOWN-inner {
+    margin-left: 0;
+}
+.onoffswitchOWN-checkbox:checked + .onoffswitchOWN-label .onoffswitchOWN-switch {
+    right: 2px; 
+}
+/* Switch Own / rents Ends */

@@ -1,0 +1,16 @@
+2017-10-31T16:23:21
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at Microsoft.WindowsAzure.Storage.Core.Executor.Executor.ExecuteSync[T](RESTCommand`1 cmd, IRetryPolicy policy, OperationContext operationContext)
+   at Microsoft.WindowsAzure.WebSites.Diagnostics.AzureBlobTraceListener.AppendStreamToBlob(Stream stream)
+   at Microsoft.WindowsAzure.WebSites.Diagnostics.AzureBlobTraceListener.ConsumeBuffer()
+
+2017-10-31T16:23:21
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at Microsoft.WindowsAzure.WebSites.Diagnostics.AzureBlobTraceListener.ConsumeBuffer()
+   at Microsoft.WindowsAzure.WebSites.Diagnostics.BaseTraceListener.FlushBuffer(Boolean waitForCompletion)
+
+2017-10-31T16:23:21
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at Microsoft.WindowsAzure.WebSites.Diagnostics.BaseTraceListener.FlushBuffer(Boolean waitForCompletion)
+   at Microsoft.WindowsAzure.WebSites.Diagnostics.BaseTraceListener.OnFlushBuffer(Object state)
+

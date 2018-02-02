@@ -1,0 +1,27 @@
+2017-07-13T09:47:01  PID[8476] Information Unpacking resources...
+2017-07-13T09:47:01  PID[8476] Information Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+2017-07-13T09:47:01  PID[8476] Information Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+2017-07-13T09:47:01  PID[8476] Information Detected an Azure App Service sandbox.
+2017-07-13T09:47:01  PID[8476] Information Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+2017-07-13T09:47:01  PID[8476] Information Collection endPoint: https://agent.azureserviceprofiler.net
+2017-07-13T09:47:01  PID[8476] Information Initializing agent...
+2017-07-13T09:47:03  PID[8476] Information Set up shutdown handler.
+2017-07-13T09:47:03  PID[8476] Information Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\i0atwyga.ikc.
+2017-07-13T09:47:05  PID[8476] Information Finished initializing detailed trace monitor (Circular Monitor).
+2017-07-13T09:47:05  PID[8476] Information Finished initializing request performance monitor (Activity Monitor).
+2017-07-13T09:47:06  PID[8476] Information Agent initialization completed successfully
+2017-07-13T10:09:50  PID[8476] Information Received shutdown request.
+2017-07-13T10:09:50  PID[8476] Information Stopping Engine.
+2017-07-13T10:09:52  PID[8476] Information Unpacking resources...
+2017-07-13T10:09:52  PID[8476] Information Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+2017-07-13T10:09:52  PID[8476] Information Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+2017-07-13T10:09:52  PID[8476] Information Detected an Azure App Service sandbox.
+2017-07-13T10:09:52  PID[8476] Information Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+2017-07-13T10:09:52  PID[8476] Information Collection endPoint: https://agent.azureserviceprofiler.net
+2017-07-13T10:09:52  PID[8476] Information Initializing agent...
+2017-07-13T10:09:52  PID[8476] Information Set up shutdown handler.
+2017-07-13T10:09:52  PID[8476] Information Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\zaxw03gs.vjd.
+2017-07-13T10:09:54  PID[8476] Information Finished initializing detailed trace monitor (Circular Monitor).
+2017-07-13T10:09:54  PID[8476] Information Finished initializing request performance monitor (Activity Monitor).
+2017-07-13T10:09:54  PID[8476] Information Agent initialization completed successfully
+2017-07-23T15:14:20  PID[8476] Warning     The trace listener is disabled after running too long.

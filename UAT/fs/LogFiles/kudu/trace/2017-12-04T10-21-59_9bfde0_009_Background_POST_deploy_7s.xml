@@ -1,0 +1,37 @@
+<step title="BackgroundTrace" date="2017-12-04T10:21:59.973" instance="9bfde0" url="/deploy" method="POST" >
+  <step title="Creating temporary deployment" date="2017-12-04T10:21:59.973" /><!-- duration: 47ms -->
+  <step title="Performing fetch based deployment" date="2017-12-04T10:22:00.020" >
+    <step title="Sync with Dropbox" date="2017-12-04T10:22:00.082" >
+      <step title="Updating deploy info" date="2017-12-04T10:22:00.082" >
+        <step title="Fetching delta for cursor &apos;AAEDBGIRx7F35XCDghiaesepFhYYVKbKkkT5CUPWal5jngzoqkF3lU6EU6wnjeGVUEWYhVT17ef7cSN54gLMwnzy_kfAmuv-Y79nliDh_zL0JtgBSLNXbNx5kqVWwhawBB5JT12_rM3OhEWby-60OIdeRe0FZ8heISyFr1E4yJkz-jeE1d35l0WGB9bXsy74wGHjc7Nb7b_ec2ICtfPFA64nqJZlG-MCv2efONagynr-pQ&apos;." date="2017-12-04T10:22:00.098" /><!-- duration: 0ms -->
+        <step title="Delta response exhausted. New cursor at &apos;AAEdHEArqy9LdMdRu1NPgOMJtlrZKkdO0OC8km6_yC0V5U62mKOHB7QaZOLBdFlTzEBpGleyFomHN1v9m51GvOgjWPhr1O7kZItgRI_r8aqgdCqHV_-FlmC1_MRogAEYdJ-bGXznMdbvIWJxgEROArVhkEEN8XL_mqHeMP0AFEh45gF5YPEgEP7f0PXepDeawJA7zKPfC2TfqxT6OgP_V77gK3XOlwWmNdQoa1OwiJjAJg&apos;." date="2017-12-04T10:22:00.802" /><!-- duration: 0ms -->
+      </step><!-- duration: 735ms -->
+      <step title="del /nsm-pet-bdportal-uat-wapp/App_Offline.htm" date="2017-12-04T10:22:00.817" /><!-- duration: 0ms -->
+      <step title="del /nsm-pet-bdportal-uat-wapp/Web.config2" date="2017-12-04T10:22:00.833" /><!-- duration: 0ms -->
+      <step title="write   1056 bytes to /nsm-pet-bdportal-uat-wapp/Web.config" date="2017-12-04T10:22:02.075" /><!-- duration: 0ms -->
+      <step title="write    325 bytes to /nsm-pet-bdportal-uat-wapp/Web.Config1" date="2017-12-04T10:22:02.143" /><!-- duration: 0ms -->
+      <step title="write    196 bytes to /nsm-pet-bdportal-uat-wapp/App_Offline.htm1" date="2017-12-04T10:22:02.300" /><!-- duration: 0ms -->
+    </step><!-- duration: 2217ms -->
+    <step title="Update dropbox cursor" date="2017-12-04T10:22:03.103" /><!-- duration: 0ms -->
+    <step title="DeploymentManager.Deploy(id:caf616a57b0c4a5bb074729a64f1a33e)" date="2017-12-04T10:22:03.116" >
+      <step title="Collecting changeset information" date="2017-12-04T10:22:03.116" /><!-- duration: 31ms -->
+      <step title="Updating submodules" date="2017-12-04T10:22:03.163" /><!-- duration: 16ms -->
+      <step title="Determining deployment builder" date="2017-12-04T10:22:03.257" >
+        <step title="Builder is BasicBuilder" date="2017-12-04T10:22:04.468" /><!-- duration: 0ms -->
+      </step><!-- duration: 1228ms -->
+      <step title="Copying SSH keys" date="2017-12-04T10:22:04.516" /><!-- duration: 0ms -->
+      <step title="Building" date="2017-12-04T10:22:04.516" >
+        <step title="Generating deployment script" date="2017-12-04T10:22:04.563" >
+          <step title="Using cached version of the deployment script for command: -y --no-dot-deployment -r &quot;D:\home\site\wwwroot&quot; -o &quot;D:\home\site\deployments\tools&quot; --basic --sitePath &quot;D:\home\site\wwwroot&quot;" date="2017-12-04T10:22:04.594" /><!-- duration: 16ms -->
+        </step><!-- duration: 47ms -->
+        <step title="Executing external process" date="2017-12-04T10:22:04.688" type="process" path="starter.cmd" arguments="&quot;D:\home\site\deployments\tools\deploy.cmd&quot;" /><!-- duration: 959ms -->
+        <step title="Skip function trigger and logicapp sync because function is not enabled." date="2017-12-04T10:22:06.711" /><!-- duration: 16ms -->
+        <step title="Purge deployment items" date="2017-12-04T10:22:06.929" >
+          <step title="Remove 3ce54324b, Success, received at 10/1/2017 7:23:12 PM" date="2017-12-04T10:22:06.976" /><!-- duration: 0ms -->
+        </step><!-- duration: 47ms -->
+      </step><!-- duration: 2476ms -->
+    </step><!-- duration: 3891ms -->
+    <step title="Cleaning up temp files" date="2017-12-04T10:22:07.007" /><!-- duration: 0ms -->
+    <step title="WebHooksManager.PublishEventAsync: PostDeployment" date="2017-12-04T10:22:07.023" /><!-- duration: 0ms -->
+  </step><!-- duration: 7019ms -->
+</step><!-- duration: 7081ms -->

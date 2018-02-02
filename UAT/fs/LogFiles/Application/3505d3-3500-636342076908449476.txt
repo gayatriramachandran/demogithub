@@ -1,0 +1,2 @@
+2017-06-28T00:48:08  PID[3500] Information Trying to load http module type from assembly: Microsoft.AI.Web, type name: Microsoft.ApplicationInsights.Web.ApplicationInsightsHttpModule
+2017-06-28T00:48:11  PID[3500] Information Http module type from assembly: Microsoft.AI.Web, type name: Microsoft.ApplicationInsights.Web.ApplicationInsightsHttpModule loaded sucessfully

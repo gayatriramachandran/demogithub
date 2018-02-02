@@ -1,0 +1,15 @@
+2017-12-31T01:48:39
+Microsoft.WindowsAzure.Storage.StorageException: The remote server returned an error: (400) Bad Request. ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.WindowsAzure.Storage.Core.Executor.Executor.ExecuteSync[T](RESTCommand`1 cmd, IRetryPolicy policy, OperationContext operationContext)
+   --- End of inner exception stack trace ---
+   at Microsoft.WindowsAzure.Storage.Core.Executor.Executor.ExecuteSync[T](RESTCommand`1 cmd, IRetryPolicy policy, OperationContext operationContext)
+   at Microsoft.WindowsAzure.WebSites.Diagnostics.AzureBlobTraceListener.AppendStreamToBlob(Stream stream)
+   at Microsoft.WindowsAzure.WebSites.Diagnostics.AzureBlobTraceListener.ConsumeBuffer()
+Request Information
+RequestID:415df2aa-001e-0086-69d9-81b036000000
+RequestDate:Sun, 31 Dec 2017 01:48:39 GMT
+StatusMessage:The specified block list is invalid.
+ErrorCode:InvalidBlockList
+
+

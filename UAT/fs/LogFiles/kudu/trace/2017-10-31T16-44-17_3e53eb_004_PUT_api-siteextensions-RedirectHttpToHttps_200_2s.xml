@@ -1,0 +1,15 @@
+<step title="Incoming Request" date="2017-10-31T16:44:17.932" instance="3e53eb" url="/api/siteextensions/RedirectHttpToHttps" method="PUT" type="request" pid="9468,2,22" Connection="Keep-Alive" Content-Length="0" Content-Type="application/json" Accept="application/json" Accept-Language="en.en-us" Authorization="Bas..." Host="nsm-pet-bdportal-uat-wapp.scm.azurewebsites.net" User-Agent="Portal-Exp/5.12.33.72 (Kudu) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML%2C like Gecko) Chrome/61.0.3163.100 Safari/537.36" x-ms-client-request-id="7fd8db3f-74c2-4508-8cda-e4965b3c6042" x-ms-client-session-id="6fb196d0858547ec8ccb4bcd550498cd" X-WAWS-Unencoded-URL="/api/siteextensions/RedirectHttpToHttps" X-ARR-LOG-ID="9f70bdcf-374d-4723-9c87-23e136fbccd1" X-SITE-DEPLOYMENT-ID="nsm-pet-bdportal-uat-wapp" WAS-DEFAULT-HOSTNAME="nsm-pet-bdportal-uat-wapp.scm.azurewebsites.net" X-Forwarded-Proto="https" >
+  <step title="Cleanup Xml Logs" date="2017-10-31T16:44:17.932" /><!-- duration: 16ms -->
+  <step title="Installing RedirectHttpToHttps, version:  from feed: " date="2017-10-31T16:44:18.044" /><!-- duration: 0ms -->
+  <step title="Installing &apos;RedirectHttpToHttps&apos; version &apos;&apos; from &apos;&apos;" date="2017-10-31T16:44:18.339" >
+    <step title="Found version: 1.0.0 on feed: https://www.siteextensions.net/api/v2/" date="2017-10-31T16:44:18.604" /><!-- duration: 0ms -->
+    <step title="Version is null, search latest package by id: RedirectHttpToHttps, will not search for unlisted package." date="2017-10-31T16:44:18.604" /><!-- duration: 156ms -->
+    <step title="Install package: RedirectHttpToHttps." date="2017-10-31T16:44:18.761" >
+      <step title="Download site extension: RedirectHttpToHttps.1.0.0" date="2017-10-31T16:44:18.779" /><!-- duration: 930ms -->
+      <step title="Check if applicationHost.xdt or scmApplicationHost.xdt file existed." date="2017-10-31T16:44:19.725" /><!-- duration: 0ms -->
+      <step title="Trigger site extension job" date="2017-10-31T16:44:19.725" /><!-- duration: 16ms -->
+    </step><!-- duration: 1058ms -->
+    <step title="Update arm settings for RedirectHttpToHttps installation. Status: OK" date="2017-10-31T16:44:20.155" /><!-- duration: 109ms -->
+  </step><!-- duration: 1941ms -->
+  <step title="Outgoing response" date="2017-10-31T16:44:20.326" type="response" statusCode="200" statusText="OK" Server="Microsoft-IIS/8.0" x-ms-request-id="9f70bdcf-374d-4723-9c87-23e136fbccd1" Cache-Control="private" X-AspNet-Version="4.0.30319" Content-Type="application/json; charset=utf-8" /><!-- duration: 0ms -->
+</step><!-- duration: 2394ms -->

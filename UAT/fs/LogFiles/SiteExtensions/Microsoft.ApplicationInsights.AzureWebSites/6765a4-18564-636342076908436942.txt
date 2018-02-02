@@ -1,0 +1,3 @@
+2017-06-28T00:48:09  PID[18564] Information In AgentModel constructor.
+2017-06-28T00:48:10  PID[18564] Information Starting job watcher
+2017-06-28T00:48:10  PID[18564] Information Starting timer

@@ -1,0 +1,2 @@
+69.61204.3166.0
+-y --no-dot-deployment -r "D:\home\site\wwwroot" -o "D:\home\site\deployments\tools" --basic --sitePath "D:\home\site\wwwroot"

@@ -1,0 +1,13 @@
+2018-01-01T04:48:55 sandboxproc.exe C:\DWASFiles\Sites\#1nsm-pet-bdportal-uat-wapp\Temp\applicationhost.config False True
+2018-01-01T04:48:55 env XPROC_TYPENAME=Microsoft.Web.Hosting.Transformers.ApplicationHost.SiteExtensionHelper, Microsoft.Web.Hosting, Version=7.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2018-01-01T04:48:55 env XPROC_METHODNAME=Transform
+2018-01-01T04:48:55 Start 'Microsoft.ApplicationInsights.AzureWebSites' site extension transform
+2018-01-01T04:48:55 :(6,10), No element in the source document matches '/configuration/system.applicationHost/sites/site[@name='~1nsm-pet-bdportal-uat-wapp']/application[@path='/ApplicationInsights']'
+2018-01-01T04:48:55 Not executing RemoveAll (transform line 6, 76)
+2018-01-01T04:48:55 StartSection Executing Insert (transform line 7, 72)
+2018-01-01T04:48:55 on /configuration/system.applicationHost/sites/site[@name='~1nsm-pet-bdportal-uat-wapp']/application
+2018-01-01T04:48:55 Applying to 'site' element (no source line info)
+2018-01-01T04:48:55 Inserted 'application' element
+2018-01-01T04:48:55 EndSection Done executing Insert
+2018-01-01T04:48:56 Successful 'D:\home\SiteExtensions\Microsoft.ApplicationInsights.AzureWebSites\scmApplicationHost.xdt' site extension transform
+2018-01-01T04:48:56 sandboxproc.exe complete successfully. Elapsed = 1371.00 ms

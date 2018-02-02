@@ -1,0 +1,74 @@
+2017-12-21T08:27:04 sandboxproc.exe C:\DWASFiles\Sites\nsm-pet-bdportal-uat-wapp\Temp\applicationhost.config True True
+2017-12-21T08:27:04 env XPROC_TYPENAME=Microsoft.Web.Hosting.Transformers.ApplicationHost.SiteExtensionHelper, Microsoft.Web.Hosting, Version=7.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2017-12-21T08:27:04 env XPROC_METHODNAME=Transform
+2017-12-21T08:27:07 Start 'Microsoft.ApplicationInsights.AzureWebSites' site extension transform
+2017-12-21T08:27:10 StartSection Executing InsertIfMissing (transform line 7, 23)
+2017-12-21T08:27:10 on /configuration/location[@path='nsm-pet-bdportal-uat-wapp']/system.webServer
+2017-12-21T08:27:10 Applying to 'location' element (no source line info)
+2017-12-21T08:27:11 EndSection Done executing InsertIfMissing
+2017-12-21T08:27:11 StartSection Executing InsertIfMissing (transform line 8, 16)
+2017-12-21T08:27:12 on /configuration/location[@path='nsm-pet-bdportal-uat-wapp']/system.webServer/runtime
+2017-12-21T08:27:13 Applying to 'system.webServer' element (no source line info)
+2017-12-21T08:27:13 Inserted 'runtime' element
+2017-12-21T08:27:14 EndSection Done executing InsertIfMissing
+2017-12-21T08:27:14 StartSection Executing InsertIfMissing (transform line 9, 31)
+2017-12-21T08:27:14 on /configuration/location[@path='nsm-pet-bdportal-uat-wapp']/system.webServer/runtime/environmentVariables
+2017-12-21T08:27:14 Applying to 'runtime' element (no source line info)
+2017-12-21T08:27:16 EndSection Done executing InsertIfMissing
+2017-12-21T08:27:16 StartSection Executing InsertIfMissing (transform line 10, 80)
+2017-12-21T08:27:19 on /configuration/location[@path='nsm-pet-bdportal-uat-wapp']/system.webServer/runtime/environmentVariables/add[@name='COR_ENABLE_PROFILING']
+2017-12-21T08:27:19 Applying to 'environmentVariables' element (no source line info)
+2017-12-21T08:27:19 EndSection Done executing InsertIfMissing
+2017-12-21T08:27:20 StartSection Executing InsertIfMissing (transform line 11, 109)
+2017-12-21T08:27:20 on /configuration/location[@path='nsm-pet-bdportal-uat-wapp']/system.webServer/runtime/environmentVariables/add[@name='COR_PROFILER']
+2017-12-21T08:27:21 Applying to 'environmentVariables' element (no source line info)
+2017-12-21T08:27:21 EndSection Done executing InsertIfMissing
+2017-12-21T08:27:22 StartSection Executing InsertIfMissing (transform line 12, 183)
+2017-12-21T08:27:23 on /configuration/location[@path='nsm-pet-bdportal-uat-wapp']/system.webServer/runtime/environmentVariables/add[@name='COR_PROFILER_PATH']
+2017-12-21T08:27:23 Applying to 'environmentVariables' element (no source line info)
+2017-12-21T08:27:24 EndSection Done executing InsertIfMissing
+2017-12-21T08:27:25 StartSection Executing InsertIfMissing (transform line 13, 132)
+2017-12-21T08:27:25 on /configuration/location[@path='nsm-pet-bdportal-uat-wapp']/system.webServer/runtime/environmentVariables/add[@name='MicrosoftInstrumentationEngine_Host']
+2017-12-21T08:27:25 Applying to 'environmentVariables' element (no source line info)
+2017-12-21T08:27:26 EndSection Done executing InsertIfMissing
+2017-12-21T08:27:27 StartSection Executing InsertIfMissing (transform line 14, 219)
+2017-12-21T08:27:27 on /configuration/location[@path='nsm-pet-bdportal-uat-wapp']/system.webServer/runtime/environmentVariables/add[@name='MicrosoftInstrumentationEngine_HostPath']
+2017-12-21T08:27:29 Applying to 'environmentVariables' element (no source line info)
+2017-12-21T08:27:30 EndSection Done executing InsertIfMissing
+2017-12-21T08:27:31 StartSection Executing InsertIfMissing (transform line 17, 16)
+2017-12-21T08:27:32 on /configuration/location[@path='nsm-pet-bdportal-uat-wapp']/system.webServer/rewrite
+2017-12-21T08:27:33 Applying to 'system.webServer' element (no source line info)
+2017-12-21T08:27:34 Inserted 'rewrite' element
+2017-12-21T08:27:36 EndSection Done executing InsertIfMissing
+2017-12-21T08:27:37 StartSection Executing InsertIfMissing (transform line 18, 33)
+2017-12-21T08:27:37 on /configuration/location[@path='nsm-pet-bdportal-uat-wapp']/system.webServer/rewrite/allowedServerVariables
+2017-12-21T08:27:37 Applying to 'rewrite' element (no source line info)
+2017-12-21T08:27:38 EndSection Done executing InsertIfMissing
+2017-12-21T08:27:39 StartSection Executing InsertIfMissing (transform line 19, 81)
+2017-12-21T08:27:39 on /configuration/location[@path='nsm-pet-bdportal-uat-wapp']/system.webServer/rewrite/allowedServerVariables/add[@name='HTTP_X_ORIGINAL_ACCEPT_ENCODING']
+2017-12-21T08:27:40 Applying to 'allowedServerVariables' element (no source line info)
+2017-12-21T08:27:41 EndSection Done executing InsertIfMissing
+2017-12-21T08:27:42 StartSection Executing InsertIfMissing (transform line 20, 70)
+2017-12-21T08:27:42 on /configuration/location[@path='nsm-pet-bdportal-uat-wapp']/system.webServer/rewrite/allowedServerVariables/add[@name='HTTP_ACCEPT_ENCODING']
+2017-12-21T08:27:42 Applying to 'allowedServerVariables' element (no source line info)
+2017-12-21T08:27:42 EndSection Done executing InsertIfMissing
+2017-12-21T08:27:43 StartSection Executing InsertIfMissing (transform line 23, 16)
+2017-12-21T08:27:45 on /configuration/location[@path='nsm-pet-bdportal-uat-wapp']/system.webServer/rewrite/rules
+2017-12-21T08:27:48 Applying to 'rewrite' element (no source line info)
+2017-12-21T08:27:49 EndSection Done executing InsertIfMissing
+2017-12-21T08:27:49 StartSection Executing InsertIfMissing (transform line 24, 75)
+2017-12-21T08:27:51 on /configuration/location[@path='nsm-pet-bdportal-uat-wapp']/system.webServer/rewrite/rules/rule
+2017-12-21T08:27:52 Applying to 'rules' element (no source line info)
+2017-12-21T08:27:53 EndSection Done executing InsertIfMissing
+2017-12-21T08:27:55 StartSection Executing InsertOrAppendAttribute (transform line 38, 50)
+2017-12-21T08:27:56 on /configuration/location[@path='nsm-pet-bdportal-uat-wapp']/system.webServer/rewrite/outboundRules
+2017-12-21T08:27:57 Applying to 'rewrite' element (no source line info)
+2017-12-21T08:27:57 EndSection Done executing InsertOrAppendAttribute
+2017-12-21T08:27:58 StartSection Executing InsertIfMissing (transform line 39, 97)
+2017-12-21T08:27:59 on /configuration/location[@path='nsm-pet-bdportal-uat-wapp']/system.webServer/rewrite/outboundRules/rule
+2017-12-21T08:28:00 Applying to 'outboundRules' element (no source line info)
+2017-12-21T08:28:01 EndSection Done executing InsertIfMissing
+2017-12-21T08:28:02 StartSection Executing InsertIfMissing (transform line 44, 96)
+2017-12-21T08:28:02 on /configuration/location[@path='nsm-pet-bdportal-uat-wapp']/system.webServer/rewrite/outboundRules/rule
+2017-12-21T08:28:03 Applying to 'outboundRules' element (no source line info)
+2017-12-21T08:28:03 EndSection Done executing InsertIfMissing

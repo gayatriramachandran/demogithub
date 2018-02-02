@@ -1,0 +1,3 @@
+<step title="Startup Request" date="2017-12-06T18:45:13.180" instance="3505d3" url="/" method="GET" type="request" pid="5632,2,7" SCM_NO_REPOSITORY="1" SCM_SKIP_SSL_VALIDATION="0" ScmType="Dropbox" >
+  <step title="Cleanup Xml Logs" date="2017-12-06T18:45:13.200" /><!-- duration: 30ms -->
+</step><!-- duration: 50ms -->

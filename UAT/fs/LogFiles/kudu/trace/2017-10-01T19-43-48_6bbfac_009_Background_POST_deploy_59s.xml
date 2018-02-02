@@ -1,0 +1,230 @@
+<step title="BackgroundTrace" date="2017-10-01T19:43:48.571" instance="6bbfac" url="/deploy" method="POST" >
+  <step title="Creating temporary deployment" date="2017-10-01T19:43:48.571" /><!-- duration: 31ms -->
+  <step title="Performing fetch based deployment" date="2017-10-01T19:43:48.602" >
+    <step title="Sync with Dropbox" date="2017-10-01T19:43:48.666" >
+      <step title="Updating deploy info" date="2017-10-01T19:43:48.666" >
+        <step title="Fetching delta for cursor &apos;AAGKqMlweGq-u2x7-k6wZ1Si8c0CQHFM_B2RZh88tfkFg9UwjwR7PiExp5LgwW4eLT6HOnKVfBxmLlhSqCVVHoR6rtcvqQB1TOt9gQzUDYci1BGzmtp7hREWL2wz4XhNFC5dcTEJBq2ZemaHQLbqM_TqW3p0ZpyFQHLwQ3Z10EDYaVucxQegQG9nHrSJDI-A31tH9I0sJ13JDAw0-vu3Hb1xPT-gsIB-Z4EL31mVFd_HUw&apos;." date="2017-10-01T19:43:48.666" /><!-- duration: 16ms -->
+        <step title="Delta response exhausted. New cursor at &apos;AAF79UOzIDZfrCaGixT4gs8iEnMG64M9P8gob-hYu83FuDhU1uLVW7w8gaMTX37g5Wnpt7p3BH-gSnMVsCZcYB1eREZaynQHMJzH-PNz7HavcPKLVaSeT7mUFB045es_koIHqS3--zhyXQ7paX7jXirgAbm4W8MvnDuhmSsIHwrY4eZusVwEHkCCiM7o9VDGvEiCfd8z4cQ6nSKaOk7QdpQjhM2WSsswvoLpXVtNxqPStw&apos;." date="2017-10-01T19:43:49.834" /><!-- duration: 0ms -->
+      </step><!-- duration: 1180ms -->
+      <step title="write  54416 bytes to /nsm-pet-bdportal-uat-wapp/assets/css/bootstrap.min.css.map" date="2017-10-01T19:43:50.882" /><!-- duration: 0ms -->
+      <step title="write   5478 bytes to /nsm-pet-bdportal-uat-wapp/assets/css/angular-datepicker.css" date="2017-10-01T19:43:51.025" /><!-- duration: 0ms -->
+      <step title="write   2720 bytes to /nsm-pet-bdportal-uat-wapp/assets/fonts/_flaticon.scss" date="2017-10-01T19:43:51.072" /><!-- duration: 0ms -->
+      <step title="write 3003458 bytes to /nsm-pet-bdportal-uat-wapp/assets/Collision Coverage FL.mp4" date="2017-10-01T19:43:51.353" /><!-- duration: 18ms -->
+      <step title="write 6411504 bytes to /nsm-pet-bdportal-uat-wapp/app_data/jobs/continuous/ApplicationInsightsProfiler2/ApplicationInsightsProfiler.exe" date="2017-10-01T19:43:51.635" /><!-- duration: 0ms -->
+      <step title="write  91925 bytes to /nsm-pet-bdportal-uat-wapp/assets/fonts/flaticon.svg" date="2017-10-01T19:43:51.635" /><!-- duration: 0ms -->
+      <step title="write   8868 bytes to /nsm-pet-bdportal-uat-wapp/assets/fonts/flaticon.eot" date="2017-10-01T19:43:51.650" /><!-- duration: 0ms -->
+      <step title="write  16125 bytes to /nsm-pet-bdportal-uat-wapp/assets/fonts/flaticon.html" date="2017-10-01T19:43:51.671" /><!-- duration: 0ms -->
+      <step title="write   8700 bytes to /nsm-pet-bdportal-uat-wapp/assets/fonts/flaticon.ttf" date="2017-10-01T19:43:51.932" /><!-- duration: 16ms -->
+      <step title="write   5828 bytes to /nsm-pet-bdportal-uat-wapp/assets/fonts/flaticon.woff" date="2017-10-01T19:43:52.166" /><!-- duration: 0ms -->
+      <step title="write 108738 bytes to /nsm-pet-bdportal-uat-wapp/assets/fonts/glyphicons-halflings-regular.svg" date="2017-10-01T19:43:52.299" /><!-- duration: 16ms -->
+      <step title="write  20127 bytes to /nsm-pet-bdportal-uat-wapp/assets/fonts/glyphicons-halflings-regular.eot" date="2017-10-01T19:43:52.315" /><!-- duration: 0ms -->
+      <step title="write  23424 bytes to /nsm-pet-bdportal-uat-wapp/assets/fonts/glyphicons-halflings-regular.woff" date="2017-10-01T19:43:52.455" /><!-- duration: 0ms -->
+      <step title="write  18028 bytes to /nsm-pet-bdportal-uat-wapp/assets/fonts/glyphicons-halflings-regular.woff2" date="2017-10-01T19:43:52.681" /><!-- duration: 16ms -->
+      <step title="write  11749 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/Accident_img-1.jpg" date="2017-10-01T19:43:52.838" /><!-- duration: 0ms -->
+      <step title="write  38247 bytes to /nsm-pet-bdportal-uat-wapp/assets/fonts/license.pdf" date="2017-10-01T19:43:52.838" /><!-- duration: 0ms -->
+      <step title="write  45404 bytes to /nsm-pet-bdportal-uat-wapp/assets/fonts/glyphicons-halflings-regular.ttf" date="2017-10-01T19:43:52.931" /><!-- duration: 0ms -->
+      <step title="write  14304 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/Accident_img-2.jpg" date="2017-10-01T19:43:53.009" /><!-- duration: 0ms -->
+      <step title="write  12647 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/Accident_img-3.jpg" date="2017-10-01T19:43:53.244" /><!-- duration: 0ms -->
+      <step title="write  10431 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/Accident_img-5.jpg" date="2017-10-01T19:43:53.416" /><!-- duration: 0ms -->
+      <step title="write  14066 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/Accident_img-4.jpg" date="2017-10-01T19:43:53.431" /><!-- duration: 0ms -->
+      <step title="write  12700 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/Accident_img-6.jpg" date="2017-10-01T19:43:53.509" /><!-- duration: 0ms -->
+      <step title="write 125772 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/agent_pic.png" date="2017-10-01T19:43:53.747" /><!-- duration: 0ms -->
+      <step title="write  50027 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/alfa-romeo.png" date="2017-10-01T19:43:53.778" /><!-- duration: 0ms -->
+      <step title="write  92580 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/american-express.png" date="2017-10-01T19:43:54.043" /><!-- duration: 0ms -->
+      <step title="write  23409 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/apartmenticon.png" date="2017-10-01T19:43:54.137" /><!-- duration: 16ms -->
+      <step title="write    206 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/arrow-li.png" date="2017-10-01T19:43:54.153" /><!-- duration: 0ms -->
+      <step title="write 116674 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/BG_Pattern.jpg" date="2017-10-01T19:43:54.391" /><!-- duration: 0ms -->
+      <step title="write  13487 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/audi.png" date="2017-10-01T19:43:54.454" /><!-- duration: 0ms -->
+      <step title="write  30393 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/bmw.png" date="2017-10-01T19:43:54.611" /><!-- duration: 16ms -->
+      <step title="write   1732 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/buildings.png" date="2017-10-01T19:43:54.767" /><!-- duration: 0ms -->
+      <step title="write   2368 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/buildings-active.png" date="2017-10-01T19:43:54.782" /><!-- duration: 0ms -->
+      <step title="write    607 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/chat.png" date="2017-10-01T19:43:54.954" /><!-- duration: 0ms -->
+      <step title="write  48830 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/caricon.png" date="2017-10-01T19:43:54.970" /><!-- duration: 0ms -->
+      <step title="write    358 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/checkbox.png" date="2017-10-01T19:43:55.153" /><!-- duration: 0ms -->
+      <step title="write  51139 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/dhroneicon.png" date="2017-10-01T19:43:55.256" /><!-- duration: 0ms -->
+      <step title="write  32842 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/custcareicon.png" date="2017-10-01T19:43:55.287" /><!-- duration: 16ms -->
+      <step title="write    258 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/facebook-white.png" date="2017-10-01T19:43:55.459" /><!-- duration: 0ms -->
+      <step title="write 112647 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/discovercard.png" date="2017-10-01T19:43:55.662" /><!-- duration: 0ms -->
+      <step title="write    278 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/facebook.png" date="2017-10-01T19:43:55.678" /><!-- duration: 0ms -->
+      <step title="write  27542 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/fnol_map.jpg" date="2017-10-01T19:43:55.818" /><!-- duration: 0ms -->
+      <step title="write   4203 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/fouroffive.png" date="2017-10-01T19:43:55.896" /><!-- duration: 0ms -->
+      <step title="write 413542 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/GlowBG.png" date="2017-10-01T19:43:56.058" /><!-- duration: 0ms -->
+      <step title="write    432 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/gplus.png" date="2017-10-01T19:43:56.184" /><!-- duration: 0ms -->
+      <step title="write    417 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/gplus-white.png" date="2017-10-01T19:43:56.294" /><!-- duration: 0ms -->
+      <step title="write  23755 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/hospitalityicon.png" date="2017-10-01T19:43:56.356" /><!-- duration: 0ms -->
+      <step title="write  31783 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/lamborghini.png" date="2017-10-01T19:43:56.419" /><!-- duration: 0ms -->
+      <step title="write 198548 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/login-bg.jpg" date="2017-10-01T19:43:56.624" /><!-- duration: 0ms -->
+      <step title="write 204411 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/map.jpg" date="2017-10-01T19:43:56.921" /><!-- duration: 16ms -->
+      <step title="write  31143 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/mercedes.png" date="2017-10-01T19:43:57.046" /><!-- duration: 0ms -->
+      <step title="write    533 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/message.png" date="2017-10-01T19:43:57.202" /><!-- duration: 0ms -->
+      <step title="write 1419064 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/login-image.png" date="2017-10-01T19:43:57.374" /><!-- duration: 0ms -->
+      <step title="write 104711 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/mastercard.png" date="2017-10-01T19:43:57.390" /><!-- duration: 0ms -->
+      <step title="write   3195 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/mitsubhisi.png" date="2017-10-01T19:43:57.424" /><!-- duration: 13ms -->
+      <step title="write    464 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/phone.png" date="2017-10-01T19:43:57.593" /><!-- duration: 0ms -->
+      <step title="write  45045 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/porsche.png" date="2017-10-01T19:43:57.939" /><!-- duration: 13ms -->
+      <step title="write 102493 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/profile.jpg" date="2017-10-01T19:43:58.030" /><!-- duration: 0ms -->
+      <step title="write   1574 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/radio-img.png" date="2017-10-01T19:43:58.140" /><!-- duration: 17ms -->
+      <step title="write   1556 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/radio.png" date="2017-10-01T19:43:58.175" /><!-- duration: 12ms -->
+      <step title="write   3523 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/ratingicon.png" date="2017-10-01T19:43:58.468" /><!-- duration: 16ms -->
+      <step title="write  14930 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/renault.png" date="2017-10-01T19:43:58.612" /><!-- duration: 31ms -->
+      <step title="write 139287 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/profile.png" date="2017-10-01T19:43:58.784" /><!-- duration: 0ms -->
+      <step title="write  24787 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/restauranticon.png" date="2017-10-01T19:43:58.874" /><!-- duration: 0ms -->
+      <step title="write  49388 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/visacard.png" date="2017-10-01T19:43:58.999" /><!-- duration: 16ms -->
+      <step title="write 1362359 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/video.mp4" date="2017-10-01T19:43:59.140" /><!-- duration: 0ms -->
+      <step title="write  29267 bytes to /nsm-pet-bdportal-uat-wapp/assets/js/angular-datepicker.js" date="2017-10-01T19:44:00.358" /><!-- duration: 19ms -->
+      <step title="write  36000 bytes to /nsm-pet-bdportal-uat-wapp/assets/js/jquery.mmenu.min.all.js" date="2017-10-01T19:44:00.407" /><!-- duration: 0ms -->
+      <step title="write 133756 bytes to /nsm-pet-bdportal-uat-wapp/assets/js/angular-animate.js" date="2017-10-01T19:44:00.499" /><!-- duration: 0ms -->
+      <step title="write    624 bytes to /nsm-pet-bdportal-uat-wapp/assets/js/jquery.mmenu.fixedelements.min.js" date="2017-10-01T19:44:00.534" /><!-- duration: 0ms -->
+      <step title="write  82317 bytes to /nsm-pet-bdportal-uat-wapp/assets/js/owl.carousel.js" date="2017-10-01T19:44:01.079" /><!-- duration: 18ms -->
+      <step title="write   8700 bytes to /nsm-pet-bdportal-uat-wapp/fonts/flaticon.ttf" date="2017-10-01T19:44:01.129" /><!-- duration: 12ms -->
+      <step title="write    484 bytes to /nsm-pet-bdportal-uat-wapp/assets/js/npm.js" date="2017-10-01T19:44:01.156" /><!-- duration: 127ms -->
+      <step title="write   5828 bytes to /nsm-pet-bdportal-uat-wapp/fonts/flaticon.woff" date="2017-10-01T19:44:01.296" /><!-- duration: 0ms -->
+      <step title="write  41254 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/vokswagan.png" date="2017-10-01T19:44:01.624" /><!-- duration: 0ms -->
+      <step title="write   1150 bytes to /nsm-pet-bdportal-uat-wapp/images/4paws-favicon.ico" date="2017-10-01T19:44:01.858" /><!-- duration: 6379ms -->
+      <step title="write  48830 bytes to /nsm-pet-bdportal-uat-wapp/Pet_Insurance_files/caricon.png" date="2017-10-01T19:44:11.864" /><!-- duration: 1797ms -->
+      <step title="write 116674 bytes to /nsm-pet-bdportal-uat-wapp/images/BG_Pattern.jpg" date="2017-10-01T19:44:14.160" /><!-- duration: 0ms -->
+      <step title="write  32842 bytes to /nsm-pet-bdportal-uat-wapp/Pet_Insurance_files/custcareicon.png" date="2017-10-01T19:44:14.187" /><!-- duration: 0ms -->
+      <step title="write 133756 bytes to /nsm-pet-bdportal-uat-wapp/Pet_Insurance_files/angular-animate.js" date="2017-10-01T19:44:14.205" /><!-- duration: 0ms -->
+      <step title="write   4203 bytes to /nsm-pet-bdportal-uat-wapp/Pet_Insurance_files/fouroffive.png" date="2017-10-01T19:44:14.782" /><!-- duration: 0ms -->
+      <step title="write   1524 bytes to /nsm-pet-bdportal-uat-wapp/app_data/jobs/continuous/ApplicationInsightsProfiler2/ApplicationInsightsProfiler.exe.config" date="2017-10-01T19:44:14.813" /><!-- duration: 18ms -->
+      <step title="write  84320 bytes to /nsm-pet-bdportal-uat-wapp/Pet_Insurance_files/jquery.min.js" date="2017-10-01T19:44:14.844" /><!-- duration: 0ms -->
+      <step title="write  51139 bytes to /nsm-pet-bdportal-uat-wapp/Pet_Insurance_files/dhroneicon.png" date="2017-10-01T19:44:14.910" /><!-- duration: 0ms -->
+      <step title="write   4096 bytes to /nsm-pet-bdportal-uat-wapp/bin/DEPortal.dll" date="2017-10-01T19:44:15.000" /><!-- duration: 47ms -->
+      <step title="write    717 bytes to /nsm-pet-bdportal-uat-wapp/directives/htmls/startQuote.html" date="2017-10-01T19:44:15.295" /><!-- duration: 16ms -->
+      <step title="write  21954 bytes to /nsm-pet-bdportal-uat-wapp/directives/js/phoneMask.js" date="2017-10-01T19:44:15.545" /><!-- duration: 16ms -->
+      <step title="write  10056 bytes to /nsm-pet-bdportal-uat-wapp/fonts/Penna.otf" date="2017-10-01T19:44:15.578" /><!-- duration: 0ms -->
+      <step title="write   2381 bytes to /nsm-pet-bdportal-uat-wapp/directives/js/mainDirective.js" date="2017-10-01T19:44:15.654" /><!-- duration: 0ms -->
+      <step title="write  55588 bytes to /nsm-pet-bdportal-uat-wapp/fonts/Cabin-Medium.otf" date="2017-10-01T19:44:15.705" /><!-- duration: 12ms -->
+      <step title="write   9520 bytes to /nsm-pet-bdportal-uat-wapp/fonts/Penna.ttf" date="2017-10-01T19:44:15.782" /><!-- duration: 12ms -->
+      <step title="write 179096 bytes to /nsm-pet-bdportal-uat-wapp/fonts/RobotoSlab-Light.ttf" date="2017-10-01T19:44:16.232" /><!-- duration: 16ms -->
+      <step title="write   8795 bytes to /nsm-pet-bdportal-uat-wapp/images/4paws-logo-white.svg" date="2017-10-01T19:44:16.283" /><!-- duration: 0ms -->
+      <step title="write 169064 bytes to /nsm-pet-bdportal-uat-wapp/fonts/RobotoSlab-Regular.ttf" date="2017-10-01T19:44:16.326" /><!-- duration: 0ms -->
+      <step title="write   4480 bytes to /nsm-pet-bdportal-uat-wapp/fonts/SIL Open Font License.txt" date="2017-10-01T19:44:16.904" /><!-- duration: 16ms -->
+      <step title="write   6496 bytes to /nsm-pet-bdportal-uat-wapp/fonts/Penna.woff" date="2017-10-01T19:44:16.966" /><!-- duration: 0ms -->
+      <step title="write 378357 bytes to /nsm-pet-bdportal-uat-wapp/images/Boston_Terrier_Puppy_Res.jpg" date="2017-10-01T19:44:17.159" /><!-- duration: 11ms -->
+      <step title="write 396235 bytes to /nsm-pet-bdportal-uat-wapp/images/Boston_Terrier_Puppy.jpg" date="2017-10-01T19:44:17.216" /><!-- duration: 0ms -->
+      <step title="write    482 bytes to /nsm-pet-bdportal-uat-wapp/images/facebook.png" date="2017-10-01T19:44:17.779" /><!-- duration: 34ms -->
+      <step title="write 2678082 bytes to /nsm-pet-bdportal-uat-wapp/images/Boston_Terrier_Puppy_REV.SVG" date="2017-10-01T19:44:17.813" /><!-- duration: 13ms -->
+      <step title="write 300996 bytes to /nsm-pet-bdportal-uat-wapp/images/Header_Dog_MB.jpg" date="2017-10-01T19:44:17.826" /><!-- duration: 19ms -->
+      <step title="write 1812777 bytes to /nsm-pet-bdportal-uat-wapp/images/4Paws_LandingPage_Header.jpg" date="2017-10-01T19:44:18.326" /><!-- duration: 16ms -->
+      <step title="write 1097357 bytes to /nsm-pet-bdportal-uat-wapp/images/firstslide.jpg" date="2017-10-01T19:44:18.389" /><!-- duration: 0ms -->
+      <step title="write 266852 bytes to /nsm-pet-bdportal-uat-wapp/images/Header_IMG1_MB.jpg" date="2017-10-01T19:44:18.486" /><!-- duration: 11ms -->
+      <step title="write    721 bytes to /nsm-pet-bdportal-uat-wapp/images/Icons/1.svg" date="2017-10-01T19:44:18.591" /><!-- duration: 0ms -->
+      <step title="write    920 bytes to /nsm-pet-bdportal-uat-wapp/images/Icons/2.svg" date="2017-10-01T19:44:18.626" /><!-- duration: 12ms -->
+      <step title="write   2489 bytes to /nsm-pet-bdportal-uat-wapp/images/Icons/Keep_Your_Vet.svg" date="2017-10-01T19:44:19.189" /><!-- duration: 29ms -->
+      <step title="write   1070 bytes to /nsm-pet-bdportal-uat-wapp/images/Icons/3.svg" date="2017-10-01T19:44:19.232" /><!-- duration: 0ms -->
+      <step title="write   1452 bytes to /nsm-pet-bdportal-uat-wapp/images/Icons/Low_Deductable.svg" date="2017-10-01T19:44:19.248" /><!-- duration: 16ms -->
+      <step title="write   2762 bytes to /nsm-pet-bdportal-uat-wapp/images/Icons/Reimbursement.svg" date="2017-10-01T19:44:19.279" /><!-- duration: 15ms -->
+      <step title="write   2465 bytes to /nsm-pet-bdportal-uat-wapp/images/Icons/Exam_Fees.svg" date="2017-10-01T19:44:19.577" /><!-- duration: 16ms -->
+      <step title="write    612 bytes to /nsm-pet-bdportal-uat-wapp/images/twitter.png" date="2017-10-01T19:44:19.741" /><!-- duration: 0ms -->
+      <step title="write    660 bytes to /nsm-pet-bdportal-uat-wapp/images/instagram.png" date="2017-10-01T19:44:19.756" /><!-- duration: 0ms -->
+      <step title="write 1091225 bytes to /nsm-pet-bdportal-uat-wapp/images/Woman_BlackLab.jpg" date="2017-10-01T19:44:20.057" /><!-- duration: 0ms -->
+      <step title="write   2932 bytes to /nsm-pet-bdportal-uat-wapp/modules/mainModule.js" date="2017-10-01T19:44:20.288" /><!-- duration: 110ms -->
+      <step title="write 432555 bytes to /nsm-pet-bdportal-uat-wapp/images/Woman_BlackLab_Res.jpg" date="2017-10-01T19:44:20.431" /><!-- duration: 12ms -->
+      <step title="write 1761982 bytes to /nsm-pet-bdportal-uat-wapp/images/Woman_BlackLab_REV.SVG" date="2017-10-01T19:44:20.444" /><!-- duration: 17ms -->
+      <step title="write   6800 bytes to /nsm-pet-bdportal-uat-wapp/Pet_Insurance_files/angular-toastr.css" date="2017-10-01T19:44:20.461" /><!-- duration: 61ms -->
+      <step title="write  14762 bytes to /nsm-pet-bdportal-uat-wapp/Pet_Insurance_files/angular-toastr.tpls.js" date="2017-10-01T19:44:20.725" /><!-- duration: 99ms -->
+      <step title="write 1070667 bytes to /nsm-pet-bdportal-uat-wapp/Pet_Insurance_files/angular.js" date="2017-10-01T19:44:21.137" /><!-- duration: 10ms -->
+      <step title="write  75654 bytes to /nsm-pet-bdportal-uat-wapp/Pet_Insurance_files/bootstrap.js" date="2017-10-01T19:44:21.225" /><!-- duration: 20ms -->
+      <step title="write 152204 bytes to /nsm-pet-bdportal-uat-wapp/Pet_Insurance_files/bootstrap.css" date="2017-10-01T19:44:21.431" /><!-- duration: 263ms -->
+      <step title="write  13079 bytes to /nsm-pet-bdportal-uat-wapp/Pet_Insurance_files/common.js" date="2017-10-01T19:44:21.710" /><!-- duration: 19ms -->
+      <step title="write  55588 bytes to /nsm-pet-bdportal-uat-wapp/Pet_Insurance_files/Cabin-Medium.otf" date="2017-10-01T19:44:21.729" /><!-- duration: 11ms -->
+      <step title="write   1002 bytes to /nsm-pet-bdportal-uat-wapp/Pet_Insurance_files/config.js" date="2017-10-01T19:44:21.759" /><!-- duration: 29ms -->
+      <step title="write   3662 bytes to /nsm-pet-bdportal-uat-wapp/Pet_Insurance_files/font.css" date="2017-10-01T19:44:22.666" /><!-- duration: 12ms -->
+      <step title="write   5453 bytes to /nsm-pet-bdportal-uat-wapp/Pet_Insurance_files/john1image.jpg" date="2017-10-01T19:44:23.574" /><!-- duration: 41ms -->
+      <step title="write   3730 bytes to /nsm-pet-bdportal-uat-wapp/Pet_Insurance_files/johnimage.jpg" date="2017-10-01T19:44:23.822" /><!-- duration: 0ms -->
+      <step title="write   9674 bytes to /nsm-pet-bdportal-uat-wapp/Pet_Insurance_files/form.css" date="2017-10-01T19:44:23.834" /><!-- duration: 17ms -->
+      <step title="write  31709 bytes to /nsm-pet-bdportal-uat-wapp/Pet_Insurance_files/default-theme.css" date="2017-10-01T19:44:23.881" /><!-- duration: 66ms -->
+      <step title="write 152204 bytes to /nsm-pet-bdportal-uat-wapp/assets/css/bootstrap.css" date="2017-10-01T19:44:24.444" /><!-- duration: 19ms -->
+      <step title="write   3662 bytes to /nsm-pet-bdportal-uat-wapp/assets/css/font.css" date="2017-10-01T19:44:24.540" /><!-- duration: 3247ms -->
+      <step title="write   9674 bytes to /nsm-pet-bdportal-uat-wapp/assets/css/form.css" date="2017-10-01T19:44:32.944" /><!-- duration: 2161ms -->
+      <step title="write   9520 bytes to /nsm-pet-bdportal-uat-wapp/assets/fonts/Penna.ttf" date="2017-10-01T19:44:35.116" /><!-- duration: 19ms -->
+      <step title="write  10056 bytes to /nsm-pet-bdportal-uat-wapp/assets/fonts/Penna.otf" date="2017-10-01T19:44:35.334" /><!-- duration: 690ms -->
+      <step title="write   6496 bytes to /nsm-pet-bdportal-uat-wapp/assets/fonts/Penna.woff" date="2017-10-01T19:44:36.806" /><!-- duration: 29ms -->
+      <step title="write   3730 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/johnimage.jpg" date="2017-10-01T19:44:36.912" /><!-- duration: 21ms -->
+      <step title="write   5453 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/john1image.jpg" date="2017-10-01T19:44:37.090" /><!-- duration: 10ms -->
+      <step title="write 1070667 bytes to /nsm-pet-bdportal-uat-wapp/assets/js/angular.js" date="2017-10-01T19:44:37.100" /><!-- duration: 0ms -->
+      <step title="write 1097357 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/firstslide.jpg" date="2017-10-01T19:44:37.120" /><!-- duration: 16ms -->
+      <step title="write  13079 bytes to /nsm-pet-bdportal-uat-wapp/assets/js/common.js" date="2017-10-01T19:44:37.791" /><!-- duration: 0ms -->
+      <step title="write  75654 bytes to /nsm-pet-bdportal-uat-wapp/assets/js/bootstrap.js" date="2017-10-01T19:44:37.821" /><!-- duration: 0ms -->
+      <step title="write  36000 bytes to /nsm-pet-bdportal-uat-wapp/Pet_Insurance_files/jquery.mmenu.min.all.js" date="2017-10-01T19:44:37.928" /><!-- duration: 19ms -->
+      <step title="write  82317 bytes to /nsm-pet-bdportal-uat-wapp/Pet_Insurance_files/owl.carousel.js" date="2017-10-01T19:44:37.991" /><!-- duration: 0ms -->
+      <step title="write    530 bytes to /nsm-pet-bdportal-uat-wapp/config.js" date="2017-10-01T19:44:38.334" /><!-- duration: 36ms -->
+      <step title="write   3523 bytes to /nsm-pet-bdportal-uat-wapp/Pet_Insurance_files/ratingicon.png" date="2017-10-01T19:44:38.381" /><!-- duration: 19ms -->
+      <step title="write 169064 bytes to /nsm-pet-bdportal-uat-wapp/Pet_Insurance_files/RobotoSlab-Regular.ttf" date="2017-10-01T19:44:38.509" /><!-- duration: 0ms -->
+      <step title="write  19105 bytes to /nsm-pet-bdportal-uat-wapp/index.html" date="2017-10-01T19:44:38.584" /><!-- duration: 0ms -->
+      <step title="write  50070 bytes to /nsm-pet-bdportal-uat-wapp/Pet_Insurance_files/jquery.mmenu.all.css" date="2017-10-01T19:44:38.709" /><!-- duration: 0ms -->
+      <step title="write  14315 bytes to /nsm-pet-bdportal-uat-wapp/Pet_Insurance_files/jquery.slimscroll.js" date="2017-10-01T19:44:38.999" /><!-- duration: 0ms -->
+      <step title="write   3331 bytes to /nsm-pet-bdportal-uat-wapp/Pet_Insurance_files/js" date="2017-10-01T19:44:39.111" /><!-- duration: 0ms -->
+      <step title="write  32135 bytes to /nsm-pet-bdportal-uat-wapp/Pet_Insurance_files/ng-map.min.js" date="2017-10-01T19:44:39.251" /><!-- duration: 170ms -->
+      <step title="write    123 bytes to /nsm-pet-bdportal-uat-wapp/Pet_Insurance_files/newstyles.css" date="2017-10-01T19:44:39.453" /><!-- duration: 16ms -->
+      <step title="write  54778 bytes to /nsm-pet-bdportal-uat-wapp/Pet_Insurance_files/layout.css" date="2017-10-01T19:44:39.484" /><!-- duration: 16ms -->
+      <step title="write   3789 bytes to /nsm-pet-bdportal-uat-wapp/Pet_Insurance_files/owl.carousel.css" date="2017-10-01T19:44:39.499" /><!-- duration: 19ms -->
+      <step title="write 143087 bytes to /nsm-pet-bdportal-uat-wapp/Pet_Insurance_files/thirdslide-image.png" date="2017-10-01T19:44:39.721" /><!-- duration: 13ms -->
+      <step title="write 105871 bytes to /nsm-pet-bdportal-uat-wapp/Pet_Insurance_files/thumbnail-02.jpg" date="2017-10-01T19:44:40.111" /><!-- duration: 29ms -->
+      <step title="write 288212 bytes to /nsm-pet-bdportal-uat-wapp/Pet_Insurance_files/thumbnail-01.jpg" date="2017-10-01T19:44:40.189" /><!-- duration: 29ms -->
+      <step title="write 106506 bytes to /nsm-pet-bdportal-uat-wapp/Pet_Insurance_files/thumbnail-03.jpg" date="2017-10-01T19:44:40.298" /><!-- duration: 60ms -->
+      <step title="write 130736 bytes to /nsm-pet-bdportal-uat-wapp/Pet_Insurance_files/thumbnail-06.jpg" date="2017-10-01T19:44:40.377" /><!-- duration: 0ms -->
+      <step title="write   2804 bytes to /nsm-pet-bdportal-uat-wapp/services/mainService.js" date="2017-10-01T19:44:40.489" /><!-- duration: 140ms -->
+      <step title="write    666 bytes to /nsm-pet-bdportal-uat-wapp/Web_10Jul2017.config" date="2017-10-01T19:44:41.156" /><!-- duration: 0ms -->
+      <step title="write   3789 bytes to /nsm-pet-bdportal-uat-wapp/assets/css/owl.carousel.css" date="2017-10-01T19:44:41.203" /><!-- duration: 0ms -->
+      <step title="write   1056 bytes to /nsm-pet-bdportal-uat-wapp/Web.config" date="2017-10-01T19:44:41.265" /><!-- duration: 16ms -->
+      <step title="write  50070 bytes to /nsm-pet-bdportal-uat-wapp/assets/css/jquery.mmenu.all.css" date="2017-10-01T19:44:41.281" /><!-- duration: 16ms -->
+      <step title="write 143087 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/thirdslide-image.png" date="2017-10-01T19:44:41.359" /><!-- duration: 16ms -->
+      <step title="write 288212 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/thumbnail-01.jpg" date="2017-10-01T19:44:41.724" /><!-- duration: 16ms -->
+      <step title="write 105871 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/thumbnail-02.jpg" date="2017-10-01T19:44:41.802" /><!-- duration: 0ms -->
+      <step title="write 130736 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/thumbnail-06.jpg" date="2017-10-01T19:44:41.928" /><!-- duration: 0ms -->
+      <step title="write  14315 bytes to /nsm-pet-bdportal-uat-wapp/assets/js/jquery.slimscroll.js" date="2017-10-01T19:44:42.040" /><!-- duration: 11ms -->
+      <step title="write 106506 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/thumbnail-03.jpg" date="2017-10-01T19:44:42.084" /><!-- duration: 0ms -->
+      <step title="write  15615 bytes to /nsm-pet-bdportal-uat-wapp/assets/css/bootstrap-datepicker.min.css" date="2017-10-01T19:44:42.368" /><!-- duration: 28ms -->
+      <step title="write  32135 bytes to /nsm-pet-bdportal-uat-wapp/assets/js/ng-map.min.js" date="2017-10-01T19:44:42.411" /><!-- duration: 0ms -->
+      <step title="write   5532 bytes to /nsm-pet-bdportal-uat-wapp/assets/css/bootstrap-theme.min.css.map" date="2017-10-01T19:44:42.520" /><!-- duration: 16ms -->
+      <step title="write   5208 bytes to /nsm-pet-bdportal-uat-wapp/assets/css/custom-bootstrap.css" date="2017-10-01T19:44:42.646" /><!-- duration: 16ms -->
+      <step title="write  70548 bytes to /nsm-pet-bdportal-uat-wapp/assets/css/common.css" date="2017-10-01T19:44:42.695" /><!-- duration: 0ms -->
+      <step title="write     72 bytes to /nsm-pet-bdportal-uat-wapp/assets/css/custom.css" date="2017-10-01T19:44:42.930" /><!-- duration: 0ms -->
+      <step title="write  17559 bytes to /nsm-pet-bdportal-uat-wapp/assets/css/datepicker.css" date="2017-10-01T19:44:42.977" /><!-- duration: 0ms -->
+      <step title="write  31527 bytes to /nsm-pet-bdportal-uat-wapp/assets/css/default-theme.css" date="2017-10-01T19:44:43.087" /><!-- duration: 0ms -->
+      <step title="write  51643 bytes to /nsm-pet-bdportal-uat-wapp/assets/css/layout.css" date="2017-10-01T19:44:43.165" /><!-- duration: 0ms -->
+      <step title="write   1858 bytes to /nsm-pet-bdportal-uat-wapp/assets/fonts/@flaticon.css" date="2017-10-01T19:44:43.243" /><!-- duration: 17ms -->
+      <step title="write   9664 bytes to /nsm-pet-bdportal-uat-wapp/assets/fonts/Penna.eot" date="2017-10-01T19:44:43.415" /><!-- duration: 0ms -->
+      <step title="write  23747 bytes to /nsm-pet-bdportal-uat-wapp/assets/fonts/Penna.svg" date="2017-10-01T19:44:43.509" /><!-- duration: 0ms -->
+      <step title="write 460711 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/businessinsurance.jpg" date="2017-10-01T19:44:43.734" /><!-- duration: 0ms -->
+      <step title="write   2946 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/config-tool-logo.png" date="2017-10-01T19:44:43.765" /><!-- duration: 0ms -->
+      <step title="write 111344 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/coverages-bg.jpg" date="2017-10-01T19:44:43.925" /><!-- duration: 16ms -->
+      <step title="write  12663 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/driver1.jpg" date="2017-10-01T19:44:43.972" /><!-- duration: 0ms -->
+      <step title="write  14983 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/driver2.jpg" date="2017-10-01T19:44:44.066" /><!-- duration: 0ms -->
+      <step title="write  11332 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/driver3.jpg" date="2017-10-01T19:44:44.229" /><!-- duration: 0ms -->
+      <step title="write 254283 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/findagent.jpg" date="2017-10-01T19:44:44.355" /><!-- duration: 0ms -->
+      <step title="write   4030 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/jackimage.jpg" date="2017-10-01T19:44:44.479" /><!-- duration: 0ms -->
+      <step title="write  77742 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/thumbnail-04.jpg" date="2017-10-01T19:44:44.558" /><!-- duration: 0ms -->
+      <step title="write 113417 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/thumbnail-05.jpg" date="2017-10-01T19:44:44.839" /><!-- duration: 0ms -->
+      <step title="write 364031 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/videoImage.jpg" date="2017-10-01T19:44:44.995" /><!-- duration: 0ms -->
+      <step title="write 261584 bytes to /nsm-pet-bdportal-uat-wapp/assets/images/video.jpg" date="2017-10-01T19:44:45.089" /><!-- duration: 95ms -->
+      <step title="write  29134 bytes to /nsm-pet-bdportal-uat-wapp/assets/js/bootstrap-datepicker.min.js" date="2017-10-01T19:44:45.184" /><!-- duration: 16ms -->
+      <step title="write   1375 bytes to /nsm-pet-bdportal-uat-wapp/assets/js/jquery.bootstrap-responsive-tabs.min.js" date="2017-10-01T19:44:45.247" /><!-- duration: 0ms -->
+      <step title="write   1905 bytes to /nsm-pet-bdportal-uat-wapp/assets/js/jquery.bootstrap-responsive-tabs.min.js.map" date="2017-10-01T19:44:45.403" /><!-- duration: 16ms -->
+      <step title="write   9584 bytes to /nsm-pet-bdportal-uat-wapp/assets/js/ranger.js" date="2017-10-01T19:44:45.467" /><!-- duration: 0ms -->
+    </step><!-- duration: 56816ms -->
+    <step title="None repository commit" date="2017-10-01T19:44:45.577" >
+      <step title="Commit id: 22973d627016465387b062378a8bd6e2" date="2017-10-01T19:44:45.577" Messsage="Synchronized 220 change(s) from Dropbox." AuthorName="Bala Kalepu" AuthorEmail="bala.kalepu@valuemomentum.biz" /><!-- duration: 0ms -->
+    </step><!-- duration: 16ms -->
+    <step title="Update dropbox cursor" date="2017-10-01T19:44:45.593" /><!-- duration: 0ms -->
+    <step title="DeploymentManager.Deploy(id:22973d627016465387b062378a8bd6e2)" date="2017-10-01T19:44:45.609" >
+      <step title="Collecting changeset information" date="2017-10-01T19:44:45.624" /><!-- duration: 31ms -->
+      <step title="Updating submodules" date="2017-10-01T19:44:45.671" /><!-- duration: 54ms -->
+      <step title="Determining deployment builder" date="2017-10-01T19:44:45.835" >
+        <step title="Builder is BasicBuilder" date="2017-10-01T19:44:45.898" /><!-- duration: 0ms -->
+      </step><!-- duration: 64ms -->
+      <step title="Copying SSH keys" date="2017-10-01T19:44:45.930" /><!-- duration: 20ms -->
+      <step title="Building" date="2017-10-01T19:44:45.949" >
+        <step title="Generating deployment script" date="2017-10-01T19:44:46.039" >
+          <step title="Using cached version of the deployment script for command: -y --no-dot-deployment -r &quot;D:\home\site\wwwroot&quot; -o &quot;D:\home\site\deployments\tools&quot; --basic --sitePath &quot;D:\home\site\wwwroot&quot;" date="2017-10-01T19:44:46.086" /><!-- duration: 0ms -->
+        </step><!-- duration: 62ms -->
+        <step title="Executing external process" date="2017-10-01T19:44:46.164" type="process" path="starter.cmd" arguments="&quot;D:\home\site\deployments\tools\deploy.cmd&quot;" /><!-- duration: 594ms -->
+        <step title="Skip function trigger and logicapp sync because function is not enabled." date="2017-10-01T19:44:46.805" /><!-- duration: 0ms -->
+      </step><!-- duration: 1043ms -->
+    </step><!-- duration: 1384ms -->
+    <step title="Cleaning up temp files" date="2017-10-01T19:44:46.992" /><!-- duration: 16ms -->
+    <step title="WebHooksManager.PublishEventAsync: PostDeployment" date="2017-10-01T19:44:47.023" /><!-- duration: 31ms -->
+  </step><!-- duration: 58515ms -->
+</step><!-- duration: 58562ms -->

@@ -1,0 +1,34 @@
+<step title="BackgroundTrace" date="2017-12-04T07:39:56.360" instance="9bfde0" url="/deploy" method="POST" >
+  <step title="Creating temporary deployment" date="2017-12-04T07:39:56.392" /><!-- duration: 62ms -->
+  <step title="Performing fetch based deployment" date="2017-12-04T07:39:56.500" >
+    <step title="Sync with Dropbox" date="2017-12-04T07:39:56.610" >
+      <step title="Updating deploy info" date="2017-12-04T07:39:56.629" >
+        <step title="Fetching delta for cursor &apos;AAFCQ10cqaU9XKXhW_FsN1zdtqtniLoXzdGDOQntYwcloZ8Phg2XpvqOnmorUrwWydxBYP5axd--0K9RRSZddMR1xgqpGTJ19llydQUZWVt8uypPUs8NHzetn6vUJQBa-dt3jHQ25fdNLsnINK51VZG7bpO_8YN9HnpPVUW8_qzGVG2WtmRMzrMt9elux00A1qQptwULd4RkcxYk1kn_fLmFOD4V3LCgEuqhAkGijq6cBg&apos;." date="2017-12-04T07:39:56.629" /><!-- duration: 12ms -->
+        <step title="Delta response exhausted. New cursor at &apos;AAEDBGIRx7F35XCDghiaesepFhYYVKbKkkT5CUPWal5jngzoqkF3lU6EU6wnjeGVUEWYhVT17ef7cSN54gLMwnzy_kfAmuv-Y79nliDh_zL0JtgBSLNXbNx5kqVWwhawBB5JT12_rM3OhEWby-60OIdeRe0FZ8heISyFr1E4yJkz-jeE1d35l0WGB9bXsy74wGHjc7Nb7b_ec2ICtfPFA64nqJZlG-MCv2efONagynr-pQ&apos;." date="2017-12-04T07:39:57.250" /><!-- duration: 16ms -->
+      </step><!-- duration: 637ms -->
+      <step title="del /nsm-pet-bdportal-uat-wapp/App_Offline.htm1" date="2017-12-04T07:39:57.286" /><!-- duration: 13ms -->
+      <step title="write    196 bytes to /nsm-pet-bdportal-uat-wapp/App_Offline.htm" date="2017-12-04T07:39:59.125" /><!-- duration: 16ms -->
+      <step title="write   1056 bytes to /nsm-pet-bdportal-uat-wapp/Web.config2" date="2017-12-04T07:39:59.172" /><!-- duration: 0ms -->
+      <step title="write    325 bytes to /nsm-pet-bdportal-uat-wapp/Web.Config" date="2017-12-04T07:39:59.188" /><!-- duration: 0ms -->
+    </step><!-- duration: 2593ms -->
+    <step title="Update dropbox cursor" date="2017-12-04T07:39:59.362" /><!-- duration: 0ms -->
+    <step title="DeploymentManager.Deploy(id:f519b883b2ec446a99ee5c90aae51f79)" date="2017-12-04T07:39:59.410" >
+      <step title="Collecting changeset information" date="2017-12-04T07:39:59.426" /><!-- duration: 93ms -->
+      <step title="Updating submodules" date="2017-12-04T07:39:59.538" /><!-- duration: 138ms -->
+      <step title="Determining deployment builder" date="2017-12-04T07:40:00.003" >
+        <step title="Builder is BasicBuilder" date="2017-12-04T07:40:00.991" /><!-- duration: 0ms -->
+      </step><!-- duration: 1007ms -->
+      <step title="Copying SSH keys" date="2017-12-04T07:40:01.208" /><!-- duration: 19ms -->
+      <step title="Building" date="2017-12-04T07:40:01.239" >
+        <step title="Generating deployment script" date="2017-12-04T07:40:01.505" >
+          <step title="Executing external process" date="2017-12-04T07:40:01.614" type="process" path="starter.cmd" arguments="&quot;D:\Program Files (x86)\SiteExtensions\Kudu\68.61122.3143\bin\node_modules\.bin\kuduscript.cmd&quot; -y --no-dot-deployment -r &quot;D:\home\site\wwwroot&quot; -o &quot;D:\home\site\deployments\tools&quot; --basic --sitePath &quot;D:\home\site\wwwroot&quot;" /><!-- duration: 2436ms -->
+          <step title="Saved cached version of the deployment script for command -y --no-dot-deployment -r &quot;D:\home\site\wwwroot&quot; -o &quot;D:\home\site\deployments\tools&quot; --basic --sitePath &quot;D:\home\site\wwwroot&quot;" date="2017-12-04T07:40:04.191" /><!-- duration: 0ms -->
+        </step><!-- duration: 2702ms -->
+        <step title="Executing external process" date="2017-12-04T07:40:04.862" type="process" path="starter.cmd" arguments="&quot;D:\home\site\deployments\tools\deploy.cmd&quot;" /><!-- duration: 594ms -->
+        <step title="Skip function trigger and logicapp sync because function is not enabled." date="2017-12-04T07:40:05.567" /><!-- duration: 14ms -->
+      </step><!-- duration: 4565ms -->
+    </step><!-- duration: 6412ms -->
+    <step title="Cleaning up temp files" date="2017-12-04T07:40:05.821" /><!-- duration: 0ms -->
+    <step title="WebHooksManager.PublishEventAsync: PostDeployment" date="2017-12-04T07:40:05.837" /><!-- duration: 94ms -->
+  </step><!-- duration: 9482ms -->
+</step><!-- duration: 9635ms -->

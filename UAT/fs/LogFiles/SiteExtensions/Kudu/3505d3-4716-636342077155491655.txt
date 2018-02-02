@@ -1,0 +1,12 @@
+2017-06-28T00:48:31  PID[4716] Information Unpacking resources...
+2017-06-28T00:48:32  PID[4716] Information Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+2017-06-28T00:48:32  PID[4716] Information Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+2017-06-28T00:48:32  PID[4716] Information Detected an Azure App Service sandbox.
+2017-06-28T00:48:32  PID[4716] Information Data cube: 94086950-2dc9-465d-91e8-2a3be3680101
+2017-06-28T00:48:32  PID[4716] Information Collection endPoint: https://agent.azureserviceprofiler.net
+2017-06-28T00:48:32  PID[4716] Information Initializing agent...
+2017-06-28T00:48:32  PID[4716] Information Set up shutdown handler.
+2017-06-28T00:48:32  PID[4716] Information Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\3ypczpfc.ran.
+2017-06-28T00:48:34  PID[4716] Information Profiling is currently disabled.
+2017-06-28T00:48:34  PID[4716] Information Agent started to stand by.
+2017-06-30T15:23:23  PID[4716] Warning     The trace listener is disabled after running too long.

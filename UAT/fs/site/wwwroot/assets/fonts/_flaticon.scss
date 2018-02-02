@@ -1,0 +1,81 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 17/02/2016 11:31
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-check:before { content: "\f100"; }
+.flaticon-coins:before { content: "\f101"; }
+.flaticon-cross:before { content: "\f102"; }
+.flaticon-interface:before { content: "\f103"; }
+.flaticon-mark:before { content: "\f104"; }
+.flaticon-mark-1:before { content: "\f105"; }
+.flaticon-note:before { content: "\f106"; }
+.flaticon-people:before { content: "\f107"; }
+.flaticon-play:before { content: "\f108"; }
+.flaticon-social:before { content: "\f109"; }
+.flaticon-social-1:before { content: "\f10a"; }
+.flaticon-social-2:before { content: "\f10b"; }
+.flaticon-social-3:before { content: "\f10c"; }
+.flaticon-social-4:before { content: "\f10d"; }
+.flaticon-tag:before { content: "\f10e"; }
+.flaticon-technology:before { content: "\f10f"; }
+.flaticon-technology-1:before { content: "\f110"; }
+.flaticon-technology-2:before { content: "\f111"; }
+.flaticon-technology-3:before { content: "\f112"; }
+.flaticon-tool:before { content: "\f113"; }
+.flaticon-transport:before { content: "\f114"; }
+    
+    $font-Flaticon-check: "\f100";
+    $font-Flaticon-coins: "\f101";
+    $font-Flaticon-cross: "\f102";
+    $font-Flaticon-interface: "\f103";
+    $font-Flaticon-mark: "\f104";
+    $font-Flaticon-mark-1: "\f105";
+    $font-Flaticon-note: "\f106";
+    $font-Flaticon-people: "\f107";
+    $font-Flaticon-play: "\f108";
+    $font-Flaticon-social: "\f109";
+    $font-Flaticon-social-1: "\f10a";
+    $font-Flaticon-social-2: "\f10b";
+    $font-Flaticon-social-3: "\f10c";
+    $font-Flaticon-social-4: "\f10d";
+    $font-Flaticon-tag: "\f10e";
+    $font-Flaticon-technology: "\f10f";
+    $font-Flaticon-technology-1: "\f110";
+    $font-Flaticon-technology-2: "\f111";
+    $font-Flaticon-technology-3: "\f112";
+    $font-Flaticon-tool: "\f113";
+    $font-Flaticon-transport: "\f114";

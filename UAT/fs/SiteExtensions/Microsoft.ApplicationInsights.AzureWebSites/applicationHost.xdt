@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+  <!-- https://github.com/aspnet/AzureIntegration/tree/dev/src/Microsoft.Web.Xdt.Extensions -->
+  <xdt:Import path="%XDT_EXTENSIONPATH%\Microsoft.Web.Xdt.Extensions.dll" namespace="Microsoft.Web.Xdt.Extensions" />
+  
+  <location path="%XDT_SITENAME%" xdt:Locator="Match(path)">
+    <system.webServer xdt:Transform="InsertIfMissing">
+      <runtime xdt:Transform="InsertIfMissing" >
+        <environmentVariables xdt:Transform="InsertIfMissing">
+          <add name="COR_ENABLE_PROFILING" value="1" xdt:Locator="Match(name)" xdt:Transform="InsertIfMissing" />
+          <add name="COR_PROFILER" value="{324F817A-7420-4E6D-B3C1-143FBED6D855}" xdt:Locator="Match(name)" xdt:Transform="InsertIfMissing" />
+          <add name="COR_PROFILER_PATH" value="%XDT_EXTENSIONPATH%\Agent\MicrosoftInstrumentationEngine.dll" xdt:Locator="Match(name)" xdt:Transform="InsertIfMissing"/>
+          <add name="MicrosoftInstrumentationEngine_Host" value="{CA487940-57D2-10BF-11B2-A3AD5A13CBC0}" xdt:Locator="Match(name)" xdt:Transform="InsertIfMissing"/>
+          <add name="MicrosoftInstrumentationEngine_HostPath" value="%XDT_EXTENSIONPATH%\Agent\Microsoft.ApplicationInsights.ExtensionsHost.dll" xdt:Locator="Match(name)" xdt:Transform="InsertIfMissing"/>
+        </environmentVariables>
+      </runtime>
+      <rewrite xdt:Transform="InsertIfMissing">
+        <allowedServerVariables xdt:Transform="InsertIfMissing">
+          <add name="HTTP_X_ORIGINAL_ACCEPT_ENCODING" xdt:Locator="Match(name)" xdt:Transform="InsertIfMissing" />
+          <add name="HTTP_ACCEPT_ENCODING" xdt:Locator="Match(name)" xdt:Transform="InsertIfMissing" />
+        </allowedServerVariables>
+
+        <rules xdt:Transform="InsertIfMissing">
+          <rule name="ClearAcceptEncodingHeader" patternSyntax="Wildcard" xdt:Transform="InsertIfMissing">
+            <match url="*" />
+            <conditions>
+              <add input="{EnvVarProvider:APPINSIGHTS_JAVASCRIPT_ENABLED}" pattern="^true" ignoreCase="true" />
+              <add input="{APPINSIGHTS_JAVASCRIPT_ENABLED}" pattern="^false" ignoreCase="true" negate="true" />
+            </conditions>
+            <serverVariables>
+              <set name="HTTP_X_ORIGINAL_ACCEPT_ENCODING" value="{HTTP_ACCEPT_ENCODING}" />
+              <set name="HTTP_ACCEPT_ENCODING" value="" />
+            </serverVariables>
+            <action type="None" />
+          </rule>
+        </rules>
+
+        <outboundRules rewriteBeforeCache="true" xdt:Transform="InsertOrAppendAttribute(Attribute='rewriteBeforeCache')">
+          <rule name="AddApplicationInsightsScript" preCondition="IsApplicationInsightsEnabled" xdt:Transform="InsertIfMissing">
+            <match pattern="&lt;/head>" />
+            <action type="Rewrite" value="    &lt;script type=&quot;text/javascript&quot;>if (!window.appInsights){UrlDecode:%7B}         var appInsights=window.appInsights||function(config){UrlDecode:%7B}             function i(config){UrlDecode:%7B}t[config]=function(){UrlDecode:%7B}var i=arguments;t.queue.push(function(){UrlDecode:%7B}t[config].apply(t,i)})}}var t={UrlDecode:%7B}config:config},u=document,e=window,o=&quot;script&quot;,s=&quot;AuthenticatedUserContext&quot;,h=&quot;start&quot;,c=&quot;stop&quot;,l=&quot;Track&quot;,a=l+&quot;Event&quot;,v=l+&quot;Page&quot;,y=u.createElement(o),r,f;y.src=config.url||&quot;https://az416426.vo.msecnd.net/scripts/a/ai.0.js&quot;;u.getElementsByTagName(o)[0].parentNode.appendChild(y);try{UrlDecode:%7B}t.cookie=u.cookie}catch(p){UrlDecode:%7B}}for(t.queue=[],t.version=&quot;1.0&quot;,r=[&quot;Event&quot;,&quot;Exception&quot;,&quot;Metric&quot;,&quot;PageView&quot;,&quot;Trace&quot;,&quot;Dependency&quot;];r.length;)i(&quot;track&quot;+r.pop());return i(&quot;set&quot;+s),i(&quot;clear&quot;+s),i(h+a),i(c+a),i(h+v),i(c+v),i(&quot;flush&quot;),config.disableExceptionTracking||(r=&quot;onerror&quot;,i(&quot;_&quot;+r),f=e[r],e[r]=function(config,i,u,e,o){UrlDecode:%7B}var s=f&amp;&amp;f(config,i,u,e,o);return s!==!0&amp;&amp;t[&quot;_&quot;+r](config,i,u,e,o),s}),t         }({UrlDecode:%7B}             instrumentationKey:&quot;{EnvVarProvider:APPINSIGHTS_INSTRUMENTATIONKEY}&quot;         });                  window.appInsights=appInsights;         appInsights.trackPageView(); }     &lt;/script>&lt;/head>" />
+          </rule>
+
+          <rule name="RestoreAcceptEncodingHeader" preCondition="NeedsRestoringAcceptEncoding" xdt:Transform="InsertIfMissing">
+            <match serverVariable="HTTP_ACCEPT_ENCODING" pattern="^(.*)" />
+            <action type="Rewrite" value="{HTTP_X_ORIGINAL_ACCEPT_ENCODING}" />
+          </rule>
+
+          <preConditions xdt:Transform="InsertIfMissing">
+            <preCondition name="IsApplicationInsightsEnabled" xdt:Locator="Match(name)" xdt:Transform="InsertIfMissing">
+              <add input="{EnvVarProvider:APPINSIGHTS_JAVASCRIPT_ENABLED}" pattern="^true" ignoreCase="true" />
+              <add input="{APPINSIGHTS_JAVASCRIPT_ENABLED}" pattern="^false" ignoreCase="true" negate="true" />
+              <add input="{RESPONSE_CONTENT_TYPE}" pattern="^text/html" />
+              <add input="{HTTP_HOST}" pattern=".*\.scm\.azurewebsites\.net" negate="true" />
+            </preCondition>
+
+            <preCondition name="NeedsRestoringAcceptEncoding" xdt:Locator="Match(name)" xdt:Transform="InsertIfMissing">
+              <add input="{HTTP_X_ORIGINAL_ACCEPT_ENCODING}" pattern=".+" />
+            </preCondition>
+          </preConditions>
+        </outboundRules>
+
+        <providers xdt:Transform="InsertIfMissing">
+          <provider name="EnvVarProvider" xdt:Locator="Match(name)" xdt:Transform="RemoveAll"/>
+          <provider xdt:Transform="InsertIfMissing" name="EnvVarProvider" type="Microsoft.Web.Hosting.EnvVarProvider.EnvVarProvider, Microsoft.Web.Hosting.EnvVarProvider, Version=7.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+        </providers>
+      </rewrite>
+
+      <urlCompression dynamicCompressionBeforeCache="false" xdt:Transform="InsertOrAppendAttribute(Attribute='dynamicCompressionBeforeCache')"/>
+    </system.webServer>
+  </location>
+</configuration>

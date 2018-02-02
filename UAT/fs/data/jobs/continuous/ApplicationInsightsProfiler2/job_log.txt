@@ -1,0 +1,1691 @@
+[08/23/2017 10:27:59 > 3c1c1b: SYS INFO] Status changed to Starting
+[08/23/2017 10:27:59 > 3c1c1b: SYS INFO] WebJob singleton setting is False
+[08/23/2017 10:28:00 > 3c1c1b: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[08/23/2017 10:28:00 > 3c1c1b: SYS INFO] Status changed to Running
+[08/23/2017 10:28:00 > 3c1c1b: INFO] Unpacking resources...
+[08/23/2017 10:28:00 > 3c1c1b: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[08/23/2017 10:28:01 > 3c1c1b: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[08/23/2017 10:28:01 > 3c1c1b: INFO] Detected an Azure App Service sandbox.
+[08/23/2017 10:28:01 > 3c1c1b: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[08/23/2017 10:28:01 > 3c1c1b: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[08/23/2017 10:28:01 > 3c1c1b: INFO] Initializing agent...
+[08/23/2017 10:28:01 > 3c1c1b: INFO] Set up shutdown handler.
+[08/23/2017 10:28:01 > 3c1c1b: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\wyqj0pqd.erd.
+[08/23/2017 10:28:04 > 3c1c1b: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[08/23/2017 10:28:04 > 3c1c1b: INFO] Finished initializing request performance monitor (Activity Monitor).
+[08/23/2017 10:28:04 > 3c1c1b: INFO] Agent initialization completed successfully
+[08/23/2017 10:49:59 > 3c1c1b: SYS INFO] Status changed to Stopping
+[08/23/2017 10:50:00 > 3c1c1b: INFO] Received shutdown request.
+[08/23/2017 10:50:00 > 3c1c1b: INFO] Stopping Engine.
+[08/23/2017 10:50:00 > 3c1c1b: SYS INFO] Status changed to Success
+[08/23/2017 10:50:00 > 3c1c1b: SYS INFO] Status changed to Stopped
+[08/23/2017 10:57:35 > 3c1c1b: SYS INFO] Detected WebJob file/s were updated, refreshing WebJob
+[08/23/2017 10:57:35 > 3c1c1b: SYS INFO] Status changed to Starting
+[08/23/2017 10:57:35 > 3c1c1b: SYS INFO] WebJob singleton setting is False
+[08/23/2017 10:57:36 > 3c1c1b: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[08/23/2017 10:57:36 > 3c1c1b: SYS INFO] Status changed to Running
+[08/23/2017 10:57:36 > 3c1c1b: INFO] Unpacking resources...
+[08/23/2017 10:57:36 > 3c1c1b: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[08/23/2017 10:57:36 > 3c1c1b: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[08/23/2017 10:57:36 > 3c1c1b: INFO] Detected an Azure App Service sandbox.
+[08/23/2017 10:57:36 > 3c1c1b: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[08/23/2017 10:57:36 > 3c1c1b: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[08/23/2017 10:57:37 > 3c1c1b: INFO] Initializing agent...
+[08/23/2017 10:57:37 > 3c1c1b: INFO] Set up shutdown handler.
+[08/23/2017 10:57:37 > 3c1c1b: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\zyz23xhg.uab.
+[08/23/2017 10:57:40 > 3c1c1b: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[08/23/2017 10:57:40 > 3c1c1b: INFO] Exit because of a fatal error of the agent. Details: System.TypeInitializationException: The type initializer for 'Microsoft.ServiceProfiler.DiagnosticsAgent.AntaresCollectorService' threw an exception. ---> System.UnauthorizedAccessException: Creating an instance of the COM component with CLSID {874E03B4-29BD-4628-A0F6-78B8B011ADA9} from the IClassFactory failed due to the following error: 80070005 Access is denied. (Exception from HRESULT: 0x80070005 (E_ACCESSDENIED)).
+[08/23/2017 10:57:40 > 3c1c1b: INFO]    at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+[08/23/2017 10:57:40 > 3c1c1b: INFO]    at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+[08/23/2017 10:57:40 > 3c1c1b: INFO]    at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+[08/23/2017 10:57:40 > 3c1c1b: INFO]    at System.Activator.CreateInstance(Type type)
+[08/23/2017 10:57:40 > 3c1c1b: INFO]    at Microsoft.ServiceProfiler.DiagnosticsAgent.AntaresCollectorService..cctor()
+[08/23/2017 10:57:40 > 3c1c1b: INFO]    --- End of inner exception stack trace ---
+[08/23/2017 10:57:40 > 3c1c1b: INFO]    at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+[08/23/2017 10:57:40 > 3c1c1b: INFO]    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+[08/23/2017 10:57:40 > 3c1c1b: INFO]    at Microsoft.ServiceProfiler.DiagnosticsAgent.Program.<DoMain>d__8.MoveNext()
+[08/23/2017 10:57:40 > 3c1c1b: SYS ERR ] Job failed due to exit code 1
+[08/23/2017 10:57:40 > 3c1c1b: SYS INFO] Process went down, waiting for 60 seconds
+[08/23/2017 10:57:40 > 3c1c1b: SYS INFO] Status changed to PendingRestart
+[08/23/2017 10:58:40 > 3c1c1b: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[08/23/2017 10:58:40 > 3c1c1b: SYS INFO] Status changed to Running
+[08/23/2017 10:58:40 > 3c1c1b: INFO] Unpacking resources...
+[08/23/2017 10:58:41 > 3c1c1b: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[08/23/2017 10:58:41 > 3c1c1b: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[08/23/2017 10:58:41 > 3c1c1b: INFO] Detected an Azure App Service sandbox.
+[08/23/2017 10:58:41 > 3c1c1b: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[08/23/2017 10:58:41 > 3c1c1b: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[08/23/2017 10:58:41 > 3c1c1b: INFO] Initializing agent...
+[08/23/2017 10:58:41 > 3c1c1b: INFO] Set up shutdown handler.
+[08/23/2017 10:58:41 > 3c1c1b: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\ghenktmv.iqf.
+[08/23/2017 10:58:43 > 3c1c1b: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[08/23/2017 10:58:43 > 3c1c1b: INFO] Exit because of a fatal error of the agent. Details: System.TypeInitializationException: The type initializer for 'Microsoft.ServiceProfiler.DiagnosticsAgent.AntaresCollectorService' threw an exception. ---> System.UnauthorizedAccessException: Creating an instance of the COM component with CLSID {874E03B4-29BD-4628-A0F6-78B8B011ADA9} from the IClassFactory failed due to the following error: 80070005 Access is denied. (Exception from HRESULT: 0x80070005 (E_ACCESSDENIED)).
+[08/23/2017 10:58:43 > 3c1c1b: INFO]    at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+[08/23/2017 10:58:43 > 3c1c1b: INFO]    at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+[08/23/2017 10:58:43 > 3c1c1b: INFO]    at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+[08/23/2017 10:58:43 > 3c1c1b: INFO]    at System.Activator.CreateInstance(Type type)
+[08/23/2017 10:58:43 > 3c1c1b: INFO]    at Microsoft.ServiceProfiler.DiagnosticsAgent.AntaresCollectorService..cctor()
+[08/23/2017 10:58:43 > 3c1c1b: INFO]    --- End of inner exception stack trace ---
+[08/23/2017 10:58:43 > 3c1c1b: INFO]    at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+[08/23/2017 10:58:43 > 3c1c1b: INFO]    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+[08/23/2017 10:58:43 > 3c1c1b: INFO]    at Microsoft.ServiceProfiler.DiagnosticsAgent.Program.<DoMain>d__8.MoveNext()
+[08/23/2017 10:58:43 > 3c1c1b: SYS ERR ] Job failed due to exit code 1
+[08/23/2017 10:58:43 > 3c1c1b: SYS INFO] Process went down, waiting for 60 seconds
+[08/23/2017 10:58:43 > 3c1c1b: SYS INFO] Status changed to PendingRestart
+[08/23/2017 10:59:43 > 3c1c1b: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[08/23/2017 10:59:43 > 3c1c1b: SYS INFO] Status changed to Running
+[08/23/2017 10:59:43 > 3c1c1b: INFO] Unpacking resources...
+[08/23/2017 10:59:43 > 3c1c1b: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[08/23/2017 10:59:43 > 3c1c1b: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[08/23/2017 10:59:43 > 3c1c1b: INFO] Detected an Azure App Service sandbox.
+[08/23/2017 10:59:43 > 3c1c1b: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[08/23/2017 10:59:43 > 3c1c1b: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[08/23/2017 10:59:44 > 3c1c1b: INFO] Initializing agent...
+[08/23/2017 10:59:44 > 3c1c1b: INFO] Set up shutdown handler.
+[08/23/2017 10:59:44 > 3c1c1b: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\j2xhruac.k5x.
+[08/23/2017 10:59:46 > 3c1c1b: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[08/23/2017 10:59:46 > 3c1c1b: INFO] Exit because of a fatal error of the agent. Details: System.TypeInitializationException: The type initializer for 'Microsoft.ServiceProfiler.DiagnosticsAgent.AntaresCollectorService' threw an exception. ---> System.UnauthorizedAccessException: Creating an instance of the COM component with CLSID {874E03B4-29BD-4628-A0F6-78B8B011ADA9} from the IClassFactory failed due to the following error: 80070005 Access is denied. (Exception from HRESULT: 0x80070005 (E_ACCESSDENIED)).
+[08/23/2017 10:59:46 > 3c1c1b: INFO]    at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+[08/23/2017 10:59:46 > 3c1c1b: INFO]    at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+[08/23/2017 10:59:46 > 3c1c1b: INFO]    at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+[08/23/2017 10:59:46 > 3c1c1b: INFO]    at System.Activator.CreateInstance(Type type)
+[08/23/2017 10:59:46 > 3c1c1b: INFO]    at Microsoft.ServiceProfiler.DiagnosticsAgent.AntaresCollectorService..cctor()
+[08/23/2017 10:59:46 > 3c1c1b: INFO]    --- End of inner exception stack trace ---
+[08/23/2017 10:59:46 > 3c1c1b: INFO]    at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+[08/23/2017 10:59:46 > 3c1c1b: INFO]    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+[08/23/2017 10:59:46 > 3c1c1b: INFO]    at Microsoft.ServiceProfiler.DiagnosticsAgent.Program.<DoMain>d__8.MoveNext()
+[08/23/2017 10:59:46 > 3c1c1b: SYS ERR ] Job failed due to exit code 1
+[08/23/2017 10:59:46 > 3c1c1b: SYS INFO] Process went down, waiting for 60 seconds
+[08/23/2017 10:59:46 > 3c1c1b: SYS INFO] Status changed to PendingRestart
+[08/23/2017 11:00:46 > 3c1c1b: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[08/23/2017 11:00:46 > 3c1c1b: SYS INFO] Status changed to Running
+[08/23/2017 11:00:46 > 3c1c1b: INFO] Unpacking resources...
+[08/23/2017 11:00:46 > 3c1c1b: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[08/23/2017 11:00:46 > 3c1c1b: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[08/23/2017 11:00:47 > 3c1c1b: INFO] Detected an Azure App Service sandbox.
+[08/23/2017 11:00:47 > 3c1c1b: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[08/23/2017 11:00:47 > 3c1c1b: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[08/23/2017 11:00:47 > 3c1c1b: INFO] Initializing agent...
+[08/23/2017 11:00:47 > 3c1c1b: INFO] Set up shutdown handler.
+[08/23/2017 11:00:47 > 3c1c1b: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\w4oypxp0.au1.
+[08/23/2017 11:00:49 > 3c1c1b: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[08/23/2017 11:00:49 > 3c1c1b: INFO] Exit because of a fatal error of the agent. Details: System.TypeInitializationException: The type initializer for 'Microsoft.ServiceProfiler.DiagnosticsAgent.AntaresCollectorService' threw an exception. ---> System.UnauthorizedAccessException: Creating an instance of the COM component with CLSID {874E03B4-29BD-4628-A0F6-78B8B011ADA9} from the IClassFactory failed due to the following error: 80070005 Access is denied. (Exception from HRESULT: 0x80070005 (E_ACCESSDENIED)).
+[08/23/2017 11:00:49 > 3c1c1b: INFO]    at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+[08/23/2017 11:00:49 > 3c1c1b: INFO]    at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+[08/23/2017 11:00:49 > 3c1c1b: INFO]    at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+[08/23/2017 11:00:49 > 3c1c1b: INFO]    at System.Activator.CreateInstance(Type type)
+[08/23/2017 11:00:49 > 3c1c1b: INFO]    at Microsoft.ServiceProfiler.DiagnosticsAgent.AntaresCollectorService..cctor()
+[08/23/2017 11:00:49 > 3c1c1b: INFO]    --- End of inner exception stack trace ---
+[08/23/2017 11:00:49 > 3c1c1b: INFO]    at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+[08/23/2017 11:00:49 > 3c1c1b: INFO]    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+[08/23/2017 11:00:49 > 3c1c1b: INFO]    at Microsoft.ServiceProfiler.DiagnosticsAgent.Program.<DoMain>d__8.MoveNext()
+[08/23/2017 11:00:49 > 3c1c1b: SYS ERR ] Job failed due to exit code 1
+[08/23/2017 11:00:49 > 3c1c1b: SYS INFO] Process went down, waiting for 60 seconds
+[08/23/2017 11:00:49 > 3c1c1b: SYS INFO] Status changed to PendingRestart
+[08/23/2017 11:01:49 > 3c1c1b: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[08/23/2017 11:01:49 > 3c1c1b: SYS INFO] Status changed to Running
+[08/23/2017 11:01:49 > 3c1c1b: INFO] Unpacking resources...
+[08/23/2017 11:01:49 > 3c1c1b: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[08/23/2017 11:01:49 > 3c1c1b: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[08/23/2017 11:01:49 > 3c1c1b: INFO] Detected an Azure App Service sandbox.
+[08/23/2017 11:01:49 > 3c1c1b: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[08/23/2017 11:01:49 > 3c1c1b: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[08/23/2017 11:01:49 > 3c1c1b: INFO] Initializing agent...
+[08/23/2017 11:01:49 > 3c1c1b: INFO] Set up shutdown handler.
+[08/23/2017 11:01:49 > 3c1c1b: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\gzbxnkyv.baa.
+[08/23/2017 11:01:51 > 3c1c1b: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[08/23/2017 11:01:51 > 3c1c1b: INFO] Exit because of a fatal error of the agent. Details: System.TypeInitializationException: The type initializer for 'Microsoft.ServiceProfiler.DiagnosticsAgent.AntaresCollectorService' threw an exception. ---> System.UnauthorizedAccessException: Creating an instance of the COM component with CLSID {874E03B4-29BD-4628-A0F6-78B8B011ADA9} from the IClassFactory failed due to the following error: 80070005 Access is denied. (Exception from HRESULT: 0x80070005 (E_ACCESSDENIED)).
+[08/23/2017 11:01:51 > 3c1c1b: INFO]    at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+[08/23/2017 11:01:51 > 3c1c1b: INFO]    at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+[08/23/2017 11:01:51 > 3c1c1b: INFO]    at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+[08/23/2017 11:01:51 > 3c1c1b: INFO]    at System.Activator.CreateInstance(Type type)
+[08/23/2017 11:01:51 > 3c1c1b: INFO]    at Microsoft.ServiceProfiler.DiagnosticsAgent.AntaresCollectorService..cctor()
+[08/23/2017 11:01:51 > 3c1c1b: INFO]    --- End of inner exception stack trace ---
+[08/23/2017 11:01:51 > 3c1c1b: INFO]    at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+[08/23/2017 11:01:51 > 3c1c1b: INFO]    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+[08/23/2017 11:01:51 > 3c1c1b: INFO]    at Microsoft.ServiceProfiler.DiagnosticsAgent.Program.<DoMain>d__8.MoveNext()
+[08/23/2017 11:01:51 > 3c1c1b: SYS ERR ] Job failed due to exit code 1
+[08/23/2017 11:01:51 > 3c1c1b: SYS INFO] Process went down, waiting for 60 seconds
+[08/23/2017 11:01:51 > 3c1c1b: SYS INFO] Status changed to PendingRestart
+[08/23/2017 11:02:51 > 3c1c1b: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[08/23/2017 11:02:51 > 3c1c1b: SYS INFO] Status changed to Running
+[08/23/2017 11:02:52 > 3c1c1b: INFO] Unpacking resources...
+[08/23/2017 11:02:52 > 3c1c1b: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[08/23/2017 11:02:52 > 3c1c1b: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[08/23/2017 11:02:52 > 3c1c1b: INFO] Detected an Azure App Service sandbox.
+[08/23/2017 11:02:52 > 3c1c1b: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[08/23/2017 11:02:52 > 3c1c1b: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[08/23/2017 11:02:52 > 3c1c1b: INFO] Initializing agent...
+[08/23/2017 11:02:52 > 3c1c1b: INFO] Set up shutdown handler.
+[08/23/2017 11:02:52 > 3c1c1b: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\jc2ctibi.zeh.
+[08/23/2017 11:02:54 > 3c1c1b: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[08/23/2017 11:02:54 > 3c1c1b: INFO] Exit because of a fatal error of the agent. Details: System.TypeInitializationException: The type initializer for 'Microsoft.ServiceProfiler.DiagnosticsAgent.AntaresCollectorService' threw an exception. ---> System.UnauthorizedAccessException: Creating an instance of the COM component with CLSID {874E03B4-29BD-4628-A0F6-78B8B011ADA9} from the IClassFactory failed due to the following error: 80070005 Access is denied. (Exception from HRESULT: 0x80070005 (E_ACCESSDENIED)).
+[08/23/2017 11:02:54 > 3c1c1b: INFO]    at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+[08/23/2017 11:02:54 > 3c1c1b: INFO]    at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+[08/23/2017 11:02:54 > 3c1c1b: INFO]    at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+[08/23/2017 11:02:54 > 3c1c1b: INFO]    at System.Activator.CreateInstance(Type type)
+[08/23/2017 11:02:54 > 3c1c1b: INFO]    at Microsoft.ServiceProfiler.DiagnosticsAgent.AntaresCollectorService..cctor()
+[08/23/2017 11:02:54 > 3c1c1b: INFO]    --- End of inner exception stack trace ---
+[08/23/2017 11:02:54 > 3c1c1b: INFO]    at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+[08/23/2017 11:02:54 > 3c1c1b: INFO]    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+[08/23/2017 11:02:54 > 3c1c1b: INFO]    at Microsoft.ServiceProfiler.DiagnosticsAgent.Program.<DoMain>d__8.MoveNext()
+[08/23/2017 11:02:54 > 3c1c1b: SYS ERR ] Job failed due to exit code 1
+[08/23/2017 11:02:54 > 3c1c1b: SYS INFO] Process went down, waiting for 60 seconds
+[08/23/2017 11:02:54 > 3c1c1b: SYS INFO] Status changed to PendingRestart
+[08/23/2017 11:03:54 > 3c1c1b: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[08/23/2017 11:03:54 > 3c1c1b: SYS INFO] Status changed to Running
+[08/23/2017 11:03:55 > 3c1c1b: INFO] Unpacking resources...
+[08/23/2017 11:03:55 > 3c1c1b: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[08/23/2017 11:03:55 > 3c1c1b: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[08/23/2017 11:03:55 > 3c1c1b: INFO] Detected an Azure App Service sandbox.
+[08/23/2017 11:03:55 > 3c1c1b: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[08/23/2017 11:03:55 > 3c1c1b: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[08/23/2017 11:03:55 > 3c1c1b: INFO] Initializing agent...
+[08/23/2017 11:03:55 > 3c1c1b: INFO] Set up shutdown handler.
+[08/23/2017 11:03:55 > 3c1c1b: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\oq4zmwtq.drc.
+[08/23/2017 11:03:57 > 3c1c1b: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[08/23/2017 11:03:57 > 3c1c1b: INFO] Finished initializing request performance monitor (Activity Monitor).
+[08/23/2017 11:03:57 > 3c1c1b: INFO] Agent initialization completed successfully
+[08/23/2017 12:03:54 > 3c1c1b: SYS INFO] WebJob is still running
+[08/24/2017 00:03:55 > 3c1c1b: SYS INFO] WebJob is still running
+[08/24/2017 07:17:14 > 3c1c1b: SYS INFO] Status changed to Starting
+[08/24/2017 07:17:14 > 3c1c1b: SYS INFO] WebJob singleton setting is False
+[08/24/2017 07:17:15 > 3c1c1b: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[08/24/2017 07:17:16 > 3c1c1b: SYS INFO] Status changed to Running
+[08/24/2017 07:17:16 > 3c1c1b: INFO] Unpacking resources...
+[08/24/2017 07:17:16 > 3c1c1b: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[08/24/2017 07:17:16 > 3c1c1b: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[08/24/2017 07:17:16 > 3c1c1b: INFO] Detected an Azure App Service sandbox.
+[08/24/2017 07:17:16 > 3c1c1b: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[08/24/2017 07:17:16 > 3c1c1b: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[08/24/2017 07:17:16 > 3c1c1b: INFO] Initializing agent...
+[08/24/2017 07:17:16 > 3c1c1b: INFO] Set up shutdown handler.
+[08/24/2017 07:17:16 > 3c1c1b: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\kyc4sxb4.y2i.
+[08/24/2017 07:17:19 > 3c1c1b: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[08/24/2017 07:17:19 > 3c1c1b: INFO] Finished initializing request performance monitor (Activity Monitor).
+[08/24/2017 07:17:19 > 3c1c1b: INFO] Agent initialization completed successfully
+[08/24/2017 08:17:15 > 3c1c1b: SYS INFO] WebJob is still running
+[08/24/2017 11:15:09 > 4bc5c0: SYS INFO] Status changed to Starting
+[08/24/2017 11:15:09 > 4bc5c0: SYS INFO] WebJob singleton setting is False
+[08/24/2017 11:15:09 > 4bc5c0: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[08/24/2017 11:15:10 > 4bc5c0: SYS INFO] Status changed to Running
+[08/24/2017 11:15:10 > 4bc5c0: INFO] Unpacking resources...
+[08/24/2017 11:15:11 > 4bc5c0: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[08/24/2017 11:15:11 > 4bc5c0: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[08/24/2017 11:15:11 > 4bc5c0: INFO] Detected an Azure App Service sandbox.
+[08/24/2017 11:15:11 > 4bc5c0: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[08/24/2017 11:15:11 > 4bc5c0: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[08/24/2017 11:15:12 > 4bc5c0: INFO] Initializing agent...
+[08/24/2017 11:15:12 > 4bc5c0: INFO] Set up shutdown handler.
+[08/24/2017 11:15:12 > 4bc5c0: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\zi1goovq.h5d.
+[08/24/2017 11:15:14 > 4bc5c0: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[08/24/2017 11:15:14 > 4bc5c0: INFO] Finished initializing request performance monitor (Activity Monitor).
+[08/24/2017 11:15:14 > 4bc5c0: INFO] Agent initialization completed successfully
+[08/24/2017 11:16:42 > 3c1c1b: SYS INFO] WebJob is stopping due to website shutting down
+[08/24/2017 11:16:42 > 3c1c1b: SYS INFO] Status changed to Stopping
+[08/24/2017 11:16:43 > 3c1c1b: INFO] Received shutdown request.
+[08/24/2017 11:16:43 > 3c1c1b: INFO] Stopping Engine.
+[08/24/2017 11:16:44 > 3c1c1b: SYS INFO] Status changed to Success
+[08/24/2017 11:16:44 > 3c1c1b: SYS INFO] Status changed to Stopped
+[08/24/2017 12:15:09 > 4bc5c0: SYS INFO] WebJob is still running
+[08/25/2017 00:15:09 > 4bc5c0: SYS INFO] WebJob is still running
+[08/25/2017 12:15:09 > 4bc5c0: SYS INFO] WebJob is still running
+[08/26/2017 00:15:10 > 4bc5c0: SYS INFO] WebJob is still running
+[08/26/2017 12:15:09 > 4bc5c0: SYS INFO] WebJob is still running
+[08/27/2017 00:15:09 > 4bc5c0: SYS INFO] WebJob is still running
+[08/27/2017 12:15:09 > 4bc5c0: SYS INFO] WebJob is still running
+[08/28/2017 00:15:09 > 4bc5c0: SYS INFO] WebJob is still running
+[08/28/2017 12:09:43 > 4bc5c0: SYS INFO] WebJob is stopping due to website shutting down
+[08/28/2017 12:09:44 > 4bc5c0: SYS INFO] Status changed to Stopping
+[08/28/2017 12:09:45 > 4bc5c0: INFO] Received shutdown request.
+[08/28/2017 12:09:45 > 4bc5c0: INFO] Stopping Engine.
+[08/28/2017 12:09:49 > 4bc5c0: SYS INFO] Status changed to Success
+[08/28/2017 12:09:49 > 4bc5c0: SYS INFO] Status changed to Stopped
+[08/28/2017 12:10:17 > 4bc5c0: SYS INFO] Status changed to Starting
+[08/28/2017 12:10:18 > 4bc5c0: SYS INFO] WebJob singleton setting is False
+[08/28/2017 12:10:18 > 4bc5c0: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[08/28/2017 12:10:18 > 4bc5c0: SYS INFO] Status changed to Running
+[08/28/2017 12:10:19 > 4bc5c0: INFO] Unpacking resources...
+[08/28/2017 12:10:19 > 4bc5c0: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[08/28/2017 12:10:19 > 4bc5c0: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[08/28/2017 12:10:20 > 4bc5c0: INFO] Detected an Azure App Service sandbox.
+[08/28/2017 12:10:20 > 4bc5c0: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[08/28/2017 12:10:20 > 4bc5c0: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[08/28/2017 12:10:20 > 4bc5c0: INFO] Initializing agent...
+[08/28/2017 12:10:20 > 4bc5c0: INFO] Set up shutdown handler.
+[08/28/2017 12:10:20 > 4bc5c0: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\qjde3zjg.zqf.
+[08/28/2017 12:10:22 > 4bc5c0: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[08/28/2017 12:10:23 > 4bc5c0: INFO] Finished initializing request performance monitor (Activity Monitor).
+[08/28/2017 12:10:23 > 4bc5c0: INFO] Agent initialization completed successfully
+[08/28/2017 13:05:12 > 4bc5c0: SYS INFO] WebJob is stopping due to website shutting down
+[08/28/2017 13:05:12 > 4bc5c0: SYS INFO] Status changed to Stopping
+[08/28/2017 13:05:12 > 4bc5c0: INFO] Received shutdown request.
+[08/28/2017 13:05:12 > 4bc5c0: INFO] Stopping Engine.
+[08/28/2017 13:05:17 > 4bc5c0: SYS INFO] Status changed to Success
+[08/28/2017 13:05:17 > 4bc5c0: SYS INFO] Status changed to Stopped
+[08/28/2017 13:05:46 > 4bc5c0: SYS INFO] Status changed to Starting
+[08/28/2017 13:05:46 > 4bc5c0: SYS INFO] WebJob singleton setting is False
+[08/28/2017 13:05:47 > 4bc5c0: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[08/28/2017 13:05:47 > 4bc5c0: SYS INFO] Status changed to Running
+[08/28/2017 13:05:50 > 4bc5c0: INFO] Unpacking resources...
+[08/28/2017 13:05:50 > 4bc5c0: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[08/28/2017 13:05:50 > 4bc5c0: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[08/28/2017 13:05:50 > 4bc5c0: INFO] Detected an Azure App Service sandbox.
+[08/28/2017 13:05:50 > 4bc5c0: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[08/28/2017 13:05:51 > 4bc5c0: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[08/28/2017 13:05:51 > 4bc5c0: INFO] Initializing agent...
+[08/28/2017 13:05:51 > 4bc5c0: INFO] Set up shutdown handler.
+[08/28/2017 13:05:51 > 4bc5c0: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\2yiwvqoh.5zc.
+[08/28/2017 13:05:52 > 4bc5c0: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[08/28/2017 13:05:52 > 4bc5c0: INFO] Finished initializing request performance monitor (Activity Monitor).
+[08/28/2017 13:05:52 > 4bc5c0: INFO] Agent initialization completed successfully
+[08/28/2017 14:05:47 > 4bc5c0: SYS INFO] WebJob is still running
+[08/28/2017 17:58:09 > 4bc5c0: SYS INFO] WebJob is stopping due to website shutting down
+[08/28/2017 17:58:10 > 4bc5c0: SYS INFO] Status changed to Stopping
+[08/28/2017 17:58:11 > 4bc5c0: INFO] Received shutdown request.
+[08/28/2017 17:58:11 > 4bc5c0: INFO] Stopping Engine.
+[08/28/2017 17:58:15 > 4bc5c0: SYS INFO] WebJob process was aborted
+[08/28/2017 17:58:15 > 4bc5c0: SYS INFO] Status changed to Stopped
+[08/28/2017 17:59:03 > 4bc5c0: SYS INFO] Status changed to Starting
+[08/28/2017 17:59:03 > 4bc5c0: SYS INFO] WebJob singleton setting is False
+[08/28/2017 17:59:05 > 4bc5c0: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[08/28/2017 17:59:05 > 4bc5c0: SYS INFO] Status changed to Running
+[08/28/2017 17:59:07 > 4bc5c0: INFO] Unpacking resources...
+[08/28/2017 17:59:07 > 4bc5c0: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[08/28/2017 17:59:08 > 4bc5c0: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[08/28/2017 17:59:08 > 4bc5c0: INFO] Detected an Azure App Service sandbox.
+[08/28/2017 17:59:08 > 4bc5c0: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[08/28/2017 17:59:10 > 4bc5c0: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[08/28/2017 17:59:10 > 4bc5c0: INFO] Initializing agent...
+[08/28/2017 17:59:10 > 4bc5c0: INFO] Set up shutdown handler.
+[08/28/2017 17:59:10 > 4bc5c0: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\zbhenzuf.hpz.
+[08/28/2017 17:59:15 > 4bc5c0: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[08/28/2017 17:59:16 > 4bc5c0: INFO] Finished initializing request performance monitor (Activity Monitor).
+[08/28/2017 17:59:16 > 4bc5c0: INFO] Agent initialization completed successfully
+[08/28/2017 18:00:27 > 4bc5c0: SYS INFO] WebJob is stopping due to website shutting down
+[08/28/2017 18:00:28 > 4bc5c0: SYS INFO] Status changed to Stopping
+[08/28/2017 18:00:29 > 4bc5c0: INFO] Received shutdown request.
+[08/28/2017 18:00:29 > 4bc5c0: INFO] Stopping Engine.
+[08/28/2017 18:00:29 > 4bc5c0: SYS INFO] Status changed to Success
+[08/28/2017 18:00:31 > 4bc5c0: SYS INFO] Status changed to Stopped
+[08/28/2017 18:00:50 > 4bc5c0: SYS INFO] Status changed to Starting
+[08/28/2017 18:00:50 > 4bc5c0: SYS INFO] WebJob singleton setting is False
+[08/28/2017 18:00:52 > 4bc5c0: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[08/28/2017 18:00:52 > 4bc5c0: SYS INFO] Status changed to Running
+[08/28/2017 18:00:52 > 4bc5c0: INFO] Unpacking resources...
+[08/28/2017 18:00:58 > 4bc5c0: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[08/28/2017 18:00:58 > 4bc5c0: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[08/28/2017 18:00:58 > 4bc5c0: INFO] Detected an Azure App Service sandbox.
+[08/28/2017 18:00:58 > 4bc5c0: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[08/28/2017 18:00:58 > 4bc5c0: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[08/28/2017 18:00:58 > 4bc5c0: INFO] Initializing agent...
+[08/28/2017 18:00:58 > 4bc5c0: INFO] Set up shutdown handler.
+[08/28/2017 18:00:58 > 4bc5c0: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\n3ogyq1v.5ue.
+[08/28/2017 18:00:58 > 4bc5c0: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[08/28/2017 18:00:58 > 4bc5c0: INFO] Finished initializing request performance monitor (Activity Monitor).
+[08/28/2017 18:00:58 > 4bc5c0: INFO] Agent initialization completed successfully
+[08/28/2017 18:05:48 > 4bc5c0: SYS INFO] WebJob is stopping due to website shutting down
+[08/28/2017 18:05:48 > 4bc5c0: SYS INFO] Status changed to Stopping
+[08/28/2017 18:05:48 > 4bc5c0: INFO] Received shutdown request.
+[08/28/2017 18:05:50 > 4bc5c0: INFO] Stopping Engine.
+[08/28/2017 18:05:50 > 4bc5c0: SYS INFO] Status changed to Success
+[08/28/2017 18:05:50 > 4bc5c0: SYS INFO] Status changed to Stopped
+[08/28/2017 18:06:19 > 4bc5c0: SYS INFO] Status changed to Starting
+[08/28/2017 18:06:19 > 4bc5c0: SYS INFO] WebJob singleton setting is False
+[08/28/2017 18:06:20 > 4bc5c0: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[08/28/2017 18:06:20 > 4bc5c0: SYS INFO] Status changed to Running
+[08/28/2017 18:06:23 > 4bc5c0: INFO] Unpacking resources...
+[08/28/2017 18:06:23 > 4bc5c0: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[08/28/2017 18:06:24 > 4bc5c0: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[08/28/2017 18:06:24 > 4bc5c0: INFO] Detected an Azure App Service sandbox.
+[08/28/2017 18:06:24 > 4bc5c0: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[08/28/2017 18:06:25 > 4bc5c0: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[08/28/2017 18:06:25 > 4bc5c0: INFO] Initializing agent...
+[08/28/2017 18:06:25 > 4bc5c0: INFO] Set up shutdown handler.
+[08/28/2017 18:06:25 > 4bc5c0: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\j0llpyxq.h2k.
+[08/28/2017 18:06:25 > 4bc5c0: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[08/28/2017 18:06:25 > 4bc5c0: INFO] Finished initializing request performance monitor (Activity Monitor).
+[08/28/2017 18:06:27 > 4bc5c0: INFO] Agent initialization completed successfully
+[08/28/2017 19:06:20 > 4bc5c0: SYS INFO] WebJob is still running
+[08/29/2017 07:06:19 > 4bc5c0: SYS INFO] WebJob is still running
+[08/29/2017 10:46:15 > 4bc5c0: SYS INFO] WebJob is stopping due to website shutting down
+[08/29/2017 10:46:21 > 4bc5c0: SYS INFO] Status changed to Stopping
+[08/29/2017 10:46:22 > 4bc5c0: INFO] Received shutdown request.
+[08/29/2017 10:46:22 > 4bc5c0: INFO] Stopping Engine.
+[08/29/2017 10:46:27 > 4bc5c0: ERR ] Thread was being aborted.
+[08/29/2017 10:46:27 > 4bc5c0: SYS INFO] WebJob process was aborted
+[08/29/2017 10:46:28 > 4bc5c0: SYS INFO] Status changed to Stopped
+[08/29/2017 10:46:45 > 4bc5c0: SYS INFO] Status changed to Starting
+[08/29/2017 10:46:45 > 4bc5c0: SYS INFO] WebJob singleton setting is False
+[08/29/2017 10:46:46 > 4bc5c0: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[08/29/2017 10:46:47 > 4bc5c0: SYS INFO] Status changed to Running
+[08/29/2017 10:46:49 > 4bc5c0: INFO] Unpacking resources...
+[08/29/2017 10:46:49 > 4bc5c0: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[08/29/2017 10:46:49 > 4bc5c0: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[08/29/2017 10:46:49 > 4bc5c0: INFO] Detected an Azure App Service sandbox.
+[08/29/2017 10:46:49 > 4bc5c0: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[08/29/2017 10:46:49 > 4bc5c0: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[08/29/2017 10:46:50 > 4bc5c0: INFO] Initializing agent...
+[08/29/2017 10:46:50 > 4bc5c0: INFO] Set up shutdown handler.
+[08/29/2017 10:46:50 > 4bc5c0: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\13xu4y43.por.
+[08/29/2017 10:46:55 > 4bc5c0: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[08/29/2017 10:46:55 > 4bc5c0: INFO] Finished initializing request performance monitor (Activity Monitor).
+[08/29/2017 10:46:55 > 4bc5c0: INFO] Agent initialization completed successfully
+[08/29/2017 11:46:45 > 4bc5c0: SYS INFO] WebJob is still running
+[08/29/2017 23:46:45 > 4bc5c0: SYS INFO] WebJob is still running
+[08/30/2017 11:46:45 > 4bc5c0: SYS INFO] WebJob is still running
+[08/30/2017 23:46:45 > 4bc5c0: SYS INFO] WebJob is still running
+[08/31/2017 11:46:44 > 4bc5c0: SYS INFO] WebJob is still running
+[08/31/2017 23:46:45 > 4bc5c0: SYS INFO] WebJob is still running
+[09/01/2017 06:24:34 > 4bc5c0: SYS INFO] WebJob is stopping due to website shutting down
+[09/01/2017 06:24:35 > 4bc5c0: SYS INFO] Status changed to Stopping
+[09/01/2017 06:24:35 > 4bc5c0: INFO] Received shutdown request.
+[09/01/2017 06:24:35 > 4bc5c0: INFO] Stopping Engine.
+[09/01/2017 06:24:39 > 4bc5c0: SYS INFO] Status changed to Success
+[09/01/2017 06:24:39 > 4bc5c0: SYS INFO] Status changed to Stopped
+[09/01/2017 06:25:15 > 4bc5c0: SYS INFO] Status changed to Starting
+[09/01/2017 06:25:15 > 4bc5c0: SYS INFO] WebJob singleton setting is False
+[09/01/2017 06:25:18 > 4bc5c0: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[09/01/2017 06:25:18 > 4bc5c0: SYS INFO] Status changed to Running
+[09/01/2017 06:25:22 > 4bc5c0: INFO] Unpacking resources...
+[09/01/2017 06:25:23 > 4bc5c0: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[09/01/2017 06:25:23 > 4bc5c0: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[09/01/2017 06:25:23 > 4bc5c0: INFO] Detected an Azure App Service sandbox.
+[09/01/2017 06:25:24 > 4bc5c0: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[09/01/2017 06:25:24 > 4bc5c0: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[09/01/2017 06:25:24 > 4bc5c0: INFO] Initializing agent...
+[09/01/2017 06:25:24 > 4bc5c0: INFO] Set up shutdown handler.
+[09/01/2017 06:25:24 > 4bc5c0: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\rqlt2bds.mwy.
+[09/01/2017 06:25:39 > 4bc5c0: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[09/01/2017 06:25:41 > 4bc5c0: INFO] Finished initializing request performance monitor (Activity Monitor).
+[09/01/2017 06:25:41 > 4bc5c0: INFO] Agent initialization completed successfully
+[09/01/2017 07:25:16 > 4bc5c0: SYS INFO] WebJob is still running
+[09/01/2017 19:25:16 > 4bc5c0: SYS INFO] WebJob is still running
+[09/02/2017 07:25:16 > 4bc5c0: SYS INFO] WebJob is still running
+[09/02/2017 19:25:16 > 4bc5c0: SYS INFO] WebJob is still running
+[09/03/2017 07:25:16 > 4bc5c0: SYS INFO] WebJob is still running
+[09/03/2017 19:25:14 > 4bc5c0: SYS INFO] WebJob is still running
+[09/04/2017 07:25:15 > 4bc5c0: SYS INFO] WebJob is still running
+[09/04/2017 19:25:15 > 4bc5c0: SYS INFO] WebJob is still running
+[09/05/2017 01:37:24 > 4bc5c0: SYS INFO] Detected WebJob file/s were updated, refreshing WebJob
+[09/05/2017 01:37:24 > 4bc5c0: SYS INFO] Status changed to Stopping
+[09/05/2017 01:37:25 > 4bc5c0: INFO] Received shutdown request.
+[09/05/2017 01:37:25 > 4bc5c0: INFO] Stopping Engine.
+[09/05/2017 01:37:25 > 4bc5c0: SYS INFO] Status changed to Success
+[09/05/2017 01:37:25 > 4bc5c0: SYS INFO] Status changed to Stopped
+[09/05/2017 01:37:25 > 4bc5c0: SYS INFO] Status changed to Starting
+[09/05/2017 01:37:25 > 4bc5c0: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[09/05/2017 01:37:25 > 4bc5c0: SYS INFO] Status changed to Running
+[09/05/2017 01:37:25 > 4bc5c0: INFO] Unpacking resources...
+[09/05/2017 01:37:26 > 4bc5c0: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[09/05/2017 01:37:26 > 4bc5c0: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[09/05/2017 01:37:26 > 4bc5c0: INFO] Detected an Azure App Service sandbox.
+[09/05/2017 01:37:26 > 4bc5c0: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[09/05/2017 01:37:26 > 4bc5c0: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[09/05/2017 01:37:26 > 4bc5c0: INFO] Initializing agent...
+[09/05/2017 01:37:26 > 4bc5c0: INFO] Set up shutdown handler.
+[09/05/2017 01:37:26 > 4bc5c0: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\hp3li0ez.yrq.
+[09/05/2017 01:37:29 > 4bc5c0: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[09/05/2017 01:37:29 > 4bc5c0: INFO] Finished initializing request performance monitor (Activity Monitor).
+[09/05/2017 01:37:29 > 4bc5c0: INFO] Agent initialization completed successfully
+[09/05/2017 02:37:26 > 4bc5c0: SYS INFO] WebJob is still running
+[09/05/2017 14:37:26 > 4bc5c0: SYS INFO] WebJob is still running
+[09/06/2017 02:37:26 > 4bc5c0: SYS INFO] WebJob is still running
+[09/06/2017 14:37:25 > 4bc5c0: SYS INFO] WebJob is still running
+[09/07/2017 02:37:25 > 4bc5c0: SYS INFO] WebJob is still running
+[09/07/2017 14:37:25 > 4bc5c0: SYS INFO] WebJob is still running
+[09/08/2017 02:37:25 > 4bc5c0: SYS INFO] WebJob is still running
+[09/08/2017 14:37:25 > 4bc5c0: SYS INFO] WebJob is still running
+[09/09/2017 02:37:26 > 4bc5c0: SYS INFO] WebJob is still running
+[09/09/2017 14:37:26 > 4bc5c0: SYS INFO] WebJob is still running
+[09/10/2017 02:37:26 > 4bc5c0: SYS INFO] WebJob is still running
+[09/10/2017 14:37:25 > 4bc5c0: SYS INFO] WebJob is still running
+[09/11/2017 02:37:25 > 4bc5c0: SYS INFO] WebJob is still running
+[09/11/2017 14:37:25 > 4bc5c0: SYS INFO] WebJob is still running
+[09/12/2017 02:37:26 > 4bc5c0: SYS INFO] WebJob is still running
+[09/12/2017 14:37:25 > 4bc5c0: SYS INFO] WebJob is still running
+[09/12/2017 20:54:48 > 4bc5c0: SYS INFO] WebJob is stopping due to website shutting down
+[09/12/2017 20:54:50 > 4bc5c0: SYS INFO] Status changed to Stopping
+[09/12/2017 20:54:52 > 4bc5c0: INFO] Received shutdown request.
+[09/12/2017 20:54:52 > 4bc5c0: INFO] Stopping Engine.
+[09/12/2017 20:54:53 > 4bc5c0: SYS INFO] Status changed to Success
+[09/12/2017 20:54:54 > 4bc5c0: SYS INFO] Status changed to Stopped
+[09/12/2017 20:55:11 > 4bc5c0: SYS INFO] Status changed to Starting
+[09/12/2017 20:55:11 > 4bc5c0: SYS INFO] WebJob singleton setting is False
+[09/12/2017 20:55:13 > 4bc5c0: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[09/12/2017 20:55:14 > 4bc5c0: SYS INFO] Status changed to Running
+[09/12/2017 20:55:15 > 4bc5c0: INFO] Unpacking resources...
+[09/12/2017 20:55:16 > 4bc5c0: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[09/12/2017 20:55:16 > 4bc5c0: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[09/12/2017 20:55:16 > 4bc5c0: INFO] Detected an Azure App Service sandbox.
+[09/12/2017 20:55:16 > 4bc5c0: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[09/12/2017 20:55:16 > 4bc5c0: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[09/12/2017 20:55:16 > 4bc5c0: INFO] Initializing agent...
+[09/12/2017 20:55:16 > 4bc5c0: INFO] Set up shutdown handler.
+[09/12/2017 20:55:16 > 4bc5c0: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\fgscmihi.wyy.
+[09/12/2017 20:55:21 > 4bc5c0: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[09/12/2017 20:55:22 > 4bc5c0: INFO] Finished initializing request performance monitor (Activity Monitor).
+[09/12/2017 20:55:23 > 4bc5c0: INFO] Agent initialization completed successfully
+[09/12/2017 21:55:11 > 4bc5c0: SYS INFO] WebJob is still running
+[09/13/2017 09:55:11 > 4bc5c0: SYS INFO] WebJob is still running
+[09/13/2017 11:29:35 > 4bc5c0: SYS INFO] WebJob is stopping due to website shutting down
+[09/13/2017 11:29:36 > 4bc5c0: SYS INFO] Status changed to Stopping
+[09/13/2017 11:29:37 > 4bc5c0: INFO] Received shutdown request.
+[09/13/2017 11:29:37 > 4bc5c0: INFO] Stopping Engine.
+[09/13/2017 11:29:38 > 4bc5c0: SYS INFO] Status changed to Success
+[09/13/2017 11:29:38 > 4bc5c0: SYS INFO] Status changed to Stopped
+[09/13/2017 11:29:51 > 4bc5c0: SYS INFO] Status changed to Starting
+[09/13/2017 11:29:51 > 4bc5c0: SYS INFO] WebJob singleton setting is False
+[09/13/2017 11:29:54 > 4bc5c0: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[09/13/2017 11:29:54 > 4bc5c0: SYS INFO] Status changed to Running
+[09/13/2017 11:29:55 > 4bc5c0: INFO] Unpacking resources...
+[09/13/2017 11:29:55 > 4bc5c0: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[09/13/2017 11:29:55 > 4bc5c0: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[09/13/2017 11:29:55 > 4bc5c0: INFO] Detected an Azure App Service sandbox.
+[09/13/2017 11:29:55 > 4bc5c0: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[09/13/2017 11:29:55 > 4bc5c0: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[09/13/2017 11:29:56 > 4bc5c0: INFO] Initializing agent...
+[09/13/2017 11:29:56 > 4bc5c0: INFO] Set up shutdown handler.
+[09/13/2017 11:29:56 > 4bc5c0: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\dk3ckzoq.5cf.
+[09/13/2017 11:30:03 > 4bc5c0: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[09/13/2017 11:30:04 > 4bc5c0: INFO] Finished initializing request performance monitor (Activity Monitor).
+[09/13/2017 11:30:05 > 4bc5c0: INFO] Agent initialization completed successfully
+[09/13/2017 12:11:28 > 4bc5c0: SYS INFO] WebJob is stopping due to website shutting down
+[09/13/2017 12:11:28 > 4bc5c0: SYS INFO] Status changed to Stopping
+[09/13/2017 12:11:28 > 4bc5c0: INFO] Received shutdown request.
+[09/13/2017 12:11:28 > 4bc5c0: INFO] Stopping Engine.
+[09/13/2017 12:11:31 > 4bc5c0: SYS INFO] Status changed to Success
+[09/13/2017 12:11:31 > 4bc5c0: SYS INFO] Status changed to Stopped
+[09/13/2017 12:11:42 > 4bc5c0: SYS INFO] Status changed to Starting
+[09/13/2017 12:11:42 > 4bc5c0: SYS INFO] WebJob singleton setting is False
+[09/13/2017 12:11:43 > 4bc5c0: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[09/13/2017 12:11:43 > 4bc5c0: SYS INFO] Status changed to Running
+[09/13/2017 12:11:44 > 4bc5c0: INFO] Unpacking resources...
+[09/13/2017 12:11:45 > 4bc5c0: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[09/13/2017 12:11:45 > 4bc5c0: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[09/13/2017 12:11:45 > 4bc5c0: INFO] Detected an Azure App Service sandbox.
+[09/13/2017 12:11:45 > 4bc5c0: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[09/13/2017 12:11:45 > 4bc5c0: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[09/13/2017 12:11:47 > 4bc5c0: INFO] Initializing agent...
+[09/13/2017 12:11:47 > 4bc5c0: INFO] Set up shutdown handler.
+[09/13/2017 12:11:47 > 4bc5c0: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\cj0l5maj.elh.
+[09/13/2017 12:11:52 > 4bc5c0: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[09/13/2017 12:11:53 > 4bc5c0: INFO] Finished initializing request performance monitor (Activity Monitor).
+[09/13/2017 12:11:57 > 4bc5c0: INFO] Agent initialization completed successfully
+[09/13/2017 13:11:42 > 4bc5c0: SYS INFO] WebJob is still running
+[09/14/2017 01:11:42 > 4bc5c0: SYS INFO] WebJob is still running
+[09/14/2017 12:12:06 > 4bc5c0: SYS INFO] WebJob is stopping due to website shutting down
+[09/14/2017 12:12:06 > 4bc5c0: SYS INFO] Status changed to Stopping
+[09/14/2017 12:12:07 > 4bc5c0: INFO] Received shutdown request.
+[09/14/2017 12:12:07 > 4bc5c0: INFO] Stopping Engine.
+[09/14/2017 12:12:09 > 4bc5c0: SYS INFO] Status changed to Success
+[09/14/2017 12:12:09 > 4bc5c0: SYS INFO] Status changed to Stopped
+[09/14/2017 12:12:22 > 4bc5c0: SYS INFO] Status changed to Starting
+[09/14/2017 12:12:22 > 4bc5c0: SYS INFO] WebJob singleton setting is False
+[09/14/2017 12:12:23 > 4bc5c0: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[09/14/2017 12:12:24 > 4bc5c0: SYS INFO] Status changed to Running
+[09/14/2017 12:12:27 > 4bc5c0: INFO] Unpacking resources...
+[09/14/2017 12:12:28 > 4bc5c0: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[09/14/2017 12:12:28 > 4bc5c0: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[09/14/2017 12:12:28 > 4bc5c0: INFO] Detected an Azure App Service sandbox.
+[09/14/2017 12:12:28 > 4bc5c0: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[09/14/2017 12:12:28 > 4bc5c0: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[09/14/2017 12:12:28 > 4bc5c0: INFO] Initializing agent...
+[09/14/2017 12:12:28 > 4bc5c0: INFO] Set up shutdown handler.
+[09/14/2017 12:12:28 > 4bc5c0: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\c5ckrjzs.c2s.
+[09/14/2017 12:12:32 > 4bc5c0: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[09/14/2017 12:12:32 > 4bc5c0: INFO] Finished initializing request performance monitor (Activity Monitor).
+[09/14/2017 12:12:32 > 4bc5c0: INFO] Agent initialization completed successfully
+[09/14/2017 12:49:51 > 4bc5c0: SYS INFO] WebJob is stopping due to website shutting down
+[09/14/2017 12:49:51 > 4bc5c0: SYS INFO] Status changed to Stopping
+[09/14/2017 12:49:52 > 4bc5c0: INFO] Received shutdown request.
+[09/14/2017 12:49:54 > 4bc5c0: INFO] Stopping Engine.
+[09/14/2017 12:49:56 > 4bc5c0: SYS INFO] Status changed to Success
+[09/14/2017 12:49:57 > 4bc5c0: SYS INFO] Status changed to Stopped
+[09/14/2017 12:50:08 > 4bc5c0: SYS INFO] Status changed to Starting
+[09/14/2017 12:50:09 > 4bc5c0: SYS INFO] WebJob singleton setting is False
+[09/14/2017 12:50:10 > 4bc5c0: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[09/14/2017 12:50:10 > 4bc5c0: SYS INFO] Status changed to Running
+[09/14/2017 12:50:12 > 4bc5c0: INFO] Unpacking resources...
+[09/14/2017 12:50:13 > 4bc5c0: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[09/14/2017 12:50:13 > 4bc5c0: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[09/14/2017 12:50:13 > 4bc5c0: INFO] Detected an Azure App Service sandbox.
+[09/14/2017 12:50:14 > 4bc5c0: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[09/14/2017 12:50:14 > 4bc5c0: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[09/14/2017 12:50:14 > 4bc5c0: INFO] Initializing agent...
+[09/14/2017 12:50:14 > 4bc5c0: INFO] Set up shutdown handler.
+[09/14/2017 12:50:14 > 4bc5c0: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\e2iwve14.raj.
+[09/14/2017 12:50:27 > 4bc5c0: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[09/14/2017 12:50:28 > 4bc5c0: INFO] Finished initializing request performance monitor (Activity Monitor).
+[09/14/2017 12:50:28 > 4bc5c0: INFO] Agent initialization completed successfully
+[09/14/2017 13:50:09 > 4bc5c0: SYS INFO] WebJob is still running
+[09/15/2017 01:50:10 > 4bc5c0: SYS INFO] WebJob is still running
+[09/15/2017 13:50:08 > 4bc5c0: SYS INFO] WebJob is still running
+[09/16/2017 01:50:10 > 4bc5c0: SYS INFO] WebJob is still running
+[09/16/2017 13:50:10 > 4bc5c0: SYS INFO] WebJob is still running
+[09/17/2017 01:50:10 > 4bc5c0: SYS INFO] WebJob is still running
+[09/17/2017 13:50:10 > 4bc5c0: SYS INFO] WebJob is still running
+[09/18/2017 01:50:10 > 4bc5c0: SYS INFO] WebJob is still running
+[09/18/2017 13:50:10 > 4bc5c0: SYS INFO] WebJob is still running
+[09/19/2017 01:50:10 > 4bc5c0: SYS INFO] WebJob is still running
+[09/19/2017 13:50:10 > 4bc5c0: SYS INFO] WebJob is still running
+[09/20/2017 01:50:10 > 4bc5c0: SYS INFO] WebJob is still running
+[09/20/2017 13:50:08 > 4bc5c0: SYS INFO] WebJob is still running
+[09/20/2017 16:42:01 > 4bc5c0: SYS INFO] Status changed to Starting
+[09/20/2017 16:42:02 > 4bc5c0: SYS INFO] WebJob singleton setting is False
+[09/20/2017 16:42:04 > 4bc5c0: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[09/20/2017 16:42:04 > 4bc5c0: SYS INFO] Status changed to Running
+[09/20/2017 16:42:04 > 4bc5c0: INFO] Unpacking resources...
+[09/20/2017 16:42:04 > 4bc5c0: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[09/20/2017 16:42:04 > 4bc5c0: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[09/20/2017 16:42:04 > 4bc5c0: INFO] Detected an Azure App Service sandbox.
+[09/20/2017 16:42:04 > 4bc5c0: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[09/20/2017 16:42:04 > 4bc5c0: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[09/20/2017 16:42:04 > 4bc5c0: INFO] Initializing agent...
+[09/20/2017 16:42:04 > 4bc5c0: INFO] Set up shutdown handler.
+[09/20/2017 16:42:04 > 4bc5c0: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\ex4w5h2g.b1i.
+[09/20/2017 16:42:07 > 4bc5c0: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[09/20/2017 16:42:07 > 4bc5c0: INFO] Finished initializing request performance monitor (Activity Monitor).
+[09/20/2017 16:42:07 > 4bc5c0: INFO] Agent initialization completed successfully
+[09/20/2017 17:42:03 > 4bc5c0: SYS INFO] WebJob is still running
+[09/20/2017 18:20:33 > 6bbfac: SYS INFO] Status changed to Starting
+[09/20/2017 18:20:33 > 6bbfac: SYS INFO] WebJob singleton setting is False
+[09/20/2017 18:20:34 > 6bbfac: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[09/20/2017 18:20:34 > 6bbfac: SYS INFO] Status changed to Running
+[09/20/2017 18:20:34 > 6bbfac: INFO] Unpacking resources...
+[09/20/2017 18:20:35 > 6bbfac: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[09/20/2017 18:20:35 > 6bbfac: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[09/20/2017 18:20:35 > 6bbfac: INFO] Detected an Azure App Service sandbox.
+[09/20/2017 18:20:35 > 6bbfac: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[09/20/2017 18:20:35 > 6bbfac: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[09/20/2017 18:20:35 > 6bbfac: INFO] Initializing agent...
+[09/20/2017 18:20:35 > 6bbfac: INFO] Set up shutdown handler.
+[09/20/2017 18:20:35 > 6bbfac: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\prmcmhi1.gdo.
+[09/20/2017 18:20:38 > 6bbfac: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[09/20/2017 18:20:39 > 6bbfac: INFO] Finished initializing request performance monitor (Activity Monitor).
+[09/20/2017 18:20:39 > 6bbfac: INFO] Agent initialization completed successfully
+[09/20/2017 18:21:19 > 4bc5c0: SYS INFO] WebJob is stopping due to website shutting down
+[09/20/2017 18:21:19 > 4bc5c0: SYS INFO] Status changed to Stopping
+[09/20/2017 18:21:19 > 4bc5c0: INFO] Received shutdown request.
+[09/20/2017 18:21:19 > 4bc5c0: INFO] Stopping Engine.
+[09/20/2017 18:21:26 > 4bc5c0: ERR ] Thread was being aborted.
+[09/20/2017 18:21:26 > 4bc5c0: SYS INFO] Status changed to Stopped
+[09/20/2017 18:21:26 > 4bc5c0: SYS INFO] WebJob process was aborted
+[09/20/2017 18:21:26 > 4bc5c0: SYS INFO] Status changed to Stopped
+[09/20/2017 19:20:33 > 6bbfac: SYS INFO] WebJob is still running
+[09/21/2017 07:20:34 > 6bbfac: SYS INFO] WebJob is still running
+[09/21/2017 15:28:46 > 6bbfac: SYS INFO] Status changed to Starting
+[09/21/2017 15:28:46 > 6bbfac: SYS INFO] WebJob singleton setting is False
+[09/21/2017 15:28:48 > 6bbfac: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[09/21/2017 15:28:49 > 6bbfac: SYS INFO] Status changed to Running
+[09/21/2017 15:28:49 > 6bbfac: INFO] Unpacking resources...
+[09/21/2017 15:28:49 > 6bbfac: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[09/21/2017 15:28:51 > 6bbfac: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[09/21/2017 15:28:51 > 6bbfac: INFO] Detected an Azure App Service sandbox.
+[09/21/2017 15:28:51 > 6bbfac: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[09/21/2017 15:28:51 > 6bbfac: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[09/21/2017 15:28:51 > 6bbfac: INFO] Initializing agent...
+[09/21/2017 15:28:51 > 6bbfac: INFO] Set up shutdown handler.
+[09/21/2017 15:28:51 > 6bbfac: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\p5jeywcj.op0.
+[09/21/2017 15:28:51 > 6bbfac: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[09/21/2017 15:28:52 > 6bbfac: INFO] Finished initializing request performance monitor (Activity Monitor).
+[09/21/2017 15:28:52 > 6bbfac: INFO] Agent initialization completed successfully
+[09/21/2017 16:28:47 > 6bbfac: SYS INFO] WebJob is still running
+[09/22/2017 04:28:47 > 6bbfac: SYS INFO] WebJob is still running
+[09/22/2017 16:28:47 > 6bbfac: SYS INFO] WebJob is still running
+[09/23/2017 04:28:47 > 6bbfac: SYS INFO] WebJob is still running
+[09/23/2017 16:28:46 > 6bbfac: SYS INFO] WebJob is still running
+[09/24/2017 04:28:47 > 6bbfac: SYS INFO] WebJob is still running
+[09/24/2017 16:28:47 > 6bbfac: SYS INFO] WebJob is still running
+[09/25/2017 04:28:48 > 6bbfac: SYS INFO] WebJob is still running
+[09/25/2017 16:28:48 > 6bbfac: SYS INFO] WebJob is still running
+[09/26/2017 04:28:48 > 6bbfac: SYS INFO] WebJob is still running
+[09/26/2017 16:28:49 > 6bbfac: SYS INFO] WebJob is still running
+[09/27/2017 04:28:49 > 6bbfac: SYS INFO] WebJob is still running
+[09/27/2017 16:28:49 > 6bbfac: SYS INFO] WebJob is still running
+[09/28/2017 04:28:50 > 6bbfac: SYS INFO] WebJob is still running
+[09/28/2017 16:28:49 > 6bbfac: SYS INFO] WebJob is still running
+[09/29/2017 04:28:51 > 6bbfac: SYS INFO] WebJob is still running
+[09/29/2017 16:28:49 > 6bbfac: SYS INFO] WebJob is still running
+[09/30/2017 04:28:50 > 6bbfac: SYS INFO] WebJob is still running
+[09/30/2017 16:28:50 > 6bbfac: SYS INFO] WebJob is still running
+[10/01/2017 04:28:51 > 6bbfac: SYS INFO] WebJob is still running
+[10/01/2017 16:28:52 > 6bbfac: SYS INFO] WebJob is still running
+[10/01/2017 19:22:36 > 6bbfac: SYS INFO] WebJob is stopping due to website shutting down
+[10/01/2017 19:22:36 > 6bbfac: SYS INFO] Status changed to Stopping
+[10/01/2017 19:22:36 > 6bbfac: INFO] Received shutdown request.
+[10/01/2017 19:22:37 > 6bbfac: INFO] Stopping Engine.
+[10/01/2017 19:22:40 > 6bbfac: SYS INFO] Status changed to Success
+[10/01/2017 19:22:41 > 6bbfac: SYS INFO] Status changed to Stopped
+[10/01/2017 19:22:51 > 6bbfac: SYS INFO] Status changed to Starting
+[10/01/2017 19:22:51 > 6bbfac: SYS INFO] WebJob singleton setting is False
+[10/01/2017 19:22:52 > 6bbfac: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[10/01/2017 19:22:52 > 6bbfac: SYS INFO] Status changed to Running
+[10/01/2017 19:22:53 > 6bbfac: INFO] Unpacking resources...
+[10/01/2017 19:22:54 > 6bbfac: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[10/01/2017 19:22:54 > 6bbfac: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[10/01/2017 19:22:54 > 6bbfac: INFO] Detected an Azure App Service sandbox.
+[10/01/2017 19:22:55 > 6bbfac: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[10/01/2017 19:22:55 > 6bbfac: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[10/01/2017 19:22:55 > 6bbfac: INFO] Initializing agent...
+[10/01/2017 19:22:55 > 6bbfac: INFO] Set up shutdown handler.
+[10/01/2017 19:22:55 > 6bbfac: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\fhqdrlrx.tav.
+[10/01/2017 19:22:59 > 6bbfac: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[10/01/2017 19:22:59 > 6bbfac: INFO] Finished initializing request performance monitor (Activity Monitor).
+[10/01/2017 19:22:59 > 6bbfac: INFO] Agent initialization completed successfully
+[10/01/2017 19:43:56 > 6bbfac: SYS INFO] Detected WebJob file/s were updated, refreshing WebJob
+[10/01/2017 19:43:56 > 6bbfac: SYS INFO] Status changed to Stopping
+[10/01/2017 19:43:56 > 6bbfac: INFO] Received shutdown request.
+[10/01/2017 19:43:56 > 6bbfac: INFO] Stopping Engine.
+[10/01/2017 19:43:57 > 6bbfac: SYS INFO] Status changed to Success
+[10/01/2017 19:43:57 > 6bbfac: SYS INFO] Status changed to Stopped
+[10/01/2017 19:43:57 > 6bbfac: SYS INFO] Status changed to Starting
+[10/01/2017 19:43:57 > 6bbfac: SYS INFO] Job directory change detected: Job file 'ApplicationInsightsProfiler.exe' timestamp differs between source and working directories.
+[10/01/2017 19:43:57 > 6bbfac: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[10/01/2017 19:43:57 > 6bbfac: SYS INFO] Status changed to Running
+[10/01/2017 19:43:58 > 6bbfac: INFO] Unpacking resources...
+[10/01/2017 19:43:58 > 6bbfac: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[10/01/2017 19:43:58 > 6bbfac: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[10/01/2017 19:43:58 > 6bbfac: INFO] Detected an Azure App Service sandbox.
+[10/01/2017 19:43:58 > 6bbfac: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[10/01/2017 19:43:58 > 6bbfac: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[10/01/2017 19:43:58 > 6bbfac: INFO] Initializing agent...
+[10/01/2017 19:43:58 > 6bbfac: INFO] Set up shutdown handler.
+[10/01/2017 19:43:58 > 6bbfac: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\mxqrhybn.owa.
+[10/01/2017 19:44:01 > 6bbfac: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[10/01/2017 19:44:01 > 6bbfac: INFO] Finished initializing request performance monitor (Activity Monitor).
+[10/01/2017 19:44:01 > 6bbfac: INFO] Agent initialization completed successfully
+[10/01/2017 19:44:19 > 6bbfac: SYS INFO] Detected WebJob file/s were updated, refreshing WebJob
+[10/01/2017 19:44:19 > 6bbfac: SYS INFO] Status changed to Stopping
+[10/01/2017 19:44:19 > 6bbfac: INFO] Received shutdown request.
+[10/01/2017 19:44:19 > 6bbfac: INFO] Stopping Engine.
+[10/01/2017 19:44:20 > 6bbfac: SYS INFO] Status changed to Success
+[10/01/2017 19:44:20 > 6bbfac: SYS INFO] Status changed to Stopped
+[10/01/2017 19:44:20 > 6bbfac: SYS INFO] Status changed to Starting
+[10/01/2017 19:44:20 > 6bbfac: SYS INFO] Job directory change detected: Job file 'ApplicationInsightsProfiler.exe.config' timestamp differs between source and working directories.
+[10/01/2017 19:44:20 > 6bbfac: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[10/01/2017 19:44:20 > 6bbfac: SYS INFO] Status changed to Running
+[10/01/2017 19:44:21 > 6bbfac: INFO] Unpacking resources...
+[10/01/2017 19:44:21 > 6bbfac: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[10/01/2017 19:44:21 > 6bbfac: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[10/01/2017 19:44:21 > 6bbfac: INFO] Detected an Azure App Service sandbox.
+[10/01/2017 19:44:21 > 6bbfac: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[10/01/2017 19:44:21 > 6bbfac: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[10/01/2017 19:44:21 > 6bbfac: INFO] Initializing agent...
+[10/01/2017 19:44:21 > 6bbfac: INFO] Set up shutdown handler.
+[10/01/2017 19:44:21 > 6bbfac: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\jcxuz2wn.tiq.
+[10/01/2017 19:44:23 > 6bbfac: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[10/01/2017 19:44:23 > 6bbfac: INFO] Finished initializing request performance monitor (Activity Monitor).
+[10/01/2017 19:44:23 > 6bbfac: INFO] Agent initialization completed successfully
+[10/01/2017 20:44:20 > 6bbfac: SYS INFO] WebJob is still running
+[10/02/2017 08:44:21 > 6bbfac: SYS INFO] WebJob is still running
+[10/02/2017 20:44:21 > 6bbfac: SYS INFO] WebJob is still running
+[10/03/2017 08:44:23 > 6bbfac: SYS INFO] WebJob is still running
+[10/03/2017 20:44:21 > 6bbfac: SYS INFO] WebJob is still running
+[10/04/2017 08:44:23 > 6bbfac: SYS INFO] WebJob is still running
+[10/04/2017 20:44:22 > 6bbfac: SYS INFO] WebJob is still running
+[10/05/2017 08:44:23 > 6bbfac: SYS INFO] WebJob is still running
+[10/05/2017 20:44:23 > 6bbfac: SYS INFO] WebJob is still running
+[10/06/2017 08:44:24 > 6bbfac: SYS INFO] WebJob is still running
+[10/06/2017 09:31:09 > 6bbfac: SYS INFO] Status changed to Starting
+[10/06/2017 09:31:09 > 6bbfac: SYS INFO] WebJob singleton setting is False
+[10/06/2017 09:31:16 > 6bbfac: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[10/06/2017 09:31:19 > 6bbfac: SYS INFO] Status changed to Running
+[10/06/2017 09:31:21 > 6bbfac: INFO] Unpacking resources...
+[10/06/2017 09:31:21 > 6bbfac: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[10/06/2017 09:31:21 > 6bbfac: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[10/06/2017 09:31:22 > 6bbfac: INFO] Detected an Azure App Service sandbox.
+[10/06/2017 09:31:22 > 6bbfac: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[10/06/2017 09:31:22 > 6bbfac: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[10/06/2017 09:31:22 > 6bbfac: INFO] Initializing agent...
+[10/06/2017 09:31:22 > 6bbfac: INFO] Set up shutdown handler.
+[10/06/2017 09:31:22 > 6bbfac: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\jj1lz0pw.w2i.
+[10/06/2017 09:31:24 > 6bbfac: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[10/06/2017 09:31:25 > 6bbfac: INFO] Finished initializing request performance monitor (Activity Monitor).
+[10/06/2017 09:31:25 > 6bbfac: INFO] Agent initialization completed successfully
+[10/06/2017 10:31:09 > 6bbfac: SYS INFO] WebJob is still running
+[10/06/2017 11:06:53 > 6d64f7: SYS INFO] Status changed to Starting
+[10/06/2017 11:06:53 > 6d64f7: SYS INFO] WebJob singleton setting is False
+[10/06/2017 11:06:54 > 6d64f7: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[10/06/2017 11:06:54 > 6d64f7: SYS INFO] Status changed to Running
+[10/06/2017 11:06:54 > 6d64f7: INFO] Unpacking resources...
+[10/06/2017 11:06:54 > 6d64f7: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[10/06/2017 11:06:54 > 6d64f7: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[10/06/2017 11:06:54 > 6d64f7: INFO] Detected an Azure App Service sandbox.
+[10/06/2017 11:06:55 > 6d64f7: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[10/06/2017 11:06:55 > 6d64f7: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[10/06/2017 11:06:55 > 6d64f7: INFO] Initializing agent...
+[10/06/2017 11:06:55 > 6d64f7: INFO] Set up shutdown handler.
+[10/06/2017 11:06:55 > 6d64f7: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\neblqppl.dfq.
+[10/06/2017 11:06:57 > 6d64f7: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[10/06/2017 11:06:57 > 6d64f7: INFO] Finished initializing request performance monitor (Activity Monitor).
+[10/06/2017 11:06:58 > 6d64f7: INFO] Agent initialization completed successfully
+[10/06/2017 11:08:01 > 6bbfac: SYS INFO] WebJob is stopping due to website shutting down
+[10/06/2017 11:08:01 > 6bbfac: SYS INFO] Status changed to Stopping
+[10/06/2017 11:08:01 > 6bbfac: INFO] Received shutdown request.
+[10/06/2017 11:08:01 > 6bbfac: INFO] Stopping Engine.
+[10/06/2017 11:08:03 > 6bbfac: SYS INFO] Status changed to Success
+[10/06/2017 11:08:03 > 6bbfac: SYS INFO] Status changed to Stopped
+[10/06/2017 12:02:17 > 6d64f7: SYS INFO] Status changed to Starting
+[10/06/2017 12:02:19 > 6d64f7: SYS INFO] WebJob singleton setting is False
+[10/06/2017 12:02:23 > 6d64f7: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[10/06/2017 12:02:23 > 6d64f7: SYS INFO] Status changed to Running
+[10/06/2017 12:02:24 > 6d64f7: INFO] Unpacking resources...
+[10/06/2017 12:02:24 > 6d64f7: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[10/06/2017 12:02:24 > 6d64f7: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[10/06/2017 12:02:24 > 6d64f7: INFO] Detected an Azure App Service sandbox.
+[10/06/2017 12:02:24 > 6d64f7: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[10/06/2017 12:02:24 > 6d64f7: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[10/06/2017 12:02:24 > 6d64f7: INFO] Initializing agent...
+[10/06/2017 12:02:24 > 6d64f7: INFO] Set up shutdown handler.
+[10/06/2017 12:02:24 > 6d64f7: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\t5y05p2y.k32.
+[10/06/2017 12:02:27 > 6d64f7: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[10/06/2017 12:02:28 > 6d64f7: INFO] Finished initializing request performance monitor (Activity Monitor).
+[10/06/2017 12:02:28 > 6d64f7: INFO] Agent initialization completed successfully
+[10/06/2017 13:02:20 > 6d64f7: SYS INFO] WebJob is still running
+[10/07/2017 01:02:22 > 6d64f7: SYS INFO] WebJob is still running
+[10/07/2017 13:02:22 > 6d64f7: SYS INFO] WebJob is still running
+[10/08/2017 01:02:23 > 6d64f7: SYS INFO] WebJob is still running
+[10/08/2017 13:02:23 > 6d64f7: SYS INFO] WebJob is still running
+[10/09/2017 01:02:24 > 6d64f7: SYS INFO] WebJob is still running
+[10/09/2017 13:02:24 > 6d64f7: SYS INFO] WebJob is still running
+[10/10/2017 01:02:25 > 6d64f7: SYS INFO] WebJob is still running
+[10/10/2017 13:02:25 > 6d64f7: SYS INFO] WebJob is still running
+[10/11/2017 01:02:25 > 6d64f7: SYS INFO] WebJob is still running
+[10/11/2017 13:02:25 > 6d64f7: SYS INFO] WebJob is still running
+[10/12/2017 01:02:26 > 6d64f7: SYS INFO] WebJob is still running
+[10/12/2017 13:02:26 > 6d64f7: SYS INFO] WebJob is still running
+[10/13/2017 01:02:27 > 6d64f7: SYS INFO] WebJob is still running
+[10/13/2017 10:51:29 > 6d64f7: SYS INFO] Detected WebJob file/s were updated, refreshing WebJob
+[10/13/2017 10:51:29 > 6d64f7: SYS INFO] Status changed to Stopping
+[10/13/2017 10:51:29 > 6d64f7: INFO] Received shutdown request.
+[10/13/2017 10:51:29 > 6d64f7: INFO] Stopping Engine.
+[10/13/2017 10:51:29 > 6d64f7: SYS INFO] Status changed to Success
+[10/13/2017 10:51:29 > 6d64f7: SYS INFO] Status changed to Stopped
+[10/13/2017 10:51:29 > 6d64f7: SYS INFO] Status changed to Starting
+[10/13/2017 10:51:29 > 6d64f7: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[10/13/2017 10:51:30 > 6d64f7: SYS INFO] Status changed to Running
+[10/13/2017 10:51:30 > 6d64f7: INFO] Unpacking resources...
+[10/13/2017 10:51:30 > 6d64f7: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[10/13/2017 10:51:30 > 6d64f7: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[10/13/2017 10:51:30 > 6d64f7: INFO] Detected an Azure App Service sandbox.
+[10/13/2017 10:51:30 > 6d64f7: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[10/13/2017 10:51:30 > 6d64f7: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[10/13/2017 10:51:30 > 6d64f7: INFO] Initializing agent...
+[10/13/2017 10:51:30 > 6d64f7: INFO] Set up shutdown handler.
+[10/13/2017 10:51:30 > 6d64f7: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\q4bdj0ew.fyr.
+[10/13/2017 10:51:32 > 6d64f7: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[10/13/2017 10:51:32 > 6d64f7: INFO] Finished initializing request performance monitor (Activity Monitor).
+[10/13/2017 10:51:32 > 6d64f7: INFO] Agent initialization completed successfully
+[10/13/2017 11:51:30 > 6d64f7: SYS INFO] WebJob is still running
+[10/13/2017 23:51:31 > 6d64f7: SYS INFO] WebJob is still running
+[10/14/2017 11:51:31 > 6d64f7: SYS INFO] WebJob is still running
+[10/14/2017 23:51:31 > 6d64f7: SYS INFO] WebJob is still running
+[10/15/2017 11:51:32 > 6d64f7: SYS INFO] WebJob is still running
+[10/15/2017 23:51:30 > 6d64f7: SYS INFO] WebJob is still running
+[10/16/2017 14:16:26 > 6d64f7: SYS INFO] Status changed to Stopping
+[10/16/2017 14:16:26 > 6d64f7: INFO] Received shutdown request.
+[10/16/2017 14:16:26 > 6d64f7: INFO] Stopping Engine.
+[10/16/2017 14:16:29 > 6d64f7: SYS INFO] Status changed to Success
+[10/16/2017 14:16:29 > 6d64f7: SYS INFO] Status changed to Stopped
+[10/16/2017 14:17:01 > 6d64f7: SYS INFO] Status changed to Starting
+[10/16/2017 14:17:02 > 6d64f7: SYS INFO] WebJob singleton setting is False
+[10/16/2017 14:17:03 > 6d64f7: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[10/16/2017 14:17:03 > 6d64f7: SYS INFO] Status changed to Running
+[10/16/2017 14:17:04 > 6d64f7: INFO] Unpacking resources...
+[10/16/2017 14:17:05 > 6d64f7: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[10/16/2017 14:17:05 > 6d64f7: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[10/16/2017 14:17:05 > 6d64f7: INFO] Detected an Azure App Service sandbox.
+[10/16/2017 14:17:05 > 6d64f7: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[10/16/2017 14:17:05 > 6d64f7: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[10/16/2017 14:17:05 > 6d64f7: INFO] Initializing agent...
+[10/16/2017 14:17:06 > 6d64f7: INFO] Set up shutdown handler.
+[10/16/2017 14:17:06 > 6d64f7: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\fq31caxd.5g5.
+[10/16/2017 14:17:10 > 6d64f7: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[10/16/2017 14:17:11 > 6d64f7: INFO] Finished initializing request performance monitor (Activity Monitor).
+[10/16/2017 14:17:12 > 6d64f7: INFO] Agent initialization completed successfully
+[10/16/2017 15:17:02 > 6d64f7: SYS INFO] WebJob is still running
+[10/16/2017 18:39:27 > 6d64f7: SYS INFO] WebJob is stopping due to website shutting down
+[10/16/2017 18:39:27 > 6d64f7: SYS INFO] Status changed to Stopping
+[10/16/2017 18:39:27 > 6d64f7: INFO] Received shutdown request.
+[10/16/2017 18:39:27 > 6d64f7: INFO] Stopping Engine.
+[10/16/2017 18:39:30 > 6d64f7: SYS INFO] Status changed to Success
+[10/16/2017 18:39:30 > 6d64f7: SYS INFO] Status changed to Stopped
+[10/16/2017 18:39:46 > 6d64f7: SYS INFO] Status changed to Starting
+[10/16/2017 18:39:46 > 6d64f7: SYS INFO] WebJob singleton setting is False
+[10/16/2017 18:39:47 > 6d64f7: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[10/16/2017 18:39:47 > 6d64f7: SYS INFO] Status changed to Running
+[10/16/2017 18:39:50 > 6d64f7: INFO] Unpacking resources...
+[10/16/2017 18:39:50 > 6d64f7: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[10/16/2017 18:39:50 > 6d64f7: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[10/16/2017 18:39:51 > 6d64f7: INFO] Detected an Azure App Service sandbox.
+[10/16/2017 18:39:51 > 6d64f7: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[10/16/2017 18:39:51 > 6d64f7: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[10/16/2017 18:39:51 > 6d64f7: INFO] Initializing agent...
+[10/16/2017 18:39:51 > 6d64f7: INFO] Set up shutdown handler.
+[10/16/2017 18:39:51 > 6d64f7: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\kd0xcwgn.mjz.
+[10/16/2017 18:39:54 > 6d64f7: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[10/16/2017 18:39:54 > 6d64f7: INFO] Finished initializing request performance monitor (Activity Monitor).
+[10/16/2017 18:39:54 > 6d64f7: INFO] Agent initialization completed successfully
+[10/16/2017 19:39:46 > 6d64f7: SYS INFO] WebJob is still running
+[10/17/2017 07:39:48 > 6d64f7: SYS INFO] WebJob is still running
+[10/17/2017 19:39:48 > 6d64f7: SYS INFO] WebJob is still running
+[10/18/2017 07:39:49 > 6d64f7: SYS INFO] WebJob is still running
+[10/18/2017 19:39:49 > 6d64f7: SYS INFO] WebJob is still running
+[10/19/2017 07:39:47 > 6d64f7: SYS INFO] WebJob is still running
+[10/19/2017 19:39:48 > 6d64f7: SYS INFO] WebJob is still running
+[10/20/2017 07:39:49 > 6d64f7: SYS INFO] WebJob is still running
+[10/20/2017 19:39:50 > 6d64f7: SYS INFO] WebJob is still running
+[10/21/2017 07:39:51 > 6d64f7: SYS INFO] WebJob is still running
+[10/21/2017 19:39:51 > 6d64f7: SYS INFO] WebJob is still running
+[10/22/2017 07:39:51 > 6d64f7: SYS INFO] WebJob is still running
+[10/22/2017 19:39:51 > 6d64f7: SYS INFO] WebJob is still running
+[10/23/2017 07:39:53 > 6d64f7: SYS INFO] WebJob is still running
+[10/23/2017 13:44:21 > 6d64f7: SYS INFO] WebJob is stopping due to website shutting down
+[10/23/2017 13:44:21 > 6d64f7: SYS INFO] Status changed to Stopping
+[10/23/2017 13:44:22 > 6d64f7: INFO] Received shutdown request.
+[10/23/2017 13:44:22 > 6d64f7: INFO] Stopping Engine.
+[10/23/2017 13:44:27 > 6d64f7: ERR ] Thread was being aborted.
+[10/23/2017 13:44:27 > 6d64f7: SYS INFO] WebJob process was aborted
+[10/23/2017 13:44:27 > 6d64f7: SYS INFO] Status changed to Stopped
+[10/23/2017 13:44:46 > 6d64f7: SYS INFO] Status changed to Starting
+[10/23/2017 13:44:46 > 6d64f7: SYS INFO] WebJob singleton setting is False
+[10/23/2017 13:44:47 > 6d64f7: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[10/23/2017 13:44:47 > 6d64f7: SYS INFO] Status changed to Running
+[10/23/2017 13:44:48 > 6d64f7: INFO] Unpacking resources...
+[10/23/2017 13:44:48 > 6d64f7: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[10/23/2017 13:44:48 > 6d64f7: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[10/23/2017 13:44:48 > 6d64f7: INFO] Detected an Azure App Service sandbox.
+[10/23/2017 13:44:49 > 6d64f7: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[10/23/2017 13:44:49 > 6d64f7: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[10/23/2017 13:44:49 > 6d64f7: INFO] Initializing agent...
+[10/23/2017 13:44:49 > 6d64f7: INFO] Set up shutdown handler.
+[10/23/2017 13:44:49 > 6d64f7: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\p1hijthf.nee.
+[10/23/2017 13:44:53 > 6d64f7: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[10/23/2017 13:44:54 > 6d64f7: INFO] Finished initializing request performance monitor (Activity Monitor).
+[10/23/2017 13:44:55 > 6d64f7: INFO] Agent initialization completed successfully
+[10/23/2017 14:44:46 > 6d64f7: SYS INFO] WebJob is still running
+[10/24/2017 02:44:47 > 6d64f7: SYS INFO] WebJob is still running
+[10/24/2017 14:44:48 > 6d64f7: SYS INFO] WebJob is still running
+[10/25/2017 02:47:04 > 6d64f7: SYS INFO] Status changed to Starting
+[10/25/2017 02:47:04 > 6d64f7: SYS INFO] WebJob singleton setting is False
+[10/25/2017 02:47:12 > 6d64f7: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[10/25/2017 02:47:13 > 6d64f7: SYS INFO] Status changed to Running
+[10/25/2017 02:47:16 > 6d64f7: INFO] Unpacking resources...
+[10/25/2017 02:47:16 > 6d64f7: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[10/25/2017 02:47:18 > 6d64f7: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[10/25/2017 02:47:20 > 6d64f7: INFO] Detected an Azure App Service sandbox.
+[10/25/2017 02:47:20 > 6d64f7: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[10/25/2017 02:47:23 > 6d64f7: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[10/25/2017 02:47:25 > 6d64f7: INFO] Initializing agent...
+[10/25/2017 02:47:29 > 6d64f7: INFO] Set up shutdown handler.
+[10/25/2017 02:47:29 > 6d64f7: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\lboweg24.ipu.
+[10/25/2017 02:47:31 > 6d64f7: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[10/25/2017 02:47:31 > 6d64f7: INFO] Finished initializing request performance monitor (Activity Monitor).
+[10/25/2017 02:47:31 > 6d64f7: INFO] Agent initialization completed successfully
+[10/25/2017 03:47:06 > 6d64f7: SYS INFO] WebJob is still running
+[10/25/2017 04:09:30 > 569f1f: SYS INFO] Status changed to Starting
+[10/25/2017 04:09:30 > 569f1f: SYS INFO] WebJob singleton setting is False
+[10/25/2017 04:09:30 > 569f1f: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[10/25/2017 04:09:31 > 569f1f: SYS INFO] Status changed to Running
+[10/25/2017 04:09:33 > 569f1f: INFO] Unpacking resources...
+[10/25/2017 04:09:33 > 569f1f: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[10/25/2017 04:09:33 > 569f1f: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[10/25/2017 04:09:33 > 569f1f: INFO] Detected an Azure App Service sandbox.
+[10/25/2017 04:09:34 > 569f1f: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[10/25/2017 04:09:34 > 569f1f: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[10/25/2017 04:09:34 > 569f1f: INFO] Initializing agent...
+[10/25/2017 04:09:34 > 569f1f: INFO] Set up shutdown handler.
+[10/25/2017 04:09:34 > 569f1f: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\sk4wswce.yaz.
+[10/25/2017 04:09:36 > 569f1f: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[10/25/2017 04:09:37 > 569f1f: INFO] Finished initializing request performance monitor (Activity Monitor).
+[10/25/2017 04:09:37 > 569f1f: INFO] Agent initialization completed successfully
+[10/25/2017 04:11:05 > 6d64f7: SYS INFO] WebJob is stopping due to website shutting down
+[10/25/2017 04:11:07 > 6d64f7: SYS INFO] Status changed to Stopping
+[10/25/2017 05:09:30 > 569f1f: SYS INFO] WebJob is still running
+[10/25/2017 07:04:37 > 569f1f: SYS INFO] Status changed to Starting
+[10/25/2017 07:04:38 > 569f1f: SYS INFO] WebJob singleton setting is False
+[10/25/2017 07:04:42 > 569f1f: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[10/25/2017 07:04:43 > 569f1f: SYS INFO] Status changed to Running
+[10/25/2017 07:04:43 > 569f1f: INFO] Unpacking resources...
+[10/25/2017 07:04:43 > 569f1f: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[10/25/2017 07:04:43 > 569f1f: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[10/25/2017 07:04:43 > 569f1f: INFO] Detected an Azure App Service sandbox.
+[10/25/2017 07:04:43 > 569f1f: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[10/25/2017 07:04:43 > 569f1f: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[10/25/2017 07:04:43 > 569f1f: INFO] Initializing agent...
+[10/25/2017 07:04:43 > 569f1f: INFO] Set up shutdown handler.
+[10/25/2017 07:04:43 > 569f1f: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\yidizvme.cz4.
+[10/25/2017 07:04:45 > 569f1f: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[10/25/2017 07:04:45 > 569f1f: INFO] Finished initializing request performance monitor (Activity Monitor).
+[10/25/2017 07:04:46 > 569f1f: INFO] Agent initialization completed successfully
+[10/25/2017 08:04:39 > 569f1f: SYS INFO] WebJob is still running
+[10/25/2017 20:04:40 > 569f1f: SYS INFO] WebJob is still running
+[10/26/2017 04:21:52 > 3e53eb: SYS INFO] Status changed to Starting
+[10/26/2017 04:21:52 > 3e53eb: SYS INFO] WebJob singleton setting is False
+[10/26/2017 04:21:53 > 3e53eb: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[10/26/2017 04:21:53 > 3e53eb: SYS INFO] Status changed to Running
+[10/26/2017 04:21:53 > 3e53eb: INFO] Unpacking resources...
+[10/26/2017 04:21:53 > 3e53eb: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[10/26/2017 04:21:53 > 3e53eb: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[10/26/2017 04:21:53 > 3e53eb: INFO] Detected an Azure App Service sandbox.
+[10/26/2017 04:21:53 > 3e53eb: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[10/26/2017 04:21:53 > 3e53eb: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[10/26/2017 04:21:54 > 3e53eb: INFO] Initializing agent...
+[10/26/2017 04:21:54 > 3e53eb: INFO] Set up shutdown handler.
+[10/26/2017 04:21:54 > 3e53eb: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\mtfgge14.rol.
+[10/26/2017 04:21:56 > 3e53eb: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[10/26/2017 04:21:56 > 3e53eb: INFO] Finished initializing request performance monitor (Activity Monitor).
+[10/26/2017 04:21:56 > 3e53eb: INFO] Agent initialization completed successfully
+[10/26/2017 04:22:46 > 569f1f: SYS INFO] WebJob is stopping due to website shutting down
+[10/26/2017 04:22:46 > 569f1f: SYS INFO] Status changed to Stopping
+[10/26/2017 04:22:47 > 569f1f: INFO] Received shutdown request.
+[10/26/2017 04:22:47 > 569f1f: INFO] Stopping Engine.
+[10/26/2017 04:22:51 > 569f1f: ERR ] Thread was being aborted.
+[10/26/2017 04:22:56 > 569f1f: SYS INFO] WebJob process was aborted
+[10/26/2017 04:22:57 > 569f1f: SYS INFO] Status changed to Stopped
+[10/26/2017 05:21:52 > 3e53eb: SYS INFO] WebJob is still running
+[10/26/2017 05:43:11 > 3e53eb: SYS INFO] Status changed to Starting
+[10/26/2017 05:43:13 > 3e53eb: SYS INFO] WebJob singleton setting is False
+[10/26/2017 05:43:17 > 3e53eb: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[10/26/2017 05:43:18 > 3e53eb: SYS INFO] Status changed to Running
+[10/26/2017 05:43:18 > 3e53eb: INFO] Unpacking resources...
+[10/26/2017 05:43:19 > 3e53eb: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[10/26/2017 05:43:19 > 3e53eb: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[10/26/2017 05:43:20 > 3e53eb: INFO] Detected an Azure App Service sandbox.
+[10/26/2017 05:43:21 > 3e53eb: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[10/26/2017 05:43:22 > 3e53eb: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[10/26/2017 05:43:22 > 3e53eb: INFO] Initializing agent...
+[10/26/2017 05:43:23 > 3e53eb: INFO] Set up shutdown handler.
+[10/26/2017 05:43:24 > 3e53eb: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\cxkdlak0.5bx.
+[10/26/2017 05:43:24 > 3e53eb: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[10/26/2017 05:43:24 > 3e53eb: INFO] Finished initializing request performance monitor (Activity Monitor).
+[10/26/2017 05:43:27 > 3e53eb: INFO] Agent initialization completed successfully
+[10/26/2017 06:43:13 > 3e53eb: SYS INFO] WebJob is still running
+[10/26/2017 18:43:13 > 3e53eb: SYS INFO] WebJob is still running
+[10/27/2017 06:43:13 > 3e53eb: SYS INFO] WebJob is still running
+[10/27/2017 18:43:12 > 3e53eb: SYS INFO] WebJob is still running
+[10/28/2017 06:43:13 > 3e53eb: SYS INFO] WebJob is still running
+[10/28/2017 15:06:45 > 3e53eb: SYS INFO] Status changed to Starting
+[10/28/2017 15:06:47 > 3e53eb: SYS INFO] WebJob singleton setting is False
+[10/28/2017 15:06:50 > 3e53eb: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[10/28/2017 15:06:50 > 3e53eb: SYS INFO] Status changed to Running
+[10/28/2017 15:06:51 > 3e53eb: INFO] Unpacking resources...
+[10/28/2017 15:06:51 > 3e53eb: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[10/28/2017 15:06:51 > 3e53eb: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[10/28/2017 15:06:51 > 3e53eb: INFO] Detected an Azure App Service sandbox.
+[10/28/2017 15:06:51 > 3e53eb: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[10/28/2017 15:06:51 > 3e53eb: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[10/28/2017 15:06:51 > 3e53eb: INFO] Initializing agent...
+[10/28/2017 15:06:51 > 3e53eb: INFO] Set up shutdown handler.
+[10/28/2017 15:06:51 > 3e53eb: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\mi2ejb2k.ak3.
+[10/28/2017 15:06:54 > 3e53eb: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[10/28/2017 15:06:54 > 3e53eb: INFO] Finished initializing request performance monitor (Activity Monitor).
+[10/28/2017 15:06:55 > 3e53eb: INFO] Agent initialization completed successfully
+[10/28/2017 16:06:47 > 3e53eb: SYS INFO] WebJob is still running
+[10/29/2017 04:06:47 > 3e53eb: SYS INFO] WebJob is still running
+[10/29/2017 16:06:49 > 3e53eb: SYS INFO] WebJob is still running
+[10/30/2017 04:06:48 > 3e53eb: SYS INFO] WebJob is still running
+[10/30/2017 16:06:48 > 3e53eb: SYS INFO] WebJob is still running
+[10/31/2017 04:06:49 > 3e53eb: SYS INFO] WebJob is still running
+[10/31/2017 16:06:49 > 3e53eb: SYS INFO] WebJob is still running
+[10/31/2017 16:23:18 > 3e53eb: SYS INFO] WebJob is stopping due to website shutting down
+[10/31/2017 16:23:18 > 3e53eb: SYS INFO] Status changed to Stopping
+[10/31/2017 16:23:19 > 3e53eb: INFO] Received shutdown request.
+[10/31/2017 16:23:19 > 3e53eb: INFO] Stopping Engine.
+[10/31/2017 16:23:19 > 3e53eb: SYS INFO] Status changed to Success
+[10/31/2017 16:23:20 > 3e53eb: SYS INFO] Status changed to Stopped
+[10/31/2017 16:23:36 > 3e53eb: SYS INFO] Status changed to Starting
+[10/31/2017 16:23:36 > 3e53eb: SYS INFO] WebJob singleton setting is False
+[10/31/2017 16:23:38 > 3e53eb: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[10/31/2017 16:23:38 > 3e53eb: SYS INFO] Status changed to Running
+[10/31/2017 16:23:40 > 3e53eb: INFO] Unpacking resources...
+[10/31/2017 16:23:40 > 3e53eb: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[10/31/2017 16:23:40 > 3e53eb: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[10/31/2017 16:23:41 > 3e53eb: INFO] Detected an Azure App Service sandbox.
+[10/31/2017 16:23:41 > 3e53eb: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[10/31/2017 16:23:41 > 3e53eb: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[10/31/2017 16:23:41 > 3e53eb: INFO] Initializing agent...
+[10/31/2017 16:23:41 > 3e53eb: INFO] Set up shutdown handler.
+[10/31/2017 16:23:41 > 3e53eb: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\yz2wdagb.h3d.
+[10/31/2017 16:23:45 > 3e53eb: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[10/31/2017 16:23:45 > 3e53eb: INFO] Finished initializing request performance monitor (Activity Monitor).
+[10/31/2017 16:23:45 > 3e53eb: INFO] Agent initialization completed successfully
+[10/31/2017 17:23:35 > 3e53eb: SYS INFO] WebJob is still running
+[10/31/2017 17:42:00 > 3e53eb: SYS INFO] WebJob is stopping due to website shutting down
+[10/31/2017 17:42:00 > 3e53eb: SYS INFO] Status changed to Stopping
+[10/31/2017 17:42:00 > 3e53eb: INFO] Received shutdown request.
+[10/31/2017 17:42:00 > 3e53eb: INFO] Stopping Engine.
+[10/31/2017 17:42:05 > 3e53eb: ERR ] Thread was being aborted.
+[10/31/2017 17:42:06 > 3e53eb: SYS INFO] WebJob process was aborted
+[10/31/2017 17:42:06 > 3e53eb: SYS INFO] Status changed to Stopped
+[10/31/2017 17:42:34 > 3e53eb: SYS INFO] Status changed to Starting
+[10/31/2017 17:42:35 > 3e53eb: SYS INFO] WebJob singleton setting is False
+[10/31/2017 17:42:38 > 3e53eb: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[10/31/2017 17:42:38 > 3e53eb: SYS INFO] Status changed to Running
+[10/31/2017 17:42:40 > 3e53eb: INFO] Unpacking resources...
+[10/31/2017 17:42:40 > 3e53eb: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[10/31/2017 17:42:40 > 3e53eb: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[10/31/2017 17:42:40 > 3e53eb: INFO] Detected an Azure App Service sandbox.
+[10/31/2017 17:42:40 > 3e53eb: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[10/31/2017 17:42:41 > 3e53eb: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[10/31/2017 17:42:41 > 3e53eb: INFO] Initializing agent...
+[10/31/2017 17:42:45 > 3e53eb: INFO] Set up shutdown handler.
+[10/31/2017 17:42:46 > 3e53eb: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\et0lyzpj.34l.
+[10/31/2017 17:42:49 > 3e53eb: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[10/31/2017 17:42:50 > 3e53eb: INFO] Finished initializing request performance monitor (Activity Monitor).
+[10/31/2017 17:42:51 > 3e53eb: INFO] Agent initialization completed successfully
+[10/31/2017 18:42:35 > 3e53eb: SYS INFO] WebJob is still running
+[11/01/2017 06:42:36 > 3e53eb: SYS INFO] WebJob is still running
+[11/01/2017 18:42:36 > 3e53eb: SYS INFO] WebJob is still running
+[11/02/2017 06:42:36 > 3e53eb: SYS INFO] WebJob is still running
+[11/02/2017 18:42:36 > 3e53eb: SYS INFO] WebJob is still running
+[11/03/2017 06:42:36 > 3e53eb: SYS INFO] WebJob is still running
+[11/03/2017 18:42:36 > 3e53eb: SYS INFO] WebJob is still running
+[11/04/2017 06:42:36 > 3e53eb: SYS INFO] WebJob is still running
+[11/04/2017 18:42:37 > 3e53eb: SYS INFO] WebJob is still running
+[11/05/2017 06:42:37 > 3e53eb: SYS INFO] WebJob is still running
+[11/05/2017 18:42:36 > 3e53eb: SYS INFO] WebJob is still running
+[11/06/2017 06:42:36 > 3e53eb: SYS INFO] WebJob is still running
+[11/06/2017 18:42:36 > 3e53eb: SYS INFO] WebJob is still running
+[11/07/2017 06:42:36 > 3e53eb: SYS INFO] WebJob is still running
+[11/07/2017 18:42:37 > 3e53eb: SYS INFO] WebJob is still running
+[11/08/2017 01:45:02 > b63230: SYS INFO] Status changed to Starting
+[11/08/2017 01:45:02 > b63230: SYS INFO] WebJob singleton setting is False
+[11/08/2017 01:45:06 > b63230: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[11/08/2017 01:45:06 > b63230: SYS INFO] Status changed to Running
+[11/08/2017 01:45:10 > b63230: INFO] Unpacking resources...
+[11/08/2017 01:45:12 > b63230: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[11/08/2017 01:45:12 > b63230: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[11/08/2017 01:45:12 > b63230: INFO] Detected an Azure App Service sandbox.
+[11/08/2017 01:45:12 > b63230: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[11/08/2017 01:45:12 > b63230: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[11/08/2017 01:45:17 > b63230: INFO] Initializing agent...
+[11/08/2017 01:45:17 > b63230: INFO] Set up shutdown handler.
+[11/08/2017 01:45:17 > b63230: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\kql2vyzc.vrv.
+[11/08/2017 01:45:28 > b63230: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[11/08/2017 01:45:34 > b63230: INFO] Finished initializing request performance monitor (Activity Monitor).
+[11/08/2017 01:45:34 > b63230: INFO] Agent initialization completed successfully
+[11/08/2017 01:46:28 > 3e53eb: SYS INFO] WebJob is stopping due to website shutting down
+[11/08/2017 01:46:32 > 3e53eb: SYS INFO] Status changed to Stopping
+[11/08/2017 02:45:00 > b63230: SYS INFO] WebJob is still running
+[11/08/2017 03:45:01 > b63230: SYS INFO] WebJob is stopping due to website shutting down
+[11/08/2017 03:45:01 > b63230: SYS INFO] Status changed to Stopping
+[11/08/2017 03:45:05 > b63230: INFO] Received shutdown request.
+[11/08/2017 03:45:05 > b63230: INFO] Stopping Engine.
+[11/08/2017 03:45:07 > b63230: ERR ] Thread was being aborted.
+[11/08/2017 03:45:11 > b63230: SYS INFO] WebJob process was aborted
+[11/08/2017 03:45:11 > b63230: SYS INFO] Status changed to Stopped
+[11/08/2017 03:45:48 > d42f09: SYS INFO] Status changed to Starting
+[11/08/2017 03:45:49 > d42f09: SYS INFO] WebJob singleton setting is False
+[11/08/2017 03:45:52 > d42f09: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[11/08/2017 03:45:54 > d42f09: SYS INFO] Status changed to Running
+[11/08/2017 03:46:01 > d42f09: INFO] Unpacking resources...
+[11/08/2017 03:46:06 > d42f09: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[11/08/2017 03:46:07 > d42f09: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[11/08/2017 03:46:07 > d42f09: INFO] Detected an Azure App Service sandbox.
+[11/08/2017 03:46:07 > d42f09: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[11/08/2017 03:46:07 > d42f09: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[11/08/2017 03:46:08 > d42f09: INFO] Initializing agent...
+[11/08/2017 03:46:08 > d42f09: INFO] Set up shutdown handler.
+[11/08/2017 03:46:08 > d42f09: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\fkzi50bk.ik5.
+[11/08/2017 03:46:14 > d42f09: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[11/08/2017 03:46:15 > d42f09: INFO] Finished initializing request performance monitor (Activity Monitor).
+[11/08/2017 03:46:15 > d42f09: INFO] Agent initialization completed successfully
+[11/08/2017 04:16:40 > d42f09: SYS INFO] Status changed to Starting
+[11/08/2017 04:16:41 > d42f09: SYS INFO] WebJob singleton setting is False
+[11/08/2017 04:16:46 > d42f09: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[11/08/2017 04:16:46 > d42f09: SYS INFO] Status changed to Running
+[11/08/2017 04:16:47 > d42f09: INFO] Unpacking resources...
+[11/08/2017 04:16:47 > d42f09: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[11/08/2017 04:16:47 > d42f09: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[11/08/2017 04:16:47 > d42f09: INFO] Detected an Azure App Service sandbox.
+[11/08/2017 04:16:48 > d42f09: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[11/08/2017 04:16:48 > d42f09: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[11/08/2017 04:16:48 > d42f09: INFO] Initializing agent...
+[11/08/2017 04:16:48 > d42f09: INFO] Set up shutdown handler.
+[11/08/2017 04:16:48 > d42f09: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\xfenajtf.ti5.
+[11/08/2017 04:16:54 > d42f09: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[11/08/2017 04:16:59 > d42f09: INFO] Finished initializing request performance monitor (Activity Monitor).
+[11/08/2017 04:16:59 > d42f09: INFO] Agent initialization completed successfully
+[11/08/2017 05:16:41 > d42f09: SYS INFO] WebJob is still running
+[11/08/2017 17:16:42 > d42f09: SYS INFO] WebJob is still running
+[11/09/2017 05:16:42 > d42f09: SYS INFO] WebJob is still running
+[11/09/2017 17:16:41 > d42f09: SYS INFO] WebJob is still running
+[11/10/2017 05:16:41 > d42f09: SYS INFO] WebJob is still running
+[11/10/2017 17:16:41 > d42f09: SYS INFO] WebJob is still running
+[11/11/2017 05:16:42 > d42f09: SYS INFO] WebJob is still running
+[11/11/2017 17:16:44 > d42f09: SYS INFO] WebJob is still running
+[11/12/2017 05:16:43 > d42f09: SYS INFO] WebJob is still running
+[11/12/2017 17:16:44 > d42f09: SYS INFO] WebJob is still running
+[11/13/2017 05:16:44 > d42f09: SYS INFO] WebJob is still running
+[11/13/2017 17:16:43 > d42f09: SYS INFO] WebJob is still running
+[11/14/2017 05:16:45 > d42f09: SYS INFO] WebJob is still running
+[11/14/2017 17:16:44 > d42f09: SYS INFO] WebJob is still running
+[11/15/2017 05:16:45 > d42f09: SYS INFO] WebJob is still running
+[11/15/2017 17:16:46 > d42f09: SYS INFO] WebJob is still running
+[11/16/2017 05:16:45 > d42f09: SYS INFO] WebJob is still running
+[11/16/2017 17:16:46 > d42f09: SYS INFO] WebJob is still running
+[11/17/2017 05:16:47 > d42f09: SYS INFO] WebJob is still running
+[11/17/2017 14:03:26 > d42f09: SYS INFO] WebJob is stopping due to website shutting down
+[11/17/2017 14:03:29 > d42f09: SYS INFO] Status changed to Stopping
+[11/17/2017 14:03:34 > d42f09: INFO] Received shutdown request.
+[11/17/2017 14:03:34 > d42f09: INFO] Stopping Engine.
+[11/17/2017 14:03:35 > d42f09: ERR ] Thread was being aborted.
+[11/17/2017 14:03:41 > d42f09: SYS INFO] WebJob process was aborted
+[11/17/2017 14:03:41 > d42f09: SYS INFO] Status changed to Stopped
+[11/17/2017 14:04:07 > d42f09: SYS INFO] Status changed to Starting
+[11/17/2017 14:04:08 > d42f09: SYS INFO] WebJob singleton setting is False
+[11/17/2017 14:04:14 > d42f09: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[11/17/2017 14:04:17 > d42f09: SYS INFO] Status changed to Running
+[11/17/2017 14:04:21 > d42f09: INFO] Unpacking resources...
+[11/17/2017 14:04:21 > d42f09: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[11/17/2017 14:04:21 > d42f09: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[11/17/2017 14:04:21 > d42f09: INFO] Detected an Azure App Service sandbox.
+[11/17/2017 14:04:21 > d42f09: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[11/17/2017 14:04:21 > d42f09: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[11/17/2017 14:04:22 > d42f09: INFO] Initializing agent...
+[11/17/2017 14:04:22 > d42f09: INFO] Set up shutdown handler.
+[11/17/2017 14:04:22 > d42f09: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\kkumn3wr.3ph.
+[11/17/2017 14:04:37 > d42f09: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[11/17/2017 14:04:37 > d42f09: INFO] Finished initializing request performance monitor (Activity Monitor).
+[11/17/2017 14:04:38 > d42f09: INFO] Agent initialization completed successfully
+[11/17/2017 15:04:11 > d42f09: SYS INFO] WebJob is still running
+[11/18/2017 03:04:10 > d42f09: SYS INFO] WebJob is still running
+[11/18/2017 15:04:10 > d42f09: SYS INFO] WebJob is still running
+[11/19/2017 03:04:10 > d42f09: SYS INFO] WebJob is still running
+[11/19/2017 15:04:11 > d42f09: SYS INFO] WebJob is still running
+[11/20/2017 03:04:12 > d42f09: SYS INFO] WebJob is still running
+[11/20/2017 15:04:11 > d42f09: SYS INFO] WebJob is still running
+[11/21/2017 03:04:11 > d42f09: SYS INFO] WebJob is still running
+[11/21/2017 15:04:13 > d42f09: SYS INFO] WebJob is still running
+[11/22/2017 03:04:13 > d42f09: SYS INFO] WebJob is still running
+[11/22/2017 15:04:13 > d42f09: SYS INFO] WebJob is still running
+[11/23/2017 03:04:13 > d42f09: SYS INFO] WebJob is still running
+[11/23/2017 15:04:13 > d42f09: SYS INFO] WebJob is still running
+[11/24/2017 03:04:15 > d42f09: SYS INFO] WebJob is still running
+[11/24/2017 15:04:15 > d42f09: SYS INFO] WebJob is still running
+[11/25/2017 03:04:14 > d42f09: SYS INFO] WebJob is still running
+[11/25/2017 15:04:15 > d42f09: SYS INFO] WebJob is still running
+[11/26/2017 03:04:15 > d42f09: SYS INFO] WebJob is still running
+[11/26/2017 15:04:15 > d42f09: SYS INFO] WebJob is still running
+[11/27/2017 03:04:15 > d42f09: SYS INFO] WebJob is still running
+[11/27/2017 15:04:16 > d42f09: SYS INFO] WebJob is still running
+[11/28/2017 03:04:16 > d42f09: SYS INFO] WebJob is still running
+[11/28/2017 15:04:16 > d42f09: SYS INFO] WebJob is still running
+[11/29/2017 03:04:17 > d42f09: SYS INFO] WebJob is still running
+[11/29/2017 15:04:18 > d42f09: SYS INFO] WebJob is still running
+[11/30/2017 02:35:18 > d42f09: SYS INFO] Status changed to Starting
+[11/30/2017 02:35:19 > d42f09: SYS INFO] WebJob singleton setting is False
+[11/30/2017 02:35:27 > d42f09: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[11/30/2017 02:35:28 > d42f09: SYS INFO] Status changed to Running
+[11/30/2017 02:35:31 > d42f09: INFO] Unpacking resources...
+[11/30/2017 02:35:31 > d42f09: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[11/30/2017 02:35:32 > d42f09: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[11/30/2017 02:35:33 > d42f09: INFO] Detected an Azure App Service sandbox.
+[11/30/2017 02:35:33 > d42f09: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[11/30/2017 02:35:35 > d42f09: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[11/30/2017 02:35:36 > d42f09: INFO] Initializing agent...
+[11/30/2017 02:35:39 > d42f09: INFO] Set up shutdown handler.
+[11/30/2017 02:35:42 > d42f09: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\w5pnlq0k.foi.
+[11/30/2017 02:35:49 > d42f09: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[11/30/2017 02:35:54 > d42f09: INFO] Finished initializing request performance monitor (Activity Monitor).
+[11/30/2017 02:35:56 > d42f09: INFO] Agent initialization completed successfully
+[11/30/2017 03:35:22 > d42f09: SYS INFO] WebJob is still running
+[11/30/2017 04:42:03 > 1d40f3: SYS INFO] Status changed to Starting
+[11/30/2017 04:42:03 > d42f09: SYS INFO] WebJob is stopping due to website shutting down
+[11/30/2017 04:42:03 > d42f09: SYS INFO] Status changed to Stopping
+[11/30/2017 04:42:03 > d42f09: INFO] Received shutdown request.
+[11/30/2017 04:42:03 > d42f09: INFO] Stopping Engine.
+[11/30/2017 04:42:05 > d42f09: SYS INFO] Status changed to Success
+[11/30/2017 04:42:06 > d42f09: SYS INFO] Status changed to Stopped
+[11/30/2017 04:42:08 > 1d40f3: SYS INFO] WebJob singleton setting is False
+[11/30/2017 04:42:13 > 1d40f3: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[11/30/2017 04:42:13 > 1d40f3: SYS INFO] Status changed to Running
+[11/30/2017 04:42:17 > 1d40f3: INFO] Unpacking resources...
+[11/30/2017 04:42:19 > 1d40f3: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[11/30/2017 04:42:19 > 1d40f3: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[11/30/2017 04:42:19 > 1d40f3: INFO] Detected an Azure App Service sandbox.
+[11/30/2017 04:42:19 > 1d40f3: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[11/30/2017 04:42:19 > 1d40f3: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[11/30/2017 04:42:20 > 1d40f3: INFO] Initializing agent...
+[11/30/2017 04:42:22 > 1d40f3: INFO] Set up shutdown handler.
+[11/30/2017 04:42:23 > 1d40f3: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\dwicsodi.dee.
+[11/30/2017 04:42:43 > 1d40f3: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[11/30/2017 04:42:43 > 1d40f3: INFO] Finished initializing request performance monitor (Activity Monitor).
+[11/30/2017 04:42:43 > 1d40f3: INFO] Agent initialization completed successfully
+[11/30/2017 05:17:09 > b8e7bd: SYS INFO] Status changed to Starting
+[11/30/2017 05:17:10 > b8e7bd: SYS INFO] WebJob singleton setting is False
+[11/30/2017 05:17:18 > b8e7bd: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[11/30/2017 05:17:18 > b8e7bd: SYS INFO] Status changed to Running
+[11/30/2017 05:17:21 > b8e7bd: INFO] Unpacking resources...
+[11/30/2017 05:17:23 > b8e7bd: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[11/30/2017 05:17:23 > b8e7bd: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[11/30/2017 05:17:24 > b8e7bd: INFO] Detected an Azure App Service sandbox.
+[11/30/2017 05:17:24 > b8e7bd: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[11/30/2017 05:17:25 > b8e7bd: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[11/30/2017 05:17:26 > b8e7bd: INFO] Initializing agent...
+[11/30/2017 05:17:26 > b8e7bd: INFO] Set up shutdown handler.
+[11/30/2017 05:17:27 > b8e7bd: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\pdfru013.inh.
+[11/30/2017 05:17:30 > b8e7bd: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[11/30/2017 05:17:31 > b8e7bd: INFO] Finished initializing request performance monitor (Activity Monitor).
+[11/30/2017 05:17:31 > b8e7bd: INFO] Agent initialization completed successfully
+[11/30/2017 06:17:11 > b8e7bd: SYS INFO] WebJob is still running
+[11/30/2017 08:34:24 > b8e7bd: SYS INFO] WebJob is stopping due to website shutting down
+[11/30/2017 08:34:25 > b8e7bd: SYS INFO] Status changed to Stopping
+[11/30/2017 08:34:30 > b8e7bd: INFO] Received shutdown request.
+[11/30/2017 08:34:30 > b8e7bd: INFO] Stopping Engine.
+[11/30/2017 08:34:34 > b8e7bd: ERR ] Thread was being aborted.
+[11/30/2017 08:34:37 > b8e7bd: SYS INFO] WebJob process was aborted
+[11/30/2017 08:34:37 > b8e7bd: SYS INFO] Status changed to Stopped
+[11/30/2017 08:34:54 > 7141e6: SYS INFO] Status changed to Starting
+[11/30/2017 08:34:54 > 7141e6: SYS INFO] WebJob singleton setting is False
+[11/30/2017 08:35:01 > 7141e6: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[11/30/2017 08:35:01 > 7141e6: SYS INFO] Status changed to Running
+[11/30/2017 08:35:06 > 7141e6: INFO] Unpacking resources...
+[11/30/2017 08:35:06 > 7141e6: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[11/30/2017 08:35:06 > 7141e6: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[11/30/2017 08:35:06 > 7141e6: INFO] Detected an Azure App Service sandbox.
+[11/30/2017 08:35:07 > 7141e6: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[11/30/2017 08:35:07 > 7141e6: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[11/30/2017 08:35:13 > 7141e6: INFO] Initializing agent...
+[11/30/2017 08:35:15 > 7141e6: INFO] Set up shutdown handler.
+[11/30/2017 08:35:15 > 7141e6: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\wlur1pc0.khw.
+[11/30/2017 08:35:31 > 7141e6: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[11/30/2017 08:35:37 > 7141e6: INFO] Finished initializing request performance monitor (Activity Monitor).
+[11/30/2017 08:35:37 > 7141e6: INFO] Agent initialization completed successfully
+[11/30/2017 09:17:58 > 7141e6: SYS INFO] WebJob is stopping due to website shutting down
+[11/30/2017 09:17:59 > 7141e6: SYS INFO] Status changed to Stopping
+[11/30/2017 09:18:04 > 7141e6: INFO] Received shutdown request.
+[11/30/2017 09:18:04 > 7141e6: INFO] Stopping Engine.
+[11/30/2017 09:18:06 > 7141e6: ERR ] Thread was being aborted.
+[11/30/2017 09:18:11 > 7141e6: SYS INFO] WebJob process was aborted
+[11/30/2017 09:18:11 > 7141e6: SYS INFO] Status changed to Stopped
+[11/30/2017 09:24:17 > 073d66: SYS INFO] Status changed to Starting
+[11/30/2017 09:24:17 > 073d66: SYS INFO] WebJob singleton setting is False
+[11/30/2017 09:24:23 > 073d66: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[11/30/2017 09:24:24 > 073d66: SYS INFO] Status changed to Running
+[11/30/2017 09:24:25 > 073d66: INFO] Unpacking resources...
+[11/30/2017 09:24:26 > 073d66: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[11/30/2017 09:24:26 > 073d66: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[11/30/2017 09:24:26 > 073d66: INFO] Detected an Azure App Service sandbox.
+[11/30/2017 09:24:27 > 073d66: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[11/30/2017 09:24:27 > 073d66: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[11/30/2017 09:24:29 > 073d66: INFO] Initializing agent...
+[11/30/2017 09:24:29 > 073d66: INFO] Set up shutdown handler.
+[11/30/2017 09:24:29 > 073d66: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\2k3edirh.fnu.
+[11/30/2017 09:24:39 > 073d66: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[11/30/2017 09:24:46 > 073d66: INFO] Finished initializing request performance monitor (Activity Monitor).
+[11/30/2017 09:24:46 > 073d66: INFO] Agent initialization completed successfully
+[11/30/2017 10:24:15 > 073d66: SYS INFO] WebJob is still running
+[11/30/2017 22:24:17 > 073d66: SYS INFO] WebJob is still running
+[12/01/2017 05:30:46 > 073d66: SYS INFO] WebJob is stopping due to website shutting down
+[12/01/2017 05:30:50 > 073d66: SYS INFO] Status changed to Stopping
+[12/01/2017 05:30:55 > 073d66: INFO] Received shutdown request.
+[12/01/2017 05:30:55 > 073d66: INFO] Stopping Engine.
+[12/01/2017 05:30:55 > 073d66: SYS INFO] Status changed to Success
+[12/01/2017 05:30:58 > 073d66: SYS INFO] Status changed to Stopped
+[12/01/2017 05:31:30 > 073d66: SYS INFO] Status changed to Starting
+[12/01/2017 05:31:31 > 073d66: SYS INFO] WebJob singleton setting is False
+[12/01/2017 05:31:34 > 073d66: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[12/01/2017 05:31:34 > 073d66: SYS INFO] Status changed to Running
+[12/01/2017 05:31:35 > 073d66: INFO] Unpacking resources...
+[12/01/2017 05:31:36 > 073d66: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[12/01/2017 05:31:36 > 073d66: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[12/01/2017 05:31:37 > 073d66: INFO] Detected an Azure App Service sandbox.
+[12/01/2017 05:31:38 > 073d66: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[12/01/2017 05:31:39 > 073d66: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[12/01/2017 05:31:40 > 073d66: INFO] Initializing agent...
+[12/01/2017 05:31:42 > 073d66: INFO] Set up shutdown handler.
+[12/01/2017 05:31:44 > 073d66: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\bnxl3qih.cie.
+[12/01/2017 05:31:49 > 073d66: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[12/01/2017 05:31:50 > 073d66: INFO] Finished initializing request performance monitor (Activity Monitor).
+[12/01/2017 05:31:50 > 073d66: INFO] Agent initialization completed successfully
+[12/01/2017 05:43:20 > 9bfde0: SYS INFO] Status changed to Starting
+[12/01/2017 05:43:20 > 9bfde0: SYS INFO] WebJob singleton setting is False
+[12/01/2017 05:43:21 > 9bfde0: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[12/01/2017 05:43:21 > 9bfde0: SYS INFO] Status changed to Running
+[12/01/2017 05:43:22 > 9bfde0: INFO] Unpacking resources...
+[12/01/2017 05:43:22 > 9bfde0: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[12/01/2017 05:43:22 > 9bfde0: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[12/01/2017 05:43:22 > 9bfde0: INFO] Detected an Azure App Service sandbox.
+[12/01/2017 05:43:22 > 9bfde0: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[12/01/2017 05:43:22 > 9bfde0: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[12/01/2017 05:43:24 > 9bfde0: INFO] Initializing agent...
+[12/01/2017 05:43:24 > 9bfde0: INFO] Set up shutdown handler.
+[12/01/2017 05:43:24 > 9bfde0: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\wij5ydlh.gle.
+[12/01/2017 05:43:31 > 9bfde0: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[12/01/2017 05:43:31 > 9bfde0: INFO] Finished initializing request performance monitor (Activity Monitor).
+[12/01/2017 05:43:31 > 9bfde0: INFO] Agent initialization completed successfully
+[12/01/2017 05:44:02 > 073d66: SYS INFO] WebJob is stopping due to website shutting down
+[12/01/2017 05:44:03 > 073d66: SYS INFO] Status changed to Stopping
+[12/01/2017 05:44:06 > 073d66: INFO] Received shutdown request.
+[12/01/2017 05:44:06 > 073d66: INFO] Stopping Engine.
+[12/01/2017 05:44:11 > 073d66: ERR ] Thread was being aborted.
+[12/01/2017 05:44:11 > 073d66: SYS INFO] WebJob process was aborted
+[12/01/2017 05:44:12 > 073d66: SYS INFO] Status changed to Stopped
+[12/01/2017 06:43:19 > 9bfde0: SYS INFO] WebJob is still running
+[12/01/2017 18:43:20 > 9bfde0: SYS INFO] WebJob is still running
+[12/02/2017 06:43:20 > 9bfde0: SYS INFO] WebJob is still running
+[12/02/2017 18:43:20 > 9bfde0: SYS INFO] WebJob is still running
+[12/03/2017 06:43:20 > 9bfde0: SYS INFO] WebJob is still running
+[12/03/2017 18:43:21 > 9bfde0: SYS INFO] WebJob is still running
+[12/04/2017 06:43:20 > 9bfde0: SYS INFO] WebJob is still running
+[12/04/2017 18:43:20 > 9bfde0: SYS INFO] WebJob is still running
+[12/05/2017 06:43:21 > 9bfde0: SYS INFO] WebJob is still running
+[12/05/2017 18:43:21 > 9bfde0: SYS INFO] WebJob is still running
+[12/06/2017 06:43:22 > 9bfde0: SYS INFO] WebJob is still running
+[12/06/2017 18:43:23 > 9bfde0: SYS INFO] WebJob is still running
+[12/06/2017 18:45:15 > 3505d3: SYS INFO] Status changed to Starting
+[12/06/2017 18:45:15 > 3505d3: SYS INFO] WebJob singleton setting is False
+[12/06/2017 18:45:17 > 3505d3: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[12/06/2017 18:45:17 > 3505d3: SYS INFO] Status changed to Running
+[12/06/2017 18:45:24 > 3505d3: INFO] Unpacking resources...
+[12/06/2017 18:45:34 > 3505d3: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[12/06/2017 18:45:34 > 3505d3: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[12/06/2017 18:45:34 > 3505d3: INFO] Detected an Azure App Service sandbox.
+[12/06/2017 18:45:34 > 3505d3: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[12/06/2017 18:45:34 > 3505d3: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[12/06/2017 18:45:35 > 3505d3: INFO] Initializing agent...
+[12/06/2017 18:45:35 > 3505d3: INFO] Set up shutdown handler.
+[12/06/2017 18:45:35 > 3505d3: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\cllom0ez.deu.
+[12/06/2017 18:45:44 > 3505d3: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[12/06/2017 18:45:47 > 9bfde0: SYS INFO] WebJob is stopping due to website shutting down
+[12/06/2017 18:45:47 > 9bfde0: SYS INFO] Status changed to Stopping
+[12/06/2017 18:45:47 > 9bfde0: INFO] Received shutdown request.
+[12/06/2017 18:45:47 > 9bfde0: INFO] Stopping Engine.
+[12/06/2017 18:45:51 > 9bfde0: SYS INFO] Status changed to Success
+[12/06/2017 18:45:53 > 9bfde0: SYS INFO] Status changed to Stopped
+[12/06/2017 18:46:07 > 3505d3: INFO] Finished initializing request performance monitor (Activity Monitor).
+[12/06/2017 18:46:07 > 3505d3: INFO] Agent initialization completed successfully
+[12/06/2017 19:45:14 > 3505d3: SYS INFO] WebJob is still running
+[12/07/2017 07:45:15 > 3505d3: SYS INFO] WebJob is still running
+[12/07/2017 19:45:15 > 3505d3: SYS INFO] WebJob is still running
+[12/08/2017 02:29:36 > 3505d3: SYS INFO] WebJob is stopping due to website shutting down
+[12/08/2017 02:29:40 > 3505d3: SYS INFO] Status changed to Stopping
+[12/08/2017 02:29:47 > 3505d3: ERR ] Thread was being aborted.
+[12/08/2017 02:29:47 > 3505d3: INFO] Received shutdown request.
+[12/08/2017 02:29:47 > 3505d3: SYS INFO] WebJob process was aborted
+[12/08/2017 02:29:47 > 3505d3: INFO] Received shutdown request.
+[12/08/2017 02:29:48 > 3505d3: INFO] Stopping Engine.
+[12/08/2017 02:29:48 > 3505d3: SYS INFO] Status changed to Stopped
+[12/08/2017 02:29:49 > 3505d3: SYS INFO] Status changed to Stopped
+[12/08/2017 02:30:23 > 3505d3: SYS INFO] Status changed to Starting
+[12/08/2017 02:30:23 > 3505d3: SYS INFO] WebJob singleton setting is False
+[12/08/2017 02:30:29 > 3505d3: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[12/08/2017 02:30:29 > 3505d3: SYS INFO] Status changed to Running
+[12/08/2017 02:30:30 > 3505d3: INFO] Unpacking resources...
+[12/08/2017 02:30:31 > 3505d3: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[12/08/2017 02:30:31 > 3505d3: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[12/08/2017 02:30:31 > 3505d3: INFO] Detected an Azure App Service sandbox.
+[12/08/2017 02:30:32 > 3505d3: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[12/08/2017 02:30:32 > 3505d3: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[12/08/2017 02:30:32 > 3505d3: INFO] Initializing agent...
+[12/08/2017 02:30:32 > 3505d3: INFO] Set up shutdown handler.
+[12/08/2017 02:30:32 > 3505d3: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\pugqu1s4.wip.
+[12/08/2017 02:30:42 > 3505d3: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[12/08/2017 02:30:46 > 3505d3: INFO] Finished initializing request performance monitor (Activity Monitor).
+[12/08/2017 02:30:47 > 3505d3: INFO] Agent initialization completed successfully
+[12/08/2017 03:30:26 > 3505d3: SYS INFO] WebJob is still running
+[12/08/2017 15:30:26 > 3505d3: SYS INFO] WebJob is still running
+[12/09/2017 03:30:26 > 3505d3: SYS INFO] WebJob is still running
+[12/09/2017 15:30:26 > 3505d3: SYS INFO] WebJob is still running
+[12/10/2017 03:30:27 > 3505d3: SYS INFO] WebJob is still running
+[12/10/2017 15:30:28 > 3505d3: SYS INFO] WebJob is still running
+[12/11/2017 03:30:29 > 3505d3: SYS INFO] WebJob is still running
+[12/11/2017 15:30:32 > 3505d3: SYS INFO] WebJob is still running
+[12/12/2017 03:30:30 > 3505d3: SYS INFO] WebJob is still running
+[12/12/2017 15:30:31 > 3505d3: SYS INFO] WebJob is still running
+[12/13/2017 02:02:12 > 3505d3: SYS INFO] WebJob is stopping due to website shutting down
+[12/13/2017 02:02:14 > 3505d3: SYS INFO] Status changed to Stopping
+[12/13/2017 02:02:16 > 3505d3: INFO] Received shutdown request.
+[12/13/2017 02:02:16 > 3505d3: INFO] Stopping Engine.
+[12/13/2017 02:02:20 > 3505d3: ERR ] Thread was being aborted.
+[12/13/2017 02:02:23 > 3505d3: SYS INFO] Status changed to Stopped
+[12/13/2017 02:02:23 > 3505d3: SYS INFO] WebJob process was aborted
+[12/13/2017 02:02:24 > 3505d3: SYS INFO] Status changed to Stopped
+[12/13/2017 02:05:09 > 3505d3: SYS INFO] Status changed to Starting
+[12/13/2017 02:05:10 > 3505d3: SYS INFO] WebJob singleton setting is False
+[12/13/2017 02:05:18 > 3505d3: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[12/13/2017 02:05:19 > 3505d3: SYS INFO] Status changed to Running
+[12/13/2017 02:05:21 > 3505d3: INFO] Unpacking resources...
+[12/13/2017 02:05:21 > 3505d3: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[12/13/2017 02:05:21 > 3505d3: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[12/13/2017 02:05:21 > 3505d3: INFO] Detected an Azure App Service sandbox.
+[12/13/2017 02:05:21 > 3505d3: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[12/13/2017 02:05:21 > 3505d3: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[12/13/2017 02:05:22 > 3505d3: INFO] Initializing agent...
+[12/13/2017 02:05:22 > 3505d3: INFO] Set up shutdown handler.
+[12/13/2017 02:05:22 > 3505d3: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\cmflkvxt.1r4.
+[12/13/2017 02:05:31 > 3505d3: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[12/13/2017 02:05:37 > 3505d3: INFO] Finished initializing request performance monitor (Activity Monitor).
+[12/13/2017 02:05:37 > 3505d3: INFO] Agent initialization completed successfully
+[12/13/2017 03:05:14 > 3505d3: SYS INFO] WebJob is still running
+[12/13/2017 05:20:26 > eb06b8: SYS INFO] Status changed to Starting
+[12/13/2017 05:20:28 > eb06b8: SYS INFO] WebJob singleton setting is False
+[12/13/2017 05:20:31 > eb06b8: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[12/13/2017 05:20:31 > eb06b8: SYS INFO] Status changed to Running
+[12/13/2017 05:20:31 > 3505d3: SYS INFO] WebJob is stopping due to website shutting down
+[12/13/2017 05:20:32 > 3505d3: SYS INFO] Status changed to Stopping
+[12/13/2017 05:20:36 > 3505d3: INFO] Received shutdown request.
+[12/13/2017 05:20:36 > 3505d3: INFO] Stopping Engine.
+[12/13/2017 05:20:40 > eb06b8: INFO] Unpacking resources...
+[12/13/2017 05:20:45 > eb06b8: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[12/13/2017 05:20:45 > eb06b8: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[12/13/2017 05:20:45 > eb06b8: INFO] Detected an Azure App Service sandbox.
+[12/13/2017 05:20:45 > eb06b8: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[12/13/2017 05:20:45 > eb06b8: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[12/13/2017 05:20:47 > eb06b8: INFO] Initializing agent...
+[12/13/2017 05:20:47 > eb06b8: INFO] Set up shutdown handler.
+[12/13/2017 05:20:47 > eb06b8: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\d2a0mh3e.eet.
+[12/13/2017 05:20:54 > eb06b8: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[12/13/2017 05:20:55 > eb06b8: INFO] Finished initializing request performance monitor (Activity Monitor).
+[12/13/2017 05:20:55 > eb06b8: INFO] Agent initialization completed successfully
+[12/13/2017 06:20:28 > eb06b8: SYS INFO] WebJob is still running
+[12/13/2017 18:20:27 > eb06b8: SYS INFO] WebJob is still running
+[12/14/2017 06:20:28 > eb06b8: SYS INFO] WebJob is still running
+[12/14/2017 18:20:28 > eb06b8: SYS INFO] WebJob is still running
+[12/15/2017 06:20:29 > eb06b8: SYS INFO] WebJob is still running
+[12/15/2017 18:20:30 > eb06b8: SYS INFO] WebJob is still running
+[12/16/2017 00:22:56 > 30a2e8: SYS INFO] Status changed to Starting
+[12/16/2017 00:22:58 > 30a2e8: SYS INFO] WebJob singleton setting is False
+[12/16/2017 00:23:12 > 30a2e8: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[12/16/2017 00:23:15 > 30a2e8: SYS INFO] Status changed to Running
+[12/16/2017 00:23:27 > 30a2e8: INFO] Unpacking resources...
+[12/16/2017 00:23:28 > 30a2e8: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[12/16/2017 00:23:28 > 30a2e8: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[12/16/2017 00:23:28 > 30a2e8: INFO] Detected an Azure App Service sandbox.
+[12/16/2017 00:23:28 > 30a2e8: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[12/16/2017 00:23:28 > 30a2e8: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[12/16/2017 00:23:29 > 30a2e8: INFO] Initializing agent...
+[12/16/2017 00:23:30 > 30a2e8: INFO] Set up shutdown handler.
+[12/16/2017 00:23:31 > 30a2e8: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\bujr5r2a.swn.
+[12/16/2017 00:23:34 > 30a2e8: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[12/16/2017 00:23:35 > 30a2e8: INFO] Finished initializing request performance monitor (Activity Monitor).
+[12/16/2017 00:23:37 > 30a2e8: INFO] Agent initialization completed successfully
+[12/16/2017 00:23:53 > eb06b8: SYS INFO] WebJob is stopping due to website shutting down
+[12/16/2017 00:23:53 > eb06b8: SYS INFO] Status changed to Stopping
+[12/16/2017 00:23:53 > eb06b8: INFO] Received shutdown request.
+[12/16/2017 00:23:53 > eb06b8: INFO] Stopping Engine.
+[12/16/2017 00:23:57 > eb06b8: SYS INFO] Status changed to Success
+[12/16/2017 00:23:58 > eb06b8: SYS INFO] Status changed to Stopped
+[12/16/2017 01:22:58 > 30a2e8: SYS INFO] WebJob is still running
+[12/16/2017 13:22:59 > 30a2e8: SYS INFO] WebJob is still running
+[12/17/2017 01:23:00 > 30a2e8: SYS INFO] WebJob is still running
+[12/17/2017 13:22:58 > 30a2e8: SYS INFO] WebJob is still running
+[12/18/2017 01:22:59 > 30a2e8: SYS INFO] WebJob is still running
+[12/18/2017 13:23:00 > 30a2e8: SYS INFO] WebJob is still running
+[12/19/2017 01:22:59 > 30a2e8: SYS INFO] WebJob is still running
+[12/19/2017 13:23:01 > 30a2e8: SYS INFO] WebJob is still running
+[12/20/2017 01:23:01 > 30a2e8: SYS INFO] WebJob is still running
+[12/20/2017 12:04:59 > 9b159c: SYS INFO] Status changed to Starting
+[12/20/2017 12:05:00 > 9b159c: SYS INFO] WebJob singleton setting is False
+[12/20/2017 12:05:03 > 9b159c: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[12/20/2017 12:05:02 > 30a2e8: SYS INFO] WebJob is stopping due to website shutting down
+[12/20/2017 12:05:04 > 9b159c: SYS INFO] Status changed to Running
+[12/20/2017 12:05:03 > 30a2e8: SYS INFO] Status changed to Stopping
+[12/20/2017 12:05:06 > 9b159c: INFO] Unpacking resources...
+[12/20/2017 12:05:07 > 9b159c: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[12/20/2017 12:05:07 > 9b159c: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[12/20/2017 12:05:07 > 9b159c: INFO] Detected an Azure App Service sandbox.
+[12/20/2017 12:05:07 > 9b159c: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[12/20/2017 12:05:07 > 9b159c: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[12/20/2017 12:05:08 > 9b159c: INFO] Initializing agent...
+[12/20/2017 12:05:08 > 9b159c: INFO] Set up shutdown handler.
+[12/20/2017 12:05:08 > 9b159c: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\sjtzuapf.blh.
+[12/20/2017 12:05:21 > 9b159c: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[12/20/2017 12:05:24 > 9b159c: INFO] Finished initializing request performance monitor (Activity Monitor).
+[12/20/2017 12:05:24 > 9b159c: INFO] Agent initialization completed successfully
+[12/20/2017 13:04:59 > 9b159c: SYS INFO] WebJob is still running
+[12/21/2017 01:05:00 > 9b159c: SYS INFO] WebJob is still running
+[12/21/2017 08:27:37 > 9b159c: SYS INFO] Status changed to Starting
+[12/21/2017 08:27:38 > 9b159c: SYS INFO] WebJob singleton setting is False
+[12/21/2017 08:27:43 > 9b159c: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[12/21/2017 08:27:53 > 9b159c: SYS INFO] Status changed to Running
+[12/21/2017 08:27:56 > 9b159c: INFO] Unpacking resources...
+[12/21/2017 08:27:56 > 9b159c: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[12/21/2017 08:27:57 > 9b159c: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[12/21/2017 08:27:58 > 9b159c: INFO] Detected an Azure App Service sandbox.
+[12/21/2017 08:27:59 > 9b159c: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[12/21/2017 08:28:00 > 9b159c: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[12/21/2017 08:28:00 > 9b159c: INFO] Initializing agent...
+[12/21/2017 08:28:01 > 9b159c: INFO] Set up shutdown handler.
+[12/21/2017 08:28:02 > 9b159c: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\lbwuqd4m.5sk.
+[12/21/2017 08:28:02 > 9b159c: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[12/21/2017 08:28:03 > 9b159c: INFO] Finished initializing request performance monitor (Activity Monitor).
+[12/21/2017 08:28:03 > 9b159c: INFO] Agent initialization completed successfully
+[12/21/2017 09:27:39 > 9b159c: SYS INFO] WebJob is still running
+[12/21/2017 10:26:47 > 9f3f1b: SYS INFO] Status changed to Starting
+[12/21/2017 10:26:48 > 9f3f1b: SYS INFO] WebJob singleton setting is False
+[12/21/2017 10:26:51 > 9f3f1b: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[12/21/2017 10:26:55 > 9f3f1b: SYS INFO] Status changed to Running
+[12/21/2017 10:26:58 > 9f3f1b: INFO] Unpacking resources...
+[12/21/2017 10:26:58 > 9f3f1b: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[12/21/2017 10:26:58 > 9f3f1b: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[12/21/2017 10:26:58 > 9f3f1b: INFO] Detected an Azure App Service sandbox.
+[12/21/2017 10:26:58 > 9f3f1b: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[12/21/2017 10:26:58 > 9f3f1b: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[12/21/2017 10:26:59 > 9f3f1b: INFO] Initializing agent...
+[12/21/2017 10:27:01 > 9f3f1b: INFO] Set up shutdown handler.
+[12/21/2017 10:27:01 > 9f3f1b: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\tdd5shr0.znq.
+[12/21/2017 10:27:01 > 9b159c: SYS INFO] WebJob is stopping due to website shutting down
+[12/21/2017 10:27:01 > 9b159c: SYS INFO] Status changed to Stopping
+[12/21/2017 10:27:02 > 9b159c: INFO] Received shutdown request.
+[12/21/2017 10:27:02 > 9b159c: INFO] Stopping Engine.
+[12/21/2017 10:27:05 > 9b159c: SYS INFO] Status changed to Success
+[12/21/2017 10:27:05 > 9b159c: SYS INFO] Status changed to Stopped
+[12/21/2017 10:27:15 > 9f3f1b: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[12/21/2017 10:27:19 > 9f3f1b: INFO] Finished initializing request performance monitor (Activity Monitor).
+[12/21/2017 10:27:20 > 9f3f1b: INFO] Agent initialization completed successfully
+[12/21/2017 11:26:48 > 9f3f1b: SYS INFO] WebJob is still running
+[12/21/2017 15:22:37 > 9f3f1b: SYS INFO] Status changed to Starting
+[12/21/2017 15:22:37 > 9f3f1b: SYS INFO] WebJob singleton setting is False
+[12/21/2017 15:22:43 > 9f3f1b: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[12/21/2017 15:22:43 > 9f3f1b: SYS INFO] Status changed to Running
+[12/21/2017 15:22:45 > 9f3f1b: INFO] Unpacking resources...
+[12/21/2017 15:22:45 > 9f3f1b: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[12/21/2017 15:22:45 > 9f3f1b: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[12/21/2017 15:22:46 > 9f3f1b: INFO] Detected an Azure App Service sandbox.
+[12/21/2017 15:22:47 > 9f3f1b: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[12/21/2017 15:22:48 > 9f3f1b: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[12/21/2017 15:22:48 > 9f3f1b: INFO] Initializing agent...
+[12/21/2017 15:22:48 > 9f3f1b: INFO] Set up shutdown handler.
+[12/21/2017 15:22:48 > 9f3f1b: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\abvjvtbr.jrw.
+[12/21/2017 15:23:45 > 9f3f1b: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[12/21/2017 15:23:46 > 9f3f1b: INFO] Finished initializing request performance monitor (Activity Monitor).
+[12/21/2017 15:23:50 > 9f3f1b: INFO] Agent initialization completed successfully
+[12/21/2017 16:22:37 > 9f3f1b: SYS INFO] WebJob is still running
+[12/21/2017 20:31:21 > 77c1fa: SYS INFO] Status changed to Starting
+[12/21/2017 20:31:21 > 77c1fa: SYS INFO] WebJob singleton setting is False
+[12/21/2017 20:31:22 > 77c1fa: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[12/21/2017 20:31:22 > 77c1fa: SYS INFO] Status changed to Running
+[12/21/2017 20:31:23 > 77c1fa: INFO] Unpacking resources...
+[12/21/2017 20:31:24 > 77c1fa: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[12/21/2017 20:31:24 > 77c1fa: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[12/21/2017 20:31:25 > 77c1fa: INFO] Detected an Azure App Service sandbox.
+[12/21/2017 20:31:25 > 77c1fa: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[12/21/2017 20:31:25 > 77c1fa: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[12/21/2017 20:31:25 > 77c1fa: INFO] Initializing agent...
+[12/21/2017 20:31:25 > 77c1fa: INFO] Set up shutdown handler.
+[12/21/2017 20:31:25 > 77c1fa: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\zg1rmw0y.t2c.
+[12/21/2017 20:31:29 > 77c1fa: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[12/21/2017 20:31:32 > 77c1fa: INFO] Finished initializing request performance monitor (Activity Monitor).
+[12/21/2017 20:31:32 > 77c1fa: INFO] Agent initialization completed successfully
+[12/21/2017 20:33:04 > 9f3f1b: SYS INFO] WebJob is stopping due to website shutting down
+[12/21/2017 20:33:04 > 9f3f1b: SYS INFO] Status changed to Stopping
+[12/21/2017 20:33:04 > 9f3f1b: INFO] Received shutdown request.
+[12/21/2017 20:33:04 > 9f3f1b: INFO] Stopping Engine.
+[12/21/2017 21:31:22 > 77c1fa: SYS INFO] WebJob is still running
+[12/22/2017 09:31:22 > 77c1fa: SYS INFO] WebJob is still running
+[12/22/2017 21:31:22 > 77c1fa: SYS INFO] WebJob is still running
+[12/23/2017 09:31:23 > 77c1fa: SYS INFO] WebJob is still running
+[12/23/2017 21:31:24 > 77c1fa: SYS INFO] WebJob is still running
+[12/24/2017 09:31:22 > 77c1fa: SYS INFO] WebJob is still running
+[12/24/2017 19:16:10 > 355b17: SYS INFO] Status changed to Starting
+[12/24/2017 19:16:11 > 355b17: SYS INFO] WebJob singleton setting is False
+[12/24/2017 19:16:16 > 355b17: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[12/24/2017 19:16:17 > 355b17: SYS INFO] Status changed to Running
+[12/24/2017 19:16:18 > 355b17: INFO] Unpacking resources...
+[12/24/2017 19:16:19 > 355b17: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[12/24/2017 19:16:19 > 355b17: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[12/24/2017 19:16:19 > 355b17: INFO] Detected an Azure App Service sandbox.
+[12/24/2017 19:16:19 > 355b17: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[12/24/2017 19:16:19 > 355b17: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[12/24/2017 19:16:20 > 355b17: INFO] Initializing agent...
+[12/24/2017 19:16:20 > 355b17: INFO] Set up shutdown handler.
+[12/24/2017 19:16:20 > 355b17: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\4azs04cg.t3o.
+[12/24/2017 19:16:24 > 355b17: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[12/24/2017 19:16:25 > 355b17: INFO] Finished initializing request performance monitor (Activity Monitor).
+[12/24/2017 19:16:26 > 355b17: INFO] Agent initialization completed successfully
+[12/24/2017 19:17:55 > 77c1fa: SYS INFO] WebJob is stopping due to website shutting down
+[12/24/2017 19:17:55 > 77c1fa: SYS INFO] Status changed to Stopping
+[12/24/2017 19:17:56 > 77c1fa: INFO] Received shutdown request.
+[12/24/2017 19:17:56 > 77c1fa: INFO] Stopping Engine.
+[12/24/2017 19:18:04 > 77c1fa: ERR ] Thread was being aborted.
+[12/24/2017 19:18:04 > 77c1fa: SYS INFO] Status changed to Stopped
+[12/24/2017 19:18:04 > 77c1fa: SYS INFO] WebJob process was aborted
+[12/24/2017 19:18:04 > 77c1fa: SYS INFO] Status changed to Stopped
+[12/24/2017 20:16:13 > 355b17: SYS INFO] WebJob is still running
+[12/25/2017 08:16:13 > 355b17: SYS INFO] WebJob is still running
+[12/25/2017 20:16:13 > 355b17: SYS INFO] WebJob is still running
+[12/26/2017 08:16:14 > 355b17: SYS INFO] WebJob is still running
+[12/26/2017 20:16:14 > 355b17: SYS INFO] WebJob is still running
+[12/27/2017 08:16:14 > 355b17: SYS INFO] WebJob is still running
+[12/27/2017 20:16:14 > 355b17: SYS INFO] WebJob is still running
+[12/28/2017 08:16:14 > 355b17: SYS INFO] WebJob is still running
+[12/28/2017 20:16:14 > 355b17: SYS INFO] WebJob is still running
+[12/29/2017 08:16:15 > 355b17: SYS INFO] WebJob is still running
+[12/29/2017 20:16:14 > 355b17: SYS INFO] WebJob is still running
+[12/30/2017 08:16:15 > 355b17: SYS INFO] WebJob is still running
+[12/30/2017 20:16:15 > 355b17: SYS INFO] WebJob is still running
+[12/31/2017 01:47:22 > 355b17: SYS INFO] WebJob is stopping due to website shutting down
+[12/31/2017 01:47:22 > 355b17: SYS INFO] Status changed to Stopping
+[12/31/2017 01:47:23 > 355b17: INFO] Received shutdown request.
+[12/31/2017 01:47:23 > 355b17: INFO] Stopping Engine.
+[12/31/2017 01:47:28 > 355b17: ERR ] Thread was being aborted.
+[12/31/2017 01:47:32 > 355b17: SYS INFO] WebJob process was aborted
+[12/31/2017 01:47:32 > 355b17: SYS INFO] Status changed to Stopped
+[12/31/2017 01:47:32 > 355b17: SYS INFO] Status changed to Stopped
+[12/31/2017 01:48:09 > 355b17: SYS INFO] Status changed to Starting
+[12/31/2017 01:48:12 > 355b17: SYS INFO] WebJob singleton setting is False
+[12/31/2017 01:48:15 > 355b17: SYS INFO] Run script 'ApplicationInsightsProfiler.exe' with script host - 'WindowsScriptHost'
+[12/31/2017 01:48:15 > 355b17: SYS INFO] Status changed to Running
+[12/31/2017 01:48:22 > 355b17: INFO] Unpacking resources...
+[12/31/2017 01:48:22 > 355b17: INFO] Executing Application Insights Profiler agent version 2.4.50410.1 with arguments: 
+[12/31/2017 01:48:22 > 355b17: INFO] Welcome to Application Insights Profiler - to exit the program press 'Ctrl+C'.
+[12/31/2017 01:48:23 > 355b17: INFO] Detected an Azure App Service sandbox.
+[12/31/2017 01:48:25 > 355b17: INFO] Data cube: 8daf94e9-2a3e-41ee-9b0b-8b6c797a98d0
+[12/31/2017 01:48:26 > 355b17: INFO] Collection endPoint: https://agent.azureserviceprofiler.net
+[12/31/2017 01:48:28 > 355b17: INFO] Initializing agent...
+[12/31/2017 01:48:30 > 355b17: INFO] Set up shutdown handler.
+[12/31/2017 01:48:32 > 355b17: INFO] Shutdown handler set to watch D:\local\Temp\JobsShutdown\continuous\ApplicationInsightsProfiler2\5ohs1bx2.yey.
+[12/31/2017 01:48:36 > 355b17: INFO] Finished initializing detailed trace monitor (Circular Monitor).
+[12/31/2017 01:48:39 > 355b17: INFO] Finished initializing request performance monitor (Activity Monitor).
+[12/31/2017 01:48:39 > 355b17: INFO] Agent initialization completed successfully
+[12/31/2017 02:48:13 > 355b17: SYS INFO] WebJob is still running
+[12/31/2017 14:48:14 > 355b17: SYS INFO] WebJob is still running
+[01/01/2018 02:48:13 > 355b17: SYS INFO] WebJob is still running
+[01/01/2018 14:48:14 > 355b17: SYS INFO] WebJob is still running
+[01/02/2018 02:48:14 > 355b17: SYS INFO] WebJob is still running
+[01/02/2018 14:48:14 > 355b17: SYS INFO] WebJob is still running
+[01/03/2018 02:48:14 > 355b17: SYS INFO] WebJob is still running

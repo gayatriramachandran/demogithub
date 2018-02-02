@@ -1,0 +1,117 @@
+﻿@using Microsoft.ApplicationInsights.ExtensionManager.Models
+@model AgentModel
+@{
+    ViewBag.Title = "Profiler Agent Status";
+    ViewBag.PageId = "ai-Status";
+}
+
+@section scripts {
+    @Scripts.Render("~/bundles/home")
+}
+
+<div class="ai-main">
+
+    <div class="ai-title">
+        <span>Profiler Agent Status</span>
+    </div>
+
+    <div>
+        <p>The profiler agent runs as a continuous Web Job on your site. This site extension keeps the agent healthy by periodically checking for updates and automatically installing them.</p>
+    </div>
+
+    <div class="ai-status">
+        <ul class="ms-List ms-u-slideDownIn20">
+            <li class="ms-ListItem" id="ai-siteExtensionStatus">
+                <div id="ai-siteExtensionStatus-loading" class="ms-Spinner">
+                    <div class="ms-Spinner-label">Checking site extension version...</div>
+                </div>
+                <div id="ai-siteExtensionStatus-upToDate" style="display:none">
+                    <i class="ms-Icon ms-fontColor-green ms-Icon--check"></i>
+                    <span>
+                        Site Extension, version <strong><span class="ai-siteExtensionVersionItem-label">(loading...)</span></strong>, is up to date.
+                    </span>
+                </div>
+                <div id="ai-siteExtensionStatus-outOfDate" style="display:none">
+                    <i class="ms-Icon ms-fontColor-green ms-Icon--check"></i>
+                    <span id="ai-siteExtensionVersionItem-label">
+                        Site Extension version <strong><span class="ai-siteExtensionVersionItem-label">(loading...)</span></strong> is running, but a newer version is available.
+                    </span>
+                    <a href="" onclick="startSiteExtensionUpdate()">Upgrade to the latest version</a>
+                </div>
+            </li>
+            @if (Model.AgentVersion == new Version())
+            {
+                <li class="ms-ListItem">
+                    <i class="ms-Icon ms-Icon--alert"></i>
+                    Application Insights Profiler agent is <strong>not installed</strong><span>.</span>
+                    @Html.ActionLink($"Install version {Model.LatestNugetVersion}", "DeployLatest", "Home")
+                </li>
+            }
+            else
+            {
+                <li class="ms-ListItem">
+                    @if (Model.IsAgentUpToDate)
+                {
+                        <i class="ms-Icon ms-Icon--check"></i>
+                        <span>Agent version </span><strong>@Model.AgentVersion</strong><span> is installed and up to date.</span>
+                    }
+                    else
+                    {
+                        <i class="ms-Icon ms-Icon--circleInfo"></i>
+                        <span>Agent version </span><strong>@Model.AgentVersion</strong><span> is installed, but a newer version is available.</span>
+                        @Html.ActionLink($"Upgrade to {Model.LatestNugetVersion}", "DeployLatest", "Home")<span>.</span>
+                    }
+                </li>
+                <li class="ms-ListItem">
+                    @if (Model.IsWebJobEnabled)
+                {
+                        <i class="ms-Icon ms-Icon--check"></i>
+                        <span>Application Insights Profiler Web Job is </span><strong>enabled</strong><span>.</span>
+                        @Html.ActionLink("Disable", "DisableWebJob", "Home")
+                    }
+                    else
+                    {
+                        <i class="ms-Icon ms-Icon--alert"></i>
+                        <span>Application Insights Profiler Web Job is </span><strong>disabled</strong><span>.</span>
+                        @Html.ActionLink("Enable", "EnableWebJob", "Home")
+                    }
+                </li>
+            }
+            <li class="ms-ListItem">
+                @{
+                    switch (Model.ApplicationInsightsInstrumentationKeyStatus)
+                    {
+                        case ApplicationInsightsInstrumentationKeyStatus.Valid:
+                            <i class="ms-Icon ms-Icon--check"></i>
+                            <span>Application Insights instrumentation key (APPINSIGHTS_INSTRUMENTATIONKEY) is </span><strong>OK</strong><span>.</span>
+                            break;
+
+                        case ApplicationInsightsInstrumentationKeyStatus.NotSet:
+                            <i class="ms-Icon ms-Icon--alert"></i>
+                            <span>Application Insights instrumentation key (APPINSIGHTS_INSTRUMENTATIONKEY) is </span><strong>not set</strong><span>.</span>
+                            break;
+
+                        case ApplicationInsightsInstrumentationKeyStatus.Invalid:
+                            <i class="ms-Icon ms-Icon--alert"></i>
+                            <span>Application Insights instrumentation key (APPINSIGHTS_INSTRUMENTATIONKEY) is set, but it is </span><strong>invalid</strong><span>.</span>
+                            break;
+                    }
+                }
+            </li>
+            <li class="ms-ListItem">
+                @if (Model.IsWebJobMonitoringActive)
+            {
+                    <i class="ms-Icon ms-Icon--check"></i>
+                    <span>Web Job monitoring is </span><strong>active</strong><span>.</span>
+                    @Html.ActionLink("Stop monitoring", "StopJobMonitoring")
+                }
+                else
+                {
+                    <i class="ms-Icon ms-Icon--alert"></i>
+                    <span>Web Job monitoring is </span><strong>inactive</strong><span>.</span>
+                    @Html.ActionLink("Start monitoring", "StartJobMonitoring")
+                }
+            </li>
+        </ul>
+    </div>
+</div>

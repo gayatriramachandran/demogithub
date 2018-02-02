@@ -1,0 +1,418 @@
+﻿<!DOCTYPE html>
+<!-- saved from url=(0056)#menu -->
+<html ng-app="app" class="k-ie k-ie11">
+<head>
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NS9NWMV');</script>
+    <!-- End Google Tag Manager -->
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '130671694330255');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1"
+             src="https://www.facebook.com/tr?id=130671694330255&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style type="text/css">
+        @charset "UTF-8";
+
+        [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak, .ng-hide:not(.ng-hide-animate) {
+            display: none !important;
+        }
+
+        ng\:form {
+            display: block;
+        }
+
+        .ng-animate-shim {
+            visibility: hidden;
+        }
+
+        .ng-anchor {
+            position: absolute;
+        }
+    </style>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <link rel="icon" href="images/4paws-favicon.ico" type="image/x-icon">
+    <title>Home – 4Paws Insurance </title>
+    <link rel="stylesheet" href="Pet_Insurance_files/default-theme.css" type="text/css">
+    <link rel="stylesheet" href="Pet_Insurance_files/newstyles.css" type="text/css">
+    <link rel="stylesheet" href="Pet_Insurance_files/layout.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Cabin:400,500,700|Roboto+Slab:300,400,700" rel="stylesheet">
+    <script src="Pet_Insurance_files/angular.js"></script>
+    <link rel="stylesheet" href="Pet_Insurance_files/angular-toastr.css">
+    <script src="Pet_Insurance_files/angular-animate.js"></script>
+    <script src="Pet_Insurance_files/angular-toastr.tpls.js"></script>
+
+    <script src="assets/js/ng-map.min.js"></script>
+    <script src="modules/mainModule.js"></script>
+    <script src="config.js"></script>
+    <script src="services/mainService.js"></script>
+    <script src="directives/js/mainDirective.js"></script>
+    <!--<script src="http://maps.google.com/maps/api/js?libraries=placeses,visualization,drawing,geometry,places"></script>-->
+    <!-- Google Analytics -->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-96338621-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <!-- End Google Analytics -->
+
+    <script language="javascript" type="text/javascript">
+        var Agent_Url = config_data.GENERAL_CONFIG.AGENT_URL;
+        var Customer_Url = config_data.GENERAL_CONFIG.CUSTOMER_URL;
+        var Employee_Url = config_data.GENERAL_CONFIG.UNDERWRITER_URL;
+        var BuildMyPlan = config_data.GENERAL_CONFIG.DF_BOP_UI;
+
+        AgentPage = function () {
+            window.open(Agent_Url + "/agentLogin.html");
+        }
+        CustomerPage = function () {
+            window.open(Customer_Url + "/CustomerLogin.html");
+        }
+        WorkloadPage = function () {
+            ga('send', {
+                hitType: 'event', eventCategory: 'Get a Quote',
+                eventAction: 'Clicked Get a Quote',
+                eventLabel: '/PetInfo_Footer'
+            });
+            window.open(BuildMyPlan);
+        }
+
+    </script>
+
+    <script>
+        ga('send', {
+            hitType: 'event',
+            eventCategory: 'Landing Page',
+            eventAction: 'Clicked Start a Quote',
+            eventLabel: '/PetInfo_LandingPage'
+        });
+    </script>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NS9NWMV"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- // Main Container -->
+    <div class="container-fluid" id="page">
+        <!-- // First Slide -->
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 vam-FirstSlideBg">
+                <!--// header -->
+                <div class="row header1 Fixed vam-ML0" id="header">
+                    <div class="col-lg-6 col-md-6 col-sm-4 col-xs-6">
+                        <!-- // Navigation Menu Icon-->
+                        <!--<a id="hamburger" href="#" class="nav-icon"><span></span> </a>-->
+                        <!-- Navigation Menu Icon // -->
+                        <!-- // logo -->
+                        <div class="pull-left">
+                            <a href="http://4pawsins.com/"><img src="http://4pawsins.com/wp-content/themes/push10custom/imgs/4paws-logo-white.svg" alt="NSM Pets Logo" id="logo-main-light" class="petInsLogo"></a>
+                        </div>
+                        <!-- logo // -->
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-8 col-xs-6">
+                        <!-- // header icons -->
+                        <div class="vam-HeadaerCustcare">
+                            <ul>
+                                <li>
+                                    <a href="tel:877-284-7297" class="v-text-white">
+                                        <span class="flaticon-earphones18"></span>
+                                        <span>877-284-7297</span>
+                                    </a>
+                                </li>
+                                <!--<li>
+                                    <a href="javascript:void()" class="popper v-text-white" data-toggle="popover" data-placement="bottom" data-trigger="focus">
+                                        <span class="flaticon-users149"></span>
+                                        <span class="hidden-xs">
+                                            Login<br>Here
+                                        </span>
+                                    </a>
+                                    <ul class="popper-content hide popper-txt">
+
+                                        <li><a href="javascript:AgentPage()">Employee Login</a></li>
+                                        <li><a href="javascript:CustomerPage()">Customer Login</a></li>
+
+                                    </ul>
+                                </li>-->
+
+                            </ul>
+                        </div>
+                        <!-- header icons //-->
+                    </div>
+                </div>
+                <!-- header //-->
+                <div class="row vam-MT74">
+                    <div class="col-lg-offset-6 col-md-offset-6 col-sm-offset-4 col-lg-6 col-md-6 col-sm-8 col-xs-12 vam-Quote vam-pos-relative vam-overFlowHidden vam-height920">
+                        <!---->
+                        <div class="quote">
+                            <h1>We have<br> Your Pets Covered</h1>
+                            <p class="v-text-white">
+                                You can’t predict when your pet is going to get sick or injured, and the unexpected costs associated with vet bills can really hurt your wallet- that’s where we come in. Just as health insurance offsets medical costs for your 2-legged family members, 4Paws Insurance helps offset those costs for your 4-legged family members. Our flexible plans allow you to customize your policy and choose the coverage that fits your pet and your budget.
+                            </p>
+                            <start-quotee></start-quotee>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <!-- First Slide // -->
+        <!-- // Second Slide -->
+        <div class="row v-bgSecondary vam-PTB15">
+            <div class="container">
+                <div class="row landing-text">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 vam-SecondSlide text-center">
+                        <h1 style="color:#004571!important;">Why You Should Choose Us to Protect Your Pet</h1>
+                        <!--<h2><span style="font-size: 20px;">as pet parents ourselves,we understand the stress you feel when your dog or cat is sick or injured. That’s we created flexible pet insurance plans that we would want to have for our own fur kids.</span></h2>-->
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 vam-MT40">
+                        <div class="vam-IconCircle">
+                            <img src="images/Icons/Keep_Your_Vet.svg" class="vam-CustCareIcon">
+                        </div>
+                        <p class="text-center vam-MT20 vam-PLR20">
+                            <strong>Keep Your Vet</strong><br>
+                            You can continue to see your current vet, or choose
+                            to take your pet to any licensed veterinarian in the U.S., its territories
+                            and Canada.
+                            </span>
+                        </p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 vam-MT40">
+                        <div class="vam-IconCircle">
+                            <img src="images/Icons/Low_Deductable.svg" class="vam-CarIcon">
+                        </div>
+                        <p class="text-center vam-MT20 vam-PLR20">
+                            <strong>Low Annual Deductibles</strong><br>Do you want to pay a deductible for every new accident or illness? We don’t, so you can choose from 4 annual deductibles that only have to be met once per policy period.
+                        </p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 vam-MT40">
+                        <div class="vam-IconCircle">
+                            <img src="images/Icons/Exam_Fees.svg" class="vam-DroneIcon">
+                        </div>
+                        <p class="text-center vam-MT20 vam-PLR20">
+                            <strong>Exam Fees Included</strong><br>We cover the vet exam fee related to a covered illness or injury.  Other pet insurance providers exclude this or require you to pay more for coverage.</span>
+                        </p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 vam-MT40">
+                        <div class="vam-IconCircle">
+                            <img src="images/Icons/Reimbursement.svg" class="vam-CarIcon">
+                        </div>
+                        <p class="text-center vam-MT20 vam-PLR20">
+                            <strong>Up to 90% Reimbursement</strong><br>You can select your reimbursement level up to 90% for eligible services. We reimburse you based on the actual vet invoice that you submit.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Second Slide // -->
+        <!-- // Third Slide -->
+        <div class="row vam-PT15 vam-ThrdSlideBG">
+
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center">
+                <!--<img src="./Pet_Insurance_files/thirdslide-image.png">-->
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 vam-TxtWhite vam-PTB15">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="vam-TxtWhite">Customize the Right Plan for Your Pet</h1>
+                        <p class="vam-MT20">
+                            We offer affordable plans with lots of options to choose from so you can customize a policy that fits your pet and your budget.
+                        </p>
+
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <ul class="vam-SM">
+                            <li>
+                                <span>
+                                    <img src="images/Icons/1.svg" style="width:60px; margin:0px;">
+                                </span>
+                                <span>
+                                    <p class="vam-MT20 vam-PLR20">
+                                        <strong>Review Our Plans:</strong><br>We offer coverage for accidents and illnesses, and our plans include tons of benefits including vet exam fees, prescriptions, diagnostic procedures, surgeries, emergency vet visits and so much more!
+                                </span>
+                                </p>
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    <img src="images/Icons/2.svg" style="width:60px; margin:0px;">
+                                </span>
+                                <span>
+                                    <p class="vam-MT20 vam-PLR20">
+                                        <strong>Select Your Annual Deductible:</strong><br>You can choose $100, $150, $250 or $500
+                                </span>
+                                </p>
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    <img src="images/Icons/3.svg" style="width:60px; margin:0px;">
+                                </span>
+                                <span>
+                                    <p class="vam-MT20 vam-PLR20">
+                                        <strong>Select Wellness Coverage:</strong><br>Wellness 250: Up to $250 in annual benefits<br>Wellness 350: Up to $350 in annual benefits<br>
+                                        Wellness 500: Up to $500 in annual benefits
+                                </span>
+                                </p>
+                                </span>
+                            </li>
+                        </ul>
+
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12 vam-helperbtn">
+                        <a class="btn btn-primary" href="javascript:WorkloadPage()" target="_blank" style="padding: 9px 15px;">Build My Plan</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Third Slide // -->
+        <!-- // FifthSlide -->
+        <div class="row">
+
+            <!--<div class="row vam-M0">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 vam-P30 vam-BGTabF7F7F7">
+                    <h1>OUR BACKGROUND</h1><br>
+                    <p>
+                        <span class="flaticon-left179 vam-PR5 vam-TxtBlue"></span>Pet Insurance is an industry leading provider of property and casualty insurance. Throughout our rich history of more than 200 YEARS, countless businesses and individuals have turned to our company for protection. We offer products that protect you without surprises.<span class="flaticon-right176 vam-TxtBlue vam-PL5"></span>
+
+                    </p>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 vam-FindAgnt">
+                    <h1>Our dedicateD Agents are our difference </h1><br>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 vam-P30">
+                    <h1>We can follow up this by either awards or JD Powers rating</h1><br>
+
+                    <div class="media">
+                        <div class="media-left">
+                            <a href="#">
+                                <img class="media-object" src="./Pet_Insurance_files/fouroffive.png" alt="...">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">4 OF 5</h4>
+                            4 of 5 Agents recommend Pet Insurance.
+                        </div>
+                    </div>
+
+                    <div class="media vam-MT30">
+                        <div class="media-left">
+                            <a href="#">
+                                <img class="media-object" src="./Pet_Insurance_files/ratingicon.png" alt="...">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">A+ </h4>
+                            J.D. Power rates Pet Insurance a 4.7 Star Claim Experience.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 vam-P30 werhereHelp">
+                    <p>
+                        We’re Here to Help<br>
+                        We are animal lovers, pet enthusiasts, dog moms, and cat dads, and we care about your 4-legged family members. We know that navigating pet insurance can be confusing. That is why our team is here as a resource to help you find a pet insurance policy that fits your dog or cat. Call us today and a member of our customer service team will make sure your pet.<br>
+                        877-28-4PAWS
+                    </p>
+                </div>
+            </div>-->
+
+            <div class="row landing-footer-bg vam-MLR0 vam-PLR0">
+
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 lading-section">
+                    <h2>Get a Free Quote</h2>
+                    <span>It's Quick and easy to get a free</span>
+                    <span>quote - we just need you to tell </span>
+                    <span>us a little about your pet!</span>
+
+
+                    <span> <a class="landing-btn" href="javascript:WorkloadPage()">Get a Quote</a></span>
+                </div>
+            </div>
+
+
+        </div>
+        <!-- FifthSlide // -->
+        <!-- // Footer -->
+        <footer class="row vam-BG3e3d3d vam-PT10">
+
+            <div class="row vam-M0 vam-MB20">
+
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+                    <ul class="vam-M0 f-content">
+                        <li><a href="http://4pawsins.com/faqs" target="_blank">Faq</a></li>
+                        <li><a href="http://4pawsins.com/insurance-plans/compare-pet-insurance" target="_blank">Compare Plans</a></li>
+                        <li><a href="http://4pawsins.com/privacy-policy" target="_blank">Privacy</a></li>
+                        <li class="social-icon"><a href="https://www.facebook.com/4pawsins/" target="_blank" class="fb-icon"></a></li>
+                        <li class="social-icon"><a href="https://twitter.com/4pawsins" target="_blank" class="twitter-icon"></a></li>
+                        <li class="social-icon"><a href="https://www.instagram.com/4pawsins/?hl=en" target="_blank" class="insta-icon"></a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 vam-copyright">
+                Copyright © 2017 4PAWS Insurance. All Rights Reserved.
+            </div>
+        </footer>
+        <!-- Footer // -->
+    </div>
+    <!-- Main Container -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/jquery.mmenu.min.all.js"></script>
+    <script src="assets/js/jquery.slimscroll.js"></script>
+    <script src="assets/js/owl.carousel.js"></script>
+    <script src="assets/js/common.js"></script>
+
+</body>
+</html>

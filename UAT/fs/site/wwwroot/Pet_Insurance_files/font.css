@@ -1,0 +1,160 @@
+@font-face {
+  font-family:'Penna';
+  src: url('../fonts/Penna.eot?#iefix') format('embedded-opentype'),  url('../fonts/Penna.otf')  format('opentype'),
+	     url('../fonts/Penna.woff') format('woff'), url('../fonts/Penna.ttf')  format('truetype'), url('../fonts/Penna.svg#Penna') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body {font-family:'Open Sans', sans-serif !important;}
+h1{font-family:'Penna', sans-serif !important;}
+.logo h1{font-family: 'Open Sans', sans-serif !important;}
+.vam-Quote h1{font-family:'Penna', sans-serif;}
+.vam-Quote h2{font-family:'Penna', sans-serif;}
+.vam-Quote h3{font-family: 'Open Sans', sans-serif;}
+.vam-SM + .vam-SM li span:after{font-family:Arial, Helvetica, sans-serif;}
+
+
+
+/*=========FLATICON CSS=====*/
+@font-face {
+	font-family: "Flaticon";
+	src: url("../fonts/flaticon.eot");
+	src: url("../fonts/flaticon.eot#iefix") format("embedded-opentype"),
+	url("../fonts/flaticon.woff") format("woff"),
+	url("../fonts/flaticon.ttf") format("truetype"),
+	url("../fonts/flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+    font-size: 20px;
+	font-style: normal;
+}.flaticon-add139:before {
+	content: "\e000";
+}
+.flaticon-car189:before {
+	content: "\e001";
+}
+.flaticon-clipboard44:before {
+	content: "\e002";
+}
+.flaticon-coins36:before {
+	content: "\e003";
+}
+.flaticon-currency13:before {
+	content: "\e004";
+}
+.flaticon-discount4:before {
+	content: "\e005";
+}
+.flaticon-earphones18:before {
+	content: "\e006";
+}
+.flaticon-key166:before {
+	content: "\e007";
+}
+.flaticon-left179:before {
+	content: "\e008";
+}
+.flaticon-man42:before {
+	content: "\e009";
+}
+.flaticon-envelope4:before {
+	content: "\e00a";
+}
+.flaticon-paper6:before {
+	content: "\e00b";
+}
+.flaticon-paperplane:before {
+	content: "\e00c";
+}
+.flaticon-plus32:before {
+	content: "\e00d";
+}
+.flaticon-right176:before {
+	content: "\e00e";
+}
+.flaticon-right246:before {
+	content: "\e00f";
+}
+.flaticon-search67:before {
+	content: "\e010";
+}
+.flaticon-share27:before {
+	content: "\e011";
+}
+.flaticon-smartphone116:before {
+	content: "\e012";
+}
+.flaticon-smartphone130:before {
+	content: "\e013";
+}
+.flaticon-smartphone133:before {
+	content: "\e014";
+}
+.flaticon-social122:before {
+	content: "\e015";
+}
+.flaticon-social134:before {
+	content: "\e016";
+}
+.flaticon-social135:before {
+	content: "\e017";
+}
+.flaticon-social136:before {
+	content: "\e018";
+}
+.flaticon-users149:before {
+	content: "\e019";
+}
+
+
+	/*------------SECONDARY HEADER NAVIGATION START----------*/
+.ProgressBar-stepLabel {
+	font-size: 13px;
+	font-weight: 400;
+}
+ @media screen and (min-width:992px) and (max-width:1114px) {
+ .ProgressBar-stepLabel {
+	 font-size: 11px;
+	}
+}
+
+/*------------SECONDARY HEADER NAVIGATION END----------*/
+
+/*================= STRUCTURE CSS START================= */
+.header-primary {
+	font-size: 1.5em;
+	text-transform: capitalize;
+	font-weight: 400;
+}
+.header-secondary {
+	font-size: 1.4em;
+	text-transform: capitalize;
+	font-weight: 400;
+}
+.header-teritory {
+	font-size: 1.3em;
+	font-weight: 400;
+}
+.caption-bottom span {
+	font-size: 13px;
+}
+label span {
+	font-size:85%;
+}
+.form-group .flaticon-question-mark {
+	position:relative;
+	top:3px;
+}
+.form-group div.hint span {
+	font-size:13px;
+	font-weight:400;
+}
+.form-group div.hint-inline span {
+	font-size:13px;
+	font-weight:400;
+}
+/*================= STRUCTURE CSS END================= */

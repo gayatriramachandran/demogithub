@@ -1,0 +1,33 @@
+<step title="BackgroundTrace" date="2017-10-01T19:23:10.687" instance="6bbfac" url="/deploy" method="POST" >
+  <step title="Creating temporary deployment" date="2017-10-01T19:23:10.800" /><!-- duration: 105ms -->
+  <step title="Performing fetch based deployment" date="2017-10-01T19:23:10.940" >
+    <step title="Sync with Dropbox" date="2017-10-01T19:23:11.124" >
+      <step title="Updating deploy info" date="2017-10-01T19:23:11.219" >
+        <step title="Fetching delta for cursor &apos;&apos;." date="2017-10-01T19:23:11.238" /><!-- duration: 11ms -->
+        <step title="Delta response exhausted. New cursor at &apos;AAGKqMlweGq-u2x7-k6wZ1Si8c0CQHFM_B2RZh88tfkFg9UwjwR7PiExp5LgwW4eLT6HOnKVfBxmLlhSqCVVHoR6rtcvqQB1TOt9gQzUDYci1BGzmtp7hREWL2wz4XhNFC5dcTEJBq2ZemaHQLbqM_TqW3p0ZpyFQHLwQ3Z10EDYaVucxQegQG9nHrSJDI-A31tH9I0sJ13JDAw0-vu3Hb1xPT-gsIB-Z4EL31mVFd_HUw&apos;." date="2017-10-01T19:23:12.363" /><!-- duration: 21ms -->
+      </step><!-- duration: 1175ms -->
+    </step><!-- duration: 1270ms -->
+    <step title="None repository commit" date="2017-10-01T19:23:12.847" >
+      <step title="Commit id: 3ce54324b6b14b11b7e4175d44800a2a" date="2017-10-01T19:23:12.863" Messsage="Synchronized 0 change(s) from Dropbox." AuthorName="Bala Kalepu" AuthorEmail="bala.kalepu@valuemomentum.biz" /><!-- duration: 18ms -->
+    </step><!-- duration: 34ms -->
+    <step title="Update dropbox cursor" date="2017-10-01T19:23:12.881" /><!-- duration: 0ms -->
+    <step title="DeploymentManager.Deploy(id:3ce54324b6b14b11b7e4175d44800a2a)" date="2017-10-01T19:23:12.909" >
+      <step title="Collecting changeset information" date="2017-10-01T19:23:12.927" /><!-- duration: 78ms -->
+      <step title="Updating submodules" date="2017-10-01T19:23:13.019" /><!-- duration: 78ms -->
+      <step title="Determining deployment builder" date="2017-10-01T19:23:13.206" >
+        <step title="Builder is BasicBuilder" date="2017-10-01T19:23:13.331" /><!-- duration: 0ms -->
+      </step><!-- duration: 125ms -->
+      <step title="Copying SSH keys" date="2017-10-01T19:23:13.364" /><!-- duration: 14ms -->
+      <step title="Building" date="2017-10-01T19:23:13.378" >
+        <step title="Generating deployment script" date="2017-10-01T19:23:13.443" >
+          <step title="Executing external process" date="2017-10-01T19:23:13.503" type="process" path="starter.cmd" arguments="&quot;D:\Program Files (x86)\SiteExtensions\Kudu\65.60901.2996\bin\node_modules\.bin\kuduscript.cmd&quot; -y --no-dot-deployment -r &quot;D:\home\site\wwwroot&quot; -o &quot;D:\home\site\deployments\tools&quot; --basic --sitePath &quot;D:\home\site\wwwroot&quot;" /><!-- duration: 625ms -->
+          <step title="Saved cached version of the deployment script for command -y --no-dot-deployment -r &quot;D:\home\site\wwwroot&quot; -o &quot;D:\home\site\deployments\tools&quot; --basic --sitePath &quot;D:\home\site\wwwroot&quot;" date="2017-10-01T19:23:14.128" /><!-- duration: 16ms -->
+        </step><!-- duration: 701ms -->
+        <step title="Executing external process" date="2017-10-01T19:23:14.226" type="process" path="starter.cmd" arguments="&quot;D:\home\site\deployments\tools\deploy.cmd&quot;" /><!-- duration: 516ms -->
+        <step title="Skip function trigger and logicapp sync because function is not enabled." date="2017-10-01T19:23:14.831" /><!-- duration: 47ms -->
+      </step><!-- duration: 2281ms -->
+    </step><!-- duration: 2767ms -->
+    <step title="Cleaning up temp files" date="2017-10-01T19:23:15.696" /><!-- duration: 11ms -->
+    <step title="WebHooksManager.PublishEventAsync: PostDeployment" date="2017-10-01T19:23:15.722" /><!-- duration: 146ms -->
+  </step><!-- duration: 4986ms -->
+</step><!-- duration: 5289ms -->

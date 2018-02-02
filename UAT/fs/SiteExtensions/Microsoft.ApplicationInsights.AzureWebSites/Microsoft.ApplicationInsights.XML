@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.ApplicationInsights.ExtensionManager</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.ApplicationInsights.ExtensionManager.Controllers.HomeController">
+            <summary>
+            Home MVC controller.
+            </summary>
+        </member>
+        <member name="M:Microsoft.ApplicationInsights.ExtensionManager.Controllers.HomeController.Index">
+            <summary>
+            Home page action.
+            </summary>
+        </member>
+        <member name="M:Microsoft.ApplicationInsights.ExtensionManager.Controllers.HomeController.DeployLatest">
+            <summary>
+            Deploy latest profiler agent web job action.
+            </summary>
+        </member>
+        <member name="M:Microsoft.ApplicationInsights.ExtensionManager.Controllers.HomeController.EnableWebJob">
+            <summary>
+            Enable profiler agent web job action.
+            </summary>
+        </member>
+        <member name="M:Microsoft.ApplicationInsights.ExtensionManager.Controllers.HomeController.DisableWebJob">
+            <summary>
+            Disable profiler agent web job action.
+            </summary>
+        </member>
+        <member name="M:Microsoft.ApplicationInsights.ExtensionManager.Controllers.HomeController.StartJobMonitoring">
+            <summary>
+            Start monitoring profiler agent web job action.
+            </summary>
+        </member>
+        <member name="M:Microsoft.ApplicationInsights.ExtensionManager.Controllers.HomeController.StopJobMonitoring">
+            <summary>
+            Stop monitoring profiler agent web job action.
+            </summary>
+        </member>
+        <member name="T:Microsoft.ApplicationInsights.ExtensionManager.Controllers.AgentController">
+            <summary>
+            Agent API controller.
+            </summary>
+        </member>
+        <member name="M:Microsoft.ApplicationInsights.ExtensionManager.Controllers.AgentController.Get">
+            GET: api/Agent
+            <summary>
+            Gets the Web Job.
+            </summary>
+        </member>
+        <member name="M:Microsoft.ApplicationInsights.ExtensionManager.Controllers.AgentController.Put(System.String)">
+            PUT: api/Agent
+            <summary>
+            Installs the Web Job.
+            </summary>
+        </member>
+        <member name="M:Microsoft.ApplicationInsights.ExtensionManager.Controllers.AgentController.Delete">
+            DELETE: api/Agent
+            <summary>
+            Deletes the Web Job.
+            </summary>
+        </member>
+        <member name="T:Microsoft.ApplicationInsights.ExtensionManager.MvcApplication">
+            <summary>
+            The extension web site application.
+            </summary>
+        </member>
+        <member name="M:Microsoft.ApplicationInsights.ExtensionManager.MvcApplication.Application_Start">
+            <summary>
+            The callback for application start event.
+            </summary>
+        </member>
+        <member name="T:Microsoft.ApplicationInsights.ExtensionManager.JobsFileWatcher">
+            <summary>
+            Responsible for detecting when a file is changed in a job.
+            </summary>
+        </member>
+        <member name="T:Microsoft.ApplicationInsights.ExtensionManager.Models.ApplicationInsightsInstrumentationKeyStatus">
+            <summary>
+            Application Insights Instrumentation Key Status.
+            </summary>
+        </member>
+        <member name="F:Microsoft.ApplicationInsights.ExtensionManager.Models.ApplicationInsightsInstrumentationKeyStatus.NotSet">
+            <summary>
+            The key is not set.
+            </summary>
+        </member>
+        <member name="F:Microsoft.ApplicationInsights.ExtensionManager.Models.ApplicationInsightsInstrumentationKeyStatus.Valid">
+            <summary>
+            The key is valid.
+            </summary>
+        </member>
+        <member name="F:Microsoft.ApplicationInsights.ExtensionManager.Models.ApplicationInsightsInstrumentationKeyStatus.Invalid">
+            <summary>
+            The key is invalid.
+            </summary>
+        </member>
+        <member name="T:Microsoft.ApplicationInsights.ExtensionManager.Models.AgentModel">
+            <summary>
+            The agent model class.
+            </summary>
+        </member>
+        <member name="F:Microsoft.ApplicationInsights.ExtensionManager.Models.AgentModel.Instance">
+            <summary>
+            The singleton of agent model
+            </summary>
+        </member>
+        <member name="M:Microsoft.ApplicationInsights.ExtensionManager.Models.AgentModel.InitJobWatcher">
+            <summary>
+            Initialize job watcher task.
+            </summary>
+        </member>
+        <member name="M:Microsoft.ApplicationInsights.ExtensionManager.Models.AgentModel.DeployWebJob(System.String,System.String)">
+            <summary>
+            Deploy web job.
+            </summary>
+        </member>
+        <member name="M:Microsoft.ApplicationInsights.ExtensionManager.Models.AgentModel.DeleteWebJob">
+            <summary>
+            Delete web job.
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationInsights.ExtensionManager.Models.AgentModel.AgentVersion">
+            <summary>
+            Gets agent version.
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationInsights.ExtensionManager.Models.AgentModel.SiteExtensionVersion">
+            <summary>
+            Gets site extension.
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationInsights.ExtensionManager.Models.AgentModel.IsWebJobDeployed">
+            <summary>
+            Gets if web job is deployed.
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationInsights.ExtensionManager.Models.AgentModel.ApplicationInsightsInstrumentationKeyStatus">
+            <summary>
+            Gets application insights instrumentation key status.
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationInsights.ExtensionManager.Models.AgentModel.LatestNugetVersion">
+            <summary>
+            Gets latest agent Nuget version.
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationInsights.ExtensionManager.Models.AgentModel.IsAgentUpToDate">
+            <summary>
+            Gets if the installed agent is up to date.
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationInsights.ExtensionManager.Models.AgentModel.IsWebJobMonitoringActive">
+            <summary>
+            Enable/Disable web job monitoring.
+            </summary>
+        </member>
+        <member name="P:Microsoft.ApplicationInsights.ExtensionManager.Models.AgentModel.IsWebJobEnabled">
+            <summary>
+            Enable/Disable web job.
+            </summary>
+        </member>
+    </members>
+</doc>

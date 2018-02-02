@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<deployment>
+  <id>b0ff9463e03e4d389beee24d4d082ca0</id>
+  <author>Bala Kalepu</author>
+  <deployer>Dropbox</deployer>
+  <authorEmail>bala.kalepu@valuemomentum.biz</authorEmail>
+  <message>Synchronized 1 change(s) from Dropbox.</message>
+  <progress></progress>
+  <status>Success</status>
+  <statusText></statusText>
+  <lastSuccessEndTime>2017-10-26T12:42:42.8042431Z</lastSuccessEndTime>
+  <receivedTime>2017-10-26T12:42:39.6954249Z</receivedTime>
+  <startTime>2017-10-26T12:42:39.8204032Z</startTime>
+  <endTime>2017-10-26T12:42:42.8042431Z</endTime>
+  <complete>True</complete>
+  <is_temp>False</is_temp>
+  <is_readonly>True</is_readonly>
+</deployment>

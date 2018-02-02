@@ -1,0 +1,7 @@
+<step title="Incoming Request" date="2017-10-31T12:48:31.346" instance="3e53eb" url="/deploy?scmType=Dropbox&amp;isAsync=true" method="POST" type="request" pid="3880,2,61" Connection="Keep-Alive" Content-Length="193" Content-Type="application/json" Content-Encoding="gzip" Authorization="Bas..." Expect="100-continue" Host="nsm-pet-bdportal-uat-wapp.scm.azurewebsites.net" User-Agent="Azure-WebSites-Controller/67.0.8598.18" x-ms-request-id="f5479368-5526-46f4-beb1-4635c779538b" X-WAWS-Unencoded-URL="/deploy?scmType=Dropbox&amp;isAsync=true" X-ARR-LOG-ID="f5479368-5526-46f4-beb1-4635c779538b" X-SITE-DEPLOYMENT-ID="nsm-pet-bdportal-uat-wapp" WAS-DEFAULT-HOSTNAME="nsm-pet-bdportal-uat-wapp.scm.azurewebsites.net" X-MS-CLIENT-PRINCIPAL-NAME="$ns..." X-MS-SITE-RESTRICTED-JWT="eyJ..." X-Forwarded-Proto="https" >
+  <step title="Cleanup Xml Logs" date="2017-10-31T12:48:31.346" /><!-- duration: 16ms -->
+  <step title="FetchHandler" date="2017-10-31T12:48:31.409" >
+    <step title="Start deployment in the background" date="2017-10-31T12:48:31.587" /><!-- duration: 1772ms -->
+  </step><!-- duration: 1950ms -->
+  <step title="Outgoing response" date="2017-10-31T12:48:34.140" type="response" statusCode="202" statusText="Accepted" Server="Microsoft-IIS/8.0" Location="https://nsm-pet-bdportal-uat-wapp.scm.azurewebsites.net/api/deployments/latest?deployer=Dropbox&amp;time=2017-10-31_12-48-33Z" Cache-Control="private" X-AspNet-Version="4.0.30319" /><!-- duration: 16ms -->
+</step><!-- duration: 2809ms -->

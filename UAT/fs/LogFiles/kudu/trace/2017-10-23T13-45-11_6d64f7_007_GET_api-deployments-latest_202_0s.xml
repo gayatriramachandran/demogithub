@@ -1,0 +1,14 @@
+<step title="Incoming Request" date="2017-10-23T13:45:11.973" instance="6d64f7" url="/api/deployments/latest?deployer=Dropbox&amp;time=2017-10-23_13-44-59Z" method="GET" type="request" pid="9668,2,25" Connection="Keep-Alive" Authorization="Bas..." Host="nsm-pet-bdportal-uat-wapp.scm.azurewebsites.net" User-Agent="Azure-WebSites-Controller/66.0.8598.43" x-ms-request-id="34511b36-02a8-4e96-b9c6-409ea44c1578" X-WAWS-Unencoded-URL="/api/deployments/latest?deployer=Dropbox&amp;time=2017-10-23_13-44-59Z" X-ARR-LOG-ID="34511b36-02a8-4e96-b9c6-409ea44c1578" X-SITE-DEPLOYMENT-ID="nsm-pet-bdportal-uat-wapp" WAS-DEFAULT-HOSTNAME="nsm-pet-bdportal-uat-wapp.scm.azurewebsites.net" X-MS-CLIENT-PRINCIPAL-NAME="$ns..." X-Forwarded-Proto="https" >
+  <step title="Cleanup Xml Logs" date="2017-10-23T13:45:11.973" /><!-- duration: 14ms -->
+  <step title="DeploymentService.GetResult" date="2017-10-23T13:45:12.007" >
+    <step title="DeploymentService.GetLatestDeployment" date="2017-10-23T13:45:12.018" >
+      <step title="DeploymentManager.GetResults" date="2017-10-23T13:45:12.018" >
+        <step title="Purge deployment items" date="2017-10-23T13:45:12.127" >
+          <step title="Remove temp-1103, Pending, received at 10/23/2017 1:44:59 PM" date="2017-10-23T13:45:12.174" /><!-- duration: 0ms -->
+        </step><!-- duration: 63ms -->
+      </step><!-- duration: 172ms -->
+      <step title="Deployment a4100cf0013a4a21bb274082bc40d9b2 is Building" date="2017-10-23T13:45:12.190" /><!-- duration: 0ms -->
+    </step><!-- duration: 172ms -->
+  </step><!-- duration: 183ms -->
+  <step title="Outgoing response" date="2017-10-23T13:45:12.206" type="response" statusCode="202" statusText="Accepted" Server="Microsoft-IIS/8.0" x-ms-request-id="34511b36-02a8-4e96-b9c6-409ea44c1578" Cache-Control="private" X-AspNet-Version="4.0.30319" Location="https://nsm-pet-bdportal-uat-wapp.scm.azurewebsites.net/api/deployments/latest?deployer=Dropbox&amp;time=2017-10-23_13-44-59Z" Content-Type="application/json; charset=utf-8" /><!-- duration: 0ms -->
+</step><!-- duration: 233ms -->
